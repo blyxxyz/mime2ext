@@ -1,0 +1,3 @@
+[submodule "mime-db"]
+	path = mime-db
+	url = https://github.com/jshttp/mime-db
