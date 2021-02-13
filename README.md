@@ -29,7 +29,7 @@ use mime2ext::mime2ext;
 
 assert_eq!(mime2ext(TEXT_PLAIN), Some("txt"));
 let mime: Mime = "text/xml; charset=latin1".parse()?;
-assert_eq!(mime2ext(mime), Some("xml"));
+assert_eq!(mime2ext(&mime), Some("xml"));
 ```
 
 ## Versioning
