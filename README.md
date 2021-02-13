@@ -3,9 +3,9 @@
 [![Crates.io](https://img.shields.io/crates/v/mime2ext.svg)](https://crates.io/crates/mime2ext)
 [![API reference](https://docs.rs/mime2ext/badge.svg)](https://docs.rs/mime2ext/)
 
-A simple crate to look up a file extension for a mimetype.
+A simple crate to look up a file extension for a mime type.
 
-It embeds part of the [mime-db](https://github.com/jshttp/mime-db) database, packed efficiently into around 20 KiB. There are no runtime dependencies, and it's `no_std`-compatible.
+It embeds part of the [`mime-db`](https://github.com/jshttp/mime-db) database, packed efficiently into around 20 KiB. There are no runtime dependencies, and it's `no_std`-compatible.
 
 ## Example
 
@@ -34,14 +34,14 @@ assert_eq!(mime2ext(mime), Some("xml"));
 
 ## Versioning
 
-mime2ext includes a fixed version of mime-db. A new version of mime2ext has to be released for each new version of mime-db.
+`mime2ext` includes a fixed version of `mime-db`. A new version of `mime2ext` has to be released for each new version of `mime-db`.
 
-The currently used mime-db version is **1.45.0**.
+The currently used `mime-db` version is **1.45.0**.
 
 ## License
 
-Both mime2ext and mime-db are licensed under the MIT license. See `LICENSE` and `mime-db/LICENSE`.
+Both `mime2ext` and `mime-db` are licensed under the MIT license. See `LICENSE` and `mime-db/LICENSE`.
 
 ## See also
 
-- [mime_guess](https://crates.io/crates/mime_guess), which converts in the opposite direction. It inspired the design of this crate.
+- [`mime_guess`](https://crates.io/crates/mime_guess), which converts in the opposite direction. It inspired the design of this crate.
