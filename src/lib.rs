@@ -132,6 +132,7 @@ mod tests {
         ("application/davmount+xml", "davmount"),
         ("application/andrew-inset", "ez"),
         ("x-conference/x-cooltalk", "ice"),
+        ("audio/amr", "amr"), // v1.46.0
     ];
 
     #[test]
