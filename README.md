@@ -7,6 +7,8 @@ A simple crate to look up a file extension for a mime type.
 
 It embeds part of the [`mime-db`](https://github.com/jshttp/mime-db) database, packed efficiently into around 20 KiB. There are no runtime dependencies, and it's `no_std`-compatible.
 
+It was created for [`xh`](https://github.com/ducaale/xh), which does at most one lookup per run, making low overhead a priority.
+
 ## Example
 
 ```rust

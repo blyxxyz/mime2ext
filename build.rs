@@ -1,16 +1,8 @@
 use std::collections::HashMap;
-use std::convert::TryInto;
 use std::fs::OpenOptions;
 use std::io::Write;
 
 use serde::Deserialize;
-
-#[derive(Debug)]
-struct Entry {
-    location: u16,
-    subtype_len: u8,
-    extension_len: u8,
-}
 
 #[derive(Deserialize)]
 struct DBEntry {
@@ -37,21 +29,24 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     by_type.sort_unstable_by_key(|(type_, _)| *type_);
 
     let mut raw_data = String::new();
-    let mut lookup = Vec::<(&str, Vec<Entry>)>::new();
+    let mut lookup_text = String::from("&[");
     for (type_, mut extensions) in by_type {
         extensions.sort_unstable_by_key(|(subtype, _)| *subtype);
-        let mut table = Vec::new();
+        assert!(!type_.contains(|c| c == '"' || c == '\\'));
+        lookup_text.push_str(&format!(r#"("{}", &["#, type_));
         for (subtype, extension) in extensions {
-            table.push(Entry {
-                location: raw_data.len().try_into()?,
-                subtype_len: subtype.len().try_into()?,
-                extension_len: extension.len().try_into()?,
-            });
+            lookup_text.push_str(&format!(
+                "Entry {{ location: {loc}, subtype_len: {sub}, extension_len: {ext} }}, ",
+                loc = raw_data.len(),
+                sub = subtype.len(),
+                ext = extension.len(),
+            ));
             raw_data.push_str(subtype);
             raw_data.push_str(extension);
         }
-        lookup.push((type_, table));
+        lookup_text.push_str("]), ");
     }
+    lookup_text.push(']');
 
     // Shouldn't matter, but nice to know
     // In theory character boundary checks could be skipped
@@ -64,7 +59,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut data_file = opts.open(out_dir.join("data"))?;
     data_file.write_all(raw_data.as_bytes())?;
 
-    let lookup_text = format!("{:?}", lookup).replace("[", "&[");
     let mut lookup_file = opts.open(out_dir.join("lookup"))?;
     lookup_file.write_all(lookup_text.as_bytes())?;
     Ok(())
