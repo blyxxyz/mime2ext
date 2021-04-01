@@ -5,7 +5,7 @@ use std::io::Write;
 use serde::Deserialize;
 
 #[derive(Deserialize)]
-struct DBEntry {
+struct DbEntry {
     extensions: Option<Vec<String>>,
 }
 
@@ -13,7 +13,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("cargo:rerun-if-changed=build.rs");
     println!("cargo:rerun-if-changed=mime-db/db.json");
     let db_text = std::fs::read_to_string("mime-db/db.json")?;
-    let db: HashMap<String, DBEntry> = serde_json::from_str(&db_text)?;
+    let db: HashMap<String, DbEntry> = serde_json::from_str(&db_text)?;
 
     let mut by_type = HashMap::<&str, Vec<(&str, &str)>>::new();
     for (mime, info) in &db {
