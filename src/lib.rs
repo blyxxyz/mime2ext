@@ -117,6 +117,7 @@ mod tests {
         "a\u{00B5}\u{00B5}//\u{00B5}\u{00B5}",
         "application/clr", // Exists in db.json, but without extensions
         "x-conference/nonexistent",
+        "application/xcap-error+xml", // Removed v1.47.0
     ];
 
     #[test]
@@ -132,7 +133,9 @@ mod tests {
         ("application/davmount+xml", "davmount"),
         ("application/andrew-inset", "ez"),
         ("x-conference/x-cooltalk", "ice"),
-        ("audio/amr", "amr"), // v1.46.0
+        ("audio/amr", "amr"),             // Added v1.46.0
+        ("model/vnd.sap.vds", "vds"),     // Added v1.47.0
+        ("application/ecmascript", "es"), // Changed v1.47.0
     ];
 
     #[test]

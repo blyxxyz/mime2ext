@@ -1,3 +1,17 @@
+## 0.1.3 (2021-04-01)
+- mime-db 1.47.0
+
+### New extensions
+- `model/vnd.sap.vds` → `vds`
+
+### Changed extensions
+- `application/ecmascript`: `ecma` → `es`
+
+### Removed extensions
+- `application/mrb-consumer+xml` (`xdf`)
+- `application/mrb-publish+xml` (`xdf`)
+- `application/xcap-error+xml` (`xer`)
+
 ## 0.1.2 (2021-03-03)
 - Do not rely on unstable `Debug` output in build script
 
