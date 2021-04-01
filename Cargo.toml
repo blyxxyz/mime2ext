@@ -1,6 +1,6 @@
 [package]
 name = "mime2ext"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Jan Verbeek <jan.verbeek@posteo.nl>"]
 description = "Given a mimetype, suggest a file extension"
 keywords = ["mime", "extension", "media-types", "filesystem", "no_std"]
