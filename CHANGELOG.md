@@ -1,3 +1,9 @@
+## 0.1.4 (2021-05-31)
+- mime-db 1.48.0
+
+### New extensions
+- `application/vnd.mapbox-vector-tile` → `mvt`
+
 ## 0.1.3 (2021-04-01)
 - mime-db 1.47.0
 

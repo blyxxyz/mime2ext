@@ -133,9 +133,10 @@ mod tests {
         ("application/davmount+xml", "davmount"),
         ("application/andrew-inset", "ez"),
         ("x-conference/x-cooltalk", "ice"),
-        ("audio/amr", "amr"),             // Added v1.46.0
-        ("model/vnd.sap.vds", "vds"),     // Added v1.47.0
-        ("application/ecmascript", "es"), // Changed v1.47.0
+        ("audio/amr", "amr"),                          // Added v1.46.0
+        ("model/vnd.sap.vds", "vds"),                  // Added v1.47.0
+        ("application/ecmascript", "es"),              // Changed v1.47.0
+        ("application/vnd.mapbox-vector-tile", "mvt"), // Added v1.48.0
     ];
 
     #[test]
