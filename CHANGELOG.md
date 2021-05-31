@@ -1,4 +1,5 @@
 ## 0.1.4 (2021-05-31)
+- Remove build dependencies
 - mime-db 1.48.0
 
 ### New extensions

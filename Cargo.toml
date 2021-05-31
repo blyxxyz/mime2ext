@@ -10,8 +10,4 @@ documentation = "https://docs.rs/mime2ext"
 license = "MIT"
 readme = "README.md"
 edition = "2018"
-exclude = ["mime-db/**", "!mime-db/db.json", "!mime-db/LICENSE"]
-
-[build-dependencies]
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+exclude = ["mime-db/**", "!mime-db/LICENSE"]

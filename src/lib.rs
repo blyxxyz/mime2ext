@@ -18,10 +18,10 @@
 //
 // This is likely overengineered, but it was fun to design and seems solid.
 
-// See build.rs
-static RAW_DATA: &str = include_str!(concat!(env!("OUT_DIR"), "/data"));
+// See build.py
+static RAW_DATA: &str = include_str!("raw_data");
 
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, PartialEq, Debug)]
 struct Entry {
     location: u16,
     subtype_len: u8,
@@ -45,8 +45,8 @@ impl Entry {
 type Table = &'static [Entry];
 type Tables = &'static [(&'static str, Table)];
 
-// See build.rs
-static LOOKUP: Tables = include!(concat!(env!("OUT_DIR"), "/lookup"));
+// See build.py
+static LOOKUP: Tables = include!("lookup");
 
 fn find_entry(table: Table, subtype: &str) -> Option<Entry> {
     let idx = table
@@ -153,6 +153,12 @@ mod tests {
         for (type_, entries) in LOOKUP {
             assert!(!type_.is_empty());
             assert!(!type_.contains('/'));
+
+            // Required for binary search
+            let mut sorted = entries.to_vec();
+            sorted.sort_by_key(|entry| entry.subtype());
+            assert_eq!(entries, &sorted);
+
             for entry in *entries {
                 let subtype = entry.subtype();
                 let ext = entry.extension();
