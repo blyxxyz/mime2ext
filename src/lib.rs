@@ -30,14 +30,14 @@ struct Entry {
 
 impl Entry {
     fn subtype(self) -> &'static str {
-        let loc = self.location as usize;
-        let len = self.subtype_len as usize;
+        let loc: usize = self.location.into();
+        let len: usize = self.subtype_len.into();
         &RAW_DATA[loc..loc + len]
     }
 
     fn extension(self) -> &'static str {
-        let loc = self.location as usize + self.subtype_len as usize;
-        let len = self.extension_len as usize;
+        let loc = usize::from(self.location) + usize::from(self.subtype_len);
+        let len: usize = self.extension_len.into();
         &RAW_DATA[loc..loc + len]
     }
 }
