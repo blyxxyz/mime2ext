@@ -9,5 +9,4 @@ repository = "https://github.com/blyxxyz/mime2ext"
 documentation = "https://docs.rs/mime2ext"
 license = "MIT"
 readme = "README.md"
-edition = "2018"
 exclude = ["mime-db/**", "!mime-db/LICENSE"]

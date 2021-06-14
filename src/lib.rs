@@ -157,7 +157,7 @@ mod tests {
             // Required for binary search
             let mut sorted = entries.to_vec();
             sorted.sort_by_key(|entry| entry.subtype());
-            assert_eq!(entries, &sorted);
+            assert_eq!(*entries, sorted.as_slice());
 
             for entry in *entries {
                 let subtype = entry.subtype();
@@ -168,7 +168,7 @@ mod tests {
                 assert!(!ext.contains('.'));
                 assert!(!ext.contains('/'));
 
-                let mimetype = std::format!("{}/{}", type_, subtype);
+                let mimetype = std::string::String::from(*type_) + "/" + subtype;
                 assert_eq!(mime2ext(&mimetype), Some(ext));
             }
         }
@@ -177,6 +177,6 @@ mod tests {
     #[test]
     fn check_sizes() {
         assert_eq!(std::mem::size_of::<Entry>(), 4);
-        assert!(RAW_DATA.len() < u16::MAX.into());
+        assert!(RAW_DATA.len() < std::u16::MAX.into());
     }
 }
