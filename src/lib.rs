@@ -30,14 +30,14 @@ struct Entry {
 
 impl Entry {
     fn subtype(self) -> &'static str {
-        let loc: usize = self.location.into();
-        let len: usize = self.subtype_len.into();
+        let loc = self.location as usize;
+        let len = self.subtype_len as usize;
         &RAW_DATA[loc..loc + len]
     }
 
     fn extension(self) -> &'static str {
-        let loc = usize::from(self.location) + usize::from(self.subtype_len);
-        let len: usize = self.extension_len.into();
+        let loc = self.location as usize + self.subtype_len as usize;
+        let len = self.extension_len as usize;
         &RAW_DATA[loc..loc + len]
     }
 }
@@ -141,8 +141,8 @@ mod tests {
 
     #[test]
     fn found() {
-        for (mimetype, ext) in FOUND {
-            assert_eq!(mime2ext(*mimetype), Some(*ext), "Missing {:?}", mimetype);
+        for &(mimetype, ext) in FOUND {
+            assert_eq!(mime2ext(mimetype), Some(ext), "Missing {:?}", mimetype);
         }
     }
 
@@ -150,16 +150,16 @@ mod tests {
     /// contents are unsurprising.
     #[test]
     fn check_entries() {
-        for (type_, entries) in LOOKUP {
+        for &(type_, entries) in LOOKUP {
             assert!(!type_.is_empty());
             assert!(!type_.contains('/'));
 
             // Required for binary search
             let mut sorted = entries.to_vec();
             sorted.sort_by_key(|entry| entry.subtype());
-            assert_eq!(*entries, sorted.as_slice());
+            assert_eq!(entries, sorted.as_slice());
 
-            for entry in *entries {
+            for entry in entries {
                 let subtype = entry.subtype();
                 let ext = entry.extension();
                 assert!(!subtype.is_empty());
@@ -168,7 +168,7 @@ mod tests {
                 assert!(!ext.contains('.'));
                 assert!(!ext.contains('/'));
 
-                let mimetype = std::string::String::from(*type_) + "/" + subtype;
+                let mimetype = std::string::String::from(type_) + "/" + subtype;
                 assert_eq!(mime2ext(&mimetype), Some(ext));
             }
         }
@@ -177,6 +177,6 @@ mod tests {
     #[test]
     fn check_sizes() {
         assert_eq!(std::mem::size_of::<Entry>(), 4);
-        assert!(RAW_DATA.len() < std::u16::MAX.into());
+        assert!(RAW_DATA.len() < std::u16::MAX as usize);
     }
 }
