@@ -2,6 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/mime2ext.svg)](https://crates.io/crates/mime2ext)
 [![API reference](https://docs.rs/mime2ext/badge.svg)](https://docs.rs/mime2ext/)
+[![MSRV](https://img.shields.io/badge/MSRV-1.6-blue)](https://blog.rust-lang.org/2016/01/21/Rust-1.6.html)
 
 A simple crate to look up a file extension for a mime type.
 
@@ -40,7 +41,7 @@ assert_eq!(mime2ext(&mime), Some("xml"));
 
 The currently used `mime-db` version is **1.48.0**.
 
-See `CHANGELOG.md` for differences between versions, including relevant changes to `mime-db`.
+See [`CHANGELOG.md`](CHANGELOG.md) for differences between versions, including relevant changes to `mime-db`.
 
 ## License
 
@@ -48,4 +49,4 @@ Both `mime2ext` and `mime-db` are licensed under the MIT license. See `LICENSE` 
 
 ## See also
 
-- [`mime_guess`](https://crates.io/crates/mime_guess), which converts in the opposite direction. It inspired the design of this crate.
+- [`mime_guess`](https://crates.io/crates/mime_guess), which mainly converts in the opposite direction. It can also convert mime types to extensions but often suggests rarely-used extensions.
