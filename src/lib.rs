@@ -18,8 +18,10 @@
 //
 // This is likely overengineered, but it was fun to design and seems solid.
 
+// The MSRV is 1.6 (for no_std), so some code looks a little archaic.
+
 // See build.py
-static RAW_DATA: &str = include_str!("raw_data");
+static RAW_DATA: &'static str = include_str!("raw_data");
 
 #[derive(Copy, Clone, PartialEq, Debug)]
 struct Entry {
@@ -49,18 +51,24 @@ type Tables = &'static [(&'static str, Table)];
 static LOOKUP: Tables = include!("lookup");
 
 fn find_entry(table: Table, subtype: &str) -> Option<Entry> {
-    let idx = table
-        .binary_search_by_key(&subtype, |entry| entry.subtype())
-        .ok()?;
-    Some(table[idx])
+    match table.binary_search_by(|entry| entry.subtype().cmp(subtype)) {
+        Ok(idx) => Some(table[idx]),
+        Err(_) => None,
+    }
 }
 
 fn find_table(type_: &str) -> Option<Table> {
-    Some(LOOKUP.iter().find(|item| item.0 == type_)?.1)
+    match LOOKUP.iter().find(|item| item.0 == type_) {
+        Some(item) => Some(item.1),
+        None => None,
+    }
 }
 
 fn parse_mimetype(mimetype: &str) -> Option<(&str, &str)> {
-    let idx = mimetype.find('/')?;
+    let idx = match mimetype.find('/') {
+        Some(idx) => idx,
+        None => return None,
+    };
     let (type_, mut subtype) = mimetype.split_at(idx);
     subtype = &subtype[1..];
     if let Some(idx) = subtype.find(';') {
@@ -83,10 +91,13 @@ fn parse_mimetype(mimetype: &str) -> Option<(&str, &str)> {
 /// assert_eq!(mime2ext("invalid-mimetype"), None);
 /// ```
 pub fn mime2ext<S: AsRef<str>>(mimetype: S) -> Option<&'static str> {
-    let (type_, subtype) = parse_mimetype(mimetype.as_ref())?;
-    let table = find_table(type_)?;
-    let entry = find_entry(table, subtype)?;
-    Some(entry.extension())
+    match parse_mimetype(mimetype.as_ref()) {
+        Some((type_, subtype)) => match find_table(type_) {
+            Some(table) => find_entry(table, subtype).map(Entry::extension),
+            None => None,
+        },
+        None => None,
+    }
 }
 
 #[cfg(test)]
@@ -95,7 +106,7 @@ mod tests {
 
     extern crate std;
 
-    static NOT_FOUND: &[&str] = &[
+    static NOT_FOUND: &'static [&'static str] = &[
         "notareal/mimetype",
         "noslash",
         "application/",
@@ -123,11 +134,11 @@ mod tests {
     #[test]
     fn not_found() {
         for mimetype in NOT_FOUND {
-            assert_eq!(mime2ext(*mimetype), None, "Found {:?}", mimetype);
+            assert_eq!(mime2ext(*mimetype), None);
         }
     }
 
-    static FOUND: &[(&str, &str)] = &[
+    static FOUND: &'static [(&'static str, &'static str)] = &[
         ("application/octet-stream", "bin"),
         ("image/png", "png"),
         ("application/davmount+xml", "davmount"),
@@ -142,7 +153,7 @@ mod tests {
     #[test]
     fn found() {
         for &(mimetype, ext) in FOUND {
-            assert_eq!(mime2ext(mimetype), Some(ext), "Missing {:?}", mimetype);
+            assert_eq!(mime2ext(mimetype), Some(ext));
         }
     }
 
@@ -150,14 +161,15 @@ mod tests {
     /// contents are unsurprising.
     #[test]
     fn check_entries() {
-        for &(type_, entries) in LOOKUP {
+        for &(type_, entries) in super::LOOKUP {
             assert!(!type_.is_empty());
             assert!(!type_.contains('/'));
 
             // Required for binary search
             let mut sorted = entries.to_vec();
-            sorted.sort_by_key(|entry| entry.subtype());
-            assert_eq!(entries, sorted.as_slice());
+            sorted.sort_by(|a, b| a.subtype().cmp(b.subtype()));
+            let sorted: &[super::Entry] = &sorted;
+            assert_eq!(entries, sorted);
 
             for entry in entries {
                 let subtype = entry.subtype();
@@ -176,7 +188,7 @@ mod tests {
 
     #[test]
     fn check_sizes() {
-        assert_eq!(std::mem::size_of::<Entry>(), 4);
-        assert!(RAW_DATA.len() < std::u16::MAX as usize);
+        assert_eq!(std::mem::size_of::<super::Entry>(), 4);
+        assert!(super::RAW_DATA.len() < std::u16::MAX as usize);
     }
 }
