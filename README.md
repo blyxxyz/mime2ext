@@ -40,7 +40,7 @@ assert_eq!(mime2ext(&mime), Some("xml"));
 
 `mime2ext` includes a static version of `mime-db`. A new version of `mime2ext` has to be released for each new version of `mime-db`.
 
-The currently used `mime-db` version is **1.48.0**.
+`mime2ext`'s version number tracks that of `mime-db`. `mime2ext` version 0.1.49 corresponds to `mime-db` version 1.49.0.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for differences between versions, including relevant changes to `mime-db`.
 

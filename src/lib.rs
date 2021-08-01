@@ -148,6 +148,7 @@ mod tests {
         ("model/vnd.sap.vds", "vds"),                  // Added v1.47.0
         ("application/ecmascript", "es"),              // Changed v1.47.0
         ("application/vnd.mapbox-vector-tile", "mvt"), // Added v1.48.0
+        ("model/step-xml+zip", "stpxz"),               // Added v1.49.0
     ];
 
     #[test]

@@ -1,3 +1,13 @@
+## 0.1.49 (2021-08-01)
+- Lower MSRV to 1.6
+- Start tracking mime-db version number
+- mime-db 1.49.0
+
+### New extensions
+- `application/trig` → `trig`
+- `model/step+zip` → `stpz`
+- `model/step-xml+zip` → `stpxz`
+
 ## 0.1.4 (2021-05-31)
 - Remove build dependencies
 - mime-db 1.48.0
