@@ -3,4045 +3,4045 @@
 
 &[
     ("application", &[
-        // andrew-inset: ez
+        // application/andrew-inset: ez
         Entry {
             location: 0,
             subtype_len: 12,
             extension_len: 2,
         },
-        // applixware: aw
+        // application/applixware: aw
         Entry {
             location: 14,
             subtype_len: 10,
             extension_len: 2,
         },
-        // atom+xml: atom
+        // application/atom+xml: atom
         Entry {
             location: 26,
             subtype_len: 8,
             extension_len: 4,
         },
-        // atomcat+xml: atomcat
+        // application/atomcat+xml: atomcat
         Entry {
             location: 38,
             subtype_len: 11,
             extension_len: 7,
         },
-        // atomdeleted+xml: atomdeleted
+        // application/atomdeleted+xml: atomdeleted
         Entry {
             location: 56,
             subtype_len: 15,
             extension_len: 11,
         },
-        // atomsvc+xml: atomsvc
+        // application/atomsvc+xml: atomsvc
         Entry {
             location: 82,
             subtype_len: 11,
             extension_len: 7,
         },
-        // atsc-dwd+xml: dwd
+        // application/atsc-dwd+xml: dwd
         Entry {
             location: 100,
             subtype_len: 12,
             extension_len: 3,
         },
-        // atsc-held+xml: held
+        // application/atsc-held+xml: held
         Entry {
             location: 115,
             subtype_len: 13,
             extension_len: 4,
         },
-        // atsc-rsat+xml: rsat
+        // application/atsc-rsat+xml: rsat
         Entry {
             location: 132,
             subtype_len: 13,
             extension_len: 4,
         },
-        // bdoc: bdoc
+        // application/bdoc: bdoc
         Entry {
             location: 149,
             subtype_len: 4,
             extension_len: 4,
         },
-        // calendar+xml: xcs
+        // application/calendar+xml: xcs
         Entry {
             location: 157,
             subtype_len: 12,
             extension_len: 3,
         },
-        // ccxml+xml: ccxml
+        // application/ccxml+xml: ccxml
         Entry {
             location: 172,
             subtype_len: 9,
             extension_len: 5,
         },
-        // cdfx+xml: cdfx
+        // application/cdfx+xml: cdfx
         Entry {
             location: 186,
             subtype_len: 8,
             extension_len: 4,
         },
-        // cdmi-capability: cdmia
+        // application/cdmi-capability: cdmia
         Entry {
             location: 198,
             subtype_len: 15,
             extension_len: 5,
         },
-        // cdmi-container: cdmic
+        // application/cdmi-container: cdmic
         Entry {
             location: 218,
             subtype_len: 14,
             extension_len: 5,
         },
-        // cdmi-domain: cdmid
+        // application/cdmi-domain: cdmid
         Entry {
             location: 237,
             subtype_len: 11,
             extension_len: 5,
         },
-        // cdmi-object: cdmio
+        // application/cdmi-object: cdmio
         Entry {
             location: 253,
             subtype_len: 11,
             extension_len: 5,
         },
-        // cdmi-queue: cdmiq
+        // application/cdmi-queue: cdmiq
         Entry {
             location: 269,
             subtype_len: 10,
             extension_len: 5,
         },
-        // cu-seeme: cu
+        // application/cu-seeme: cu
         Entry {
             location: 284,
             subtype_len: 8,
             extension_len: 2,
         },
-        // dash+xml: mpd
+        // application/dash+xml: mpd
         Entry {
             location: 294,
             subtype_len: 8,
             extension_len: 3,
         },
-        // davmount+xml: davmount
+        // application/davmount+xml: davmount
         Entry {
             location: 305,
             subtype_len: 12,
             extension_len: 8,
         },
-        // docbook+xml: dbk
+        // application/docbook+xml: dbk
         Entry {
             location: 325,
             subtype_len: 11,
             extension_len: 3,
         },
-        // dssc+der: dssc
+        // application/dssc+der: dssc
         Entry {
             location: 339,
             subtype_len: 8,
             extension_len: 4,
         },
-        // dssc+xml: xdssc
+        // application/dssc+xml: xdssc
         Entry {
             location: 351,
             subtype_len: 8,
             extension_len: 5,
         },
-        // ecmascript: es
+        // application/ecmascript: es
         Entry {
             location: 364,
             subtype_len: 10,
             extension_len: 2,
         },
-        // emma+xml: emma
+        // application/emma+xml: emma
         Entry {
             location: 376,
             subtype_len: 8,
             extension_len: 4,
         },
-        // emotionml+xml: emotionml
+        // application/emotionml+xml: emotionml
         Entry {
             location: 388,
             subtype_len: 13,
             extension_len: 9,
         },
-        // epub+zip: epub
+        // application/epub+zip: epub
         Entry {
             location: 410,
             subtype_len: 8,
             extension_len: 4,
         },
-        // exi: exi
+        // application/exi: exi
         Entry {
             location: 422,
             subtype_len: 3,
             extension_len: 3,
         },
-        // fdt+xml: fdt
+        // application/fdt+xml: fdt
         Entry {
             location: 428,
             subtype_len: 7,
             extension_len: 3,
         },
-        // font-tdpfr: pfr
+        // application/font-tdpfr: pfr
         Entry {
             location: 438,
             subtype_len: 10,
             extension_len: 3,
         },
-        // geo+json: geojson
+        // application/geo+json: geojson
         Entry {
             location: 451,
             subtype_len: 8,
             extension_len: 7,
         },
-        // gml+xml: gml
+        // application/gml+xml: gml
         Entry {
             location: 466,
             subtype_len: 7,
             extension_len: 3,
         },
-        // gpx+xml: gpx
+        // application/gpx+xml: gpx
         Entry {
             location: 476,
             subtype_len: 7,
             extension_len: 3,
         },
-        // gxf: gxf
+        // application/gxf: gxf
         Entry {
             location: 486,
             subtype_len: 3,
             extension_len: 3,
         },
-        // gzip: gz
+        // application/gzip: gz
         Entry {
             location: 492,
             subtype_len: 4,
             extension_len: 2,
         },
-        // hjson: hjson
+        // application/hjson: hjson
         Entry {
             location: 498,
             subtype_len: 5,
             extension_len: 5,
         },
-        // hyperstudio: stk
+        // application/hyperstudio: stk
         Entry {
             location: 508,
             subtype_len: 11,
             extension_len: 3,
         },
-        // inkml+xml: ink
+        // application/inkml+xml: ink
         Entry {
             location: 522,
             subtype_len: 9,
             extension_len: 3,
         },
-        // ipfix: ipfix
+        // application/ipfix: ipfix
         Entry {
             location: 534,
             subtype_len: 5,
             extension_len: 5,
         },
-        // its+xml: its
+        // application/its+xml: its
         Entry {
             location: 544,
             subtype_len: 7,
             extension_len: 3,
         },
-        // java-archive: jar
+        // application/java-archive: jar
         Entry {
             location: 554,
             subtype_len: 12,
             extension_len: 3,
         },
-        // java-serialized-object: ser
+        // application/java-serialized-object: ser
         Entry {
             location: 569,
             subtype_len: 22,
             extension_len: 3,
         },
-        // java-vm: class
+        // application/java-vm: class
         Entry {
             location: 594,
             subtype_len: 7,
             extension_len: 5,
         },
-        // javascript: js
+        // application/javascript: js
         Entry {
             location: 606,
             subtype_len: 10,
             extension_len: 2,
         },
-        // json: json
+        // application/json: json
         Entry {
             location: 618,
             subtype_len: 4,
             extension_len: 4,
         },
-        // json5: json5
+        // application/json5: json5
         Entry {
             location: 626,
             subtype_len: 5,
             extension_len: 5,
         },
-        // jsonml+json: jsonml
+        // application/jsonml+json: jsonml
         Entry {
             location: 636,
             subtype_len: 11,
             extension_len: 6,
         },
-        // ld+json: jsonld
+        // application/ld+json: jsonld
         Entry {
             location: 653,
             subtype_len: 7,
             extension_len: 6,
         },
-        // lgr+xml: lgr
+        // application/lgr+xml: lgr
         Entry {
             location: 666,
             subtype_len: 7,
             extension_len: 3,
         },
-        // lost+xml: lostxml
+        // application/lost+xml: lostxml
         Entry {
             location: 676,
             subtype_len: 8,
             extension_len: 7,
         },
-        // mac-binhex40: hqx
+        // application/mac-binhex40: hqx
         Entry {
             location: 691,
             subtype_len: 12,
             extension_len: 3,
         },
-        // mac-compactpro: cpt
+        // application/mac-compactpro: cpt
         Entry {
             location: 706,
             subtype_len: 14,
             extension_len: 3,
         },
-        // mads+xml: mads
+        // application/mads+xml: mads
         Entry {
             location: 723,
             subtype_len: 8,
             extension_len: 4,
         },
-        // manifest+json: webmanifest
+        // application/manifest+json: webmanifest
         Entry {
             location: 735,
             subtype_len: 13,
             extension_len: 11,
         },
-        // marc: mrc
+        // application/marc: mrc
         Entry {
             location: 759,
             subtype_len: 4,
             extension_len: 3,
         },
-        // marcxml+xml: mrcx
+        // application/marcxml+xml: mrcx
         Entry {
             location: 766,
             subtype_len: 11,
             extension_len: 4,
         },
-        // mathematica: ma
+        // application/mathematica: ma
         Entry {
             location: 781,
             subtype_len: 11,
             extension_len: 2,
         },
-        // mathml+xml: mathml
+        // application/mathml+xml: mathml
         Entry {
             location: 794,
             subtype_len: 10,
             extension_len: 6,
         },
-        // mbox: mbox
+        // application/mbox: mbox
         Entry {
             location: 810,
             subtype_len: 4,
             extension_len: 4,
         },
-        // mediaservercontrol+xml: mscml
+        // application/mediaservercontrol+xml: mscml
         Entry {
             location: 818,
             subtype_len: 22,
             extension_len: 5,
         },
-        // metalink+xml: metalink
+        // application/metalink+xml: metalink
         Entry {
             location: 845,
             subtype_len: 12,
             extension_len: 8,
         },
-        // metalink4+xml: meta4
+        // application/metalink4+xml: meta4
         Entry {
             location: 865,
             subtype_len: 13,
             extension_len: 5,
         },
-        // mets+xml: mets
+        // application/mets+xml: mets
         Entry {
             location: 883,
             subtype_len: 8,
             extension_len: 4,
         },
-        // mmt-aei+xml: maei
+        // application/mmt-aei+xml: maei
         Entry {
             location: 895,
             subtype_len: 11,
             extension_len: 4,
         },
-        // mmt-usd+xml: musd
+        // application/mmt-usd+xml: musd
         Entry {
             location: 910,
             subtype_len: 11,
             extension_len: 4,
         },
-        // mods+xml: mods
+        // application/mods+xml: mods
         Entry {
             location: 925,
             subtype_len: 8,
             extension_len: 4,
         },
-        // mp21: m21
+        // application/mp21: m21
         Entry {
             location: 937,
             subtype_len: 4,
             extension_len: 3,
         },
-        // mp4: mp4s
+        // application/mp4: mp4s
         Entry {
             location: 944,
             subtype_len: 3,
             extension_len: 4,
         },
-        // msword: doc
+        // application/msword: doc
         Entry {
             location: 951,
             subtype_len: 6,
             extension_len: 3,
         },
-        // mxf: mxf
+        // application/mxf: mxf
         Entry {
             location: 960,
             subtype_len: 3,
             extension_len: 3,
         },
-        // n-quads: nq
+        // application/n-quads: nq
         Entry {
             location: 966,
             subtype_len: 7,
             extension_len: 2,
         },
-        // n-triples: nt
+        // application/n-triples: nt
         Entry {
             location: 975,
             subtype_len: 9,
             extension_len: 2,
         },
-        // node: cjs
+        // application/node: cjs
         Entry {
             location: 986,
             subtype_len: 4,
             extension_len: 3,
         },
-        // octet-stream: bin
+        // application/octet-stream: bin
         Entry {
             location: 993,
             subtype_len: 12,
             extension_len: 3,
         },
-        // oda: oda
+        // application/oda: oda
         Entry {
             location: 1008,
             subtype_len: 3,
             extension_len: 3,
         },
-        // oebps-package+xml: opf
+        // application/oebps-package+xml: opf
         Entry {
             location: 1014,
             subtype_len: 17,
             extension_len: 3,
         },
-        // ogg: ogx
+        // application/ogg: ogx
         Entry {
             location: 1034,
             subtype_len: 3,
             extension_len: 3,
         },
-        // omdoc+xml: omdoc
+        // application/omdoc+xml: omdoc
         Entry {
             location: 1040,
             subtype_len: 9,
             extension_len: 5,
         },
-        // onenote: onetoc
+        // application/onenote: onetoc
         Entry {
             location: 1054,
             subtype_len: 7,
             extension_len: 6,
         },
-        // oxps: oxps
+        // application/oxps: oxps
         Entry {
             location: 1067,
             subtype_len: 4,
             extension_len: 4,
         },
-        // p2p-overlay+xml: relo
+        // application/p2p-overlay+xml: relo
         Entry {
             location: 1075,
             subtype_len: 15,
             extension_len: 4,
         },
-        // patch-ops-error+xml: xer
+        // application/patch-ops-error+xml: xer
         Entry {
             location: 1094,
             subtype_len: 19,
             extension_len: 3,
         },
-        // pdf: pdf
+        // application/pdf: pdf
         Entry {
             location: 1116,
             subtype_len: 3,
             extension_len: 3,
         },
-        // pgp-encrypted: pgp
+        // application/pgp-encrypted: pgp
         Entry {
             location: 1122,
             subtype_len: 13,
             extension_len: 3,
         },
-        // pgp-signature: asc
+        // application/pgp-signature: asc
         Entry {
             location: 1138,
             subtype_len: 13,
             extension_len: 3,
         },
-        // pics-rules: prf
+        // application/pics-rules: prf
         Entry {
             location: 1154,
             subtype_len: 10,
             extension_len: 3,
         },
-        // pkcs10: p10
+        // application/pkcs10: p10
         Entry {
             location: 1167,
             subtype_len: 6,
             extension_len: 3,
         },
-        // pkcs7-mime: p7m
+        // application/pkcs7-mime: p7m
         Entry {
             location: 1176,
             subtype_len: 10,
             extension_len: 3,
         },
-        // pkcs7-signature: p7s
+        // application/pkcs7-signature: p7s
         Entry {
             location: 1189,
             subtype_len: 15,
             extension_len: 3,
         },
-        // pkcs8: p8
+        // application/pkcs8: p8
         Entry {
             location: 1207,
             subtype_len: 5,
             extension_len: 2,
         },
-        // pkix-attr-cert: ac
+        // application/pkix-attr-cert: ac
         Entry {
             location: 1214,
             subtype_len: 14,
             extension_len: 2,
         },
-        // pkix-cert: cer
+        // application/pkix-cert: cer
         Entry {
             location: 1230,
             subtype_len: 9,
             extension_len: 3,
         },
-        // pkix-crl: crl
+        // application/pkix-crl: crl
         Entry {
             location: 1242,
             subtype_len: 8,
             extension_len: 3,
         },
-        // pkix-pkipath: pkipath
+        // application/pkix-pkipath: pkipath
         Entry {
             location: 1253,
             subtype_len: 12,
             extension_len: 7,
         },
-        // pkixcmp: pki
+        // application/pkixcmp: pki
         Entry {
             location: 1272,
             subtype_len: 7,
             extension_len: 3,
         },
-        // pls+xml: pls
+        // application/pls+xml: pls
         Entry {
             location: 1282,
             subtype_len: 7,
             extension_len: 3,
         },
-        // postscript: ai
+        // application/postscript: ai
         Entry {
             location: 1292,
             subtype_len: 10,
             extension_len: 2,
         },
-        // provenance+xml: provx
+        // application/provenance+xml: provx
         Entry {
             location: 1304,
             subtype_len: 14,
             extension_len: 5,
         },
-        // prs.cww: cww
+        // application/prs.cww: cww
         Entry {
             location: 1323,
             subtype_len: 7,
             extension_len: 3,
         },
-        // pskc+xml: pskcxml
+        // application/pskc+xml: pskcxml
         Entry {
             location: 1333,
             subtype_len: 8,
             extension_len: 7,
         },
-        // raml+yaml: raml
+        // application/raml+yaml: raml
         Entry {
             location: 1348,
             subtype_len: 9,
             extension_len: 4,
         },
-        // rdf+xml: rdf
+        // application/rdf+xml: rdf
         Entry {
             location: 1361,
             subtype_len: 7,
             extension_len: 3,
         },
-        // reginfo+xml: rif
+        // application/reginfo+xml: rif
         Entry {
             location: 1371,
             subtype_len: 11,
             extension_len: 3,
         },
-        // relax-ng-compact-syntax: rnc
+        // application/relax-ng-compact-syntax: rnc
         Entry {
             location: 1385,
             subtype_len: 23,
             extension_len: 3,
         },
-        // resource-lists+xml: rl
+        // application/resource-lists+xml: rl
         Entry {
             location: 1411,
             subtype_len: 18,
             extension_len: 2,
         },
-        // resource-lists-diff+xml: rld
+        // application/resource-lists-diff+xml: rld
         Entry {
             location: 1431,
             subtype_len: 23,
             extension_len: 3,
         },
-        // rls-services+xml: rs
+        // application/rls-services+xml: rs
         Entry {
             location: 1457,
             subtype_len: 16,
             extension_len: 2,
         },
-        // route-apd+xml: rapd
+        // application/route-apd+xml: rapd
         Entry {
             location: 1475,
             subtype_len: 13,
             extension_len: 4,
         },
-        // route-s-tsid+xml: sls
+        // application/route-s-tsid+xml: sls
         Entry {
             location: 1492,
             subtype_len: 16,
             extension_len: 3,
         },
-        // route-usd+xml: rusd
+        // application/route-usd+xml: rusd
         Entry {
             location: 1511,
             subtype_len: 13,
             extension_len: 4,
         },
-        // rpki-ghostbusters: gbr
+        // application/rpki-ghostbusters: gbr
         Entry {
             location: 1528,
             subtype_len: 17,
             extension_len: 3,
         },
-        // rpki-manifest: mft
+        // application/rpki-manifest: mft
         Entry {
             location: 1548,
             subtype_len: 13,
             extension_len: 3,
         },
-        // rpki-roa: roa
+        // application/rpki-roa: roa
         Entry {
             location: 1564,
             subtype_len: 8,
             extension_len: 3,
         },
-        // rsd+xml: rsd
+        // application/rsd+xml: rsd
         Entry {
             location: 1575,
             subtype_len: 7,
             extension_len: 3,
         },
-        // rss+xml: rss
+        // application/rss+xml: rss
         Entry {
             location: 1585,
             subtype_len: 7,
             extension_len: 3,
         },
-        // rtf: rtf
+        // application/rtf: rtf
         Entry {
             location: 1595,
             subtype_len: 3,
             extension_len: 3,
         },
-        // sbml+xml: sbml
+        // application/sbml+xml: sbml
         Entry {
             location: 1601,
             subtype_len: 8,
             extension_len: 4,
         },
-        // scvp-cv-request: scq
+        // application/scvp-cv-request: scq
         Entry {
             location: 1613,
             subtype_len: 15,
             extension_len: 3,
         },
-        // scvp-cv-response: scs
+        // application/scvp-cv-response: scs
         Entry {
             location: 1631,
             subtype_len: 16,
             extension_len: 3,
         },
-        // scvp-vp-request: spq
+        // application/scvp-vp-request: spq
         Entry {
             location: 1650,
             subtype_len: 15,
             extension_len: 3,
         },
-        // scvp-vp-response: spp
+        // application/scvp-vp-response: spp
         Entry {
             location: 1668,
             subtype_len: 16,
             extension_len: 3,
         },
-        // sdp: sdp
+        // application/sdp: sdp
         Entry {
             location: 1687,
             subtype_len: 3,
             extension_len: 3,
         },
-        // senml+xml: senmlx
+        // application/senml+xml: senmlx
         Entry {
             location: 1693,
             subtype_len: 9,
             extension_len: 6,
         },
-        // sensml+xml: sensmlx
+        // application/sensml+xml: sensmlx
         Entry {
             location: 1708,
             subtype_len: 10,
             extension_len: 7,
         },
-        // set-payment-initiation: setpay
+        // application/set-payment-initiation: setpay
         Entry {
             location: 1725,
             subtype_len: 22,
             extension_len: 6,
         },
-        // set-registration-initiation: setreg
+        // application/set-registration-initiation: setreg
         Entry {
             location: 1753,
             subtype_len: 27,
             extension_len: 6,
         },
-        // shf+xml: shf
+        // application/shf+xml: shf
         Entry {
             location: 1786,
             subtype_len: 7,
             extension_len: 3,
         },
-        // sieve: siv
+        // application/sieve: siv
         Entry {
             location: 1796,
             subtype_len: 5,
             extension_len: 3,
         },
-        // smil+xml: smi
+        // application/smil+xml: smi
         Entry {
             location: 1804,
             subtype_len: 8,
             extension_len: 3,
         },
-        // sparql-query: rq
+        // application/sparql-query: rq
         Entry {
             location: 1815,
             subtype_len: 12,
             extension_len: 2,
         },
-        // sparql-results+xml: srx
+        // application/sparql-results+xml: srx
         Entry {
             location: 1829,
             subtype_len: 18,
             extension_len: 3,
         },
-        // srgs: gram
+        // application/srgs: gram
         Entry {
             location: 1850,
             subtype_len: 4,
             extension_len: 4,
         },
-        // srgs+xml: grxml
+        // application/srgs+xml: grxml
         Entry {
             location: 1858,
             subtype_len: 8,
             extension_len: 5,
         },
-        // sru+xml: sru
+        // application/sru+xml: sru
         Entry {
             location: 1871,
             subtype_len: 7,
             extension_len: 3,
         },
-        // ssdl+xml: ssdl
+        // application/ssdl+xml: ssdl
         Entry {
             location: 1881,
             subtype_len: 8,
             extension_len: 4,
         },
-        // ssml+xml: ssml
+        // application/ssml+xml: ssml
         Entry {
             location: 1893,
             subtype_len: 8,
             extension_len: 4,
         },
-        // swid+xml: swidtag
+        // application/swid+xml: swidtag
         Entry {
             location: 1905,
             subtype_len: 8,
             extension_len: 7,
         },
-        // tei+xml: tei
+        // application/tei+xml: tei
         Entry {
             location: 1920,
             subtype_len: 7,
             extension_len: 3,
         },
-        // thraud+xml: tfi
+        // application/thraud+xml: tfi
         Entry {
             location: 1930,
             subtype_len: 10,
             extension_len: 3,
         },
-        // timestamped-data: tsd
+        // application/timestamped-data: tsd
         Entry {
             location: 1943,
             subtype_len: 16,
             extension_len: 3,
         },
-        // toml: toml
+        // application/toml: toml
         Entry {
             location: 1962,
             subtype_len: 4,
             extension_len: 4,
         },
-        // trig: trig
+        // application/trig: trig
         Entry {
             location: 1970,
             subtype_len: 4,
             extension_len: 4,
         },
-        // ttml+xml: ttml
+        // application/ttml+xml: ttml
         Entry {
             location: 1978,
             subtype_len: 8,
             extension_len: 4,
         },
-        // ubjson: ubj
+        // application/ubjson: ubj
         Entry {
             location: 1990,
             subtype_len: 6,
             extension_len: 3,
         },
-        // urc-ressheet+xml: rsheet
+        // application/urc-ressheet+xml: rsheet
         Entry {
             location: 1999,
             subtype_len: 16,
             extension_len: 6,
         },
-        // urc-targetdesc+xml: td
+        // application/urc-targetdesc+xml: td
         Entry {
             location: 2021,
             subtype_len: 18,
             extension_len: 2,
         },
-        // vnd.1000minds.decision-model+xml: 1km
+        // application/vnd.1000minds.decision-model+xml: 1km
         Entry {
             location: 2041,
             subtype_len: 32,
             extension_len: 3,
         },
-        // vnd.3gpp.pic-bw-large: plb
+        // application/vnd.3gpp.pic-bw-large: plb
         Entry {
             location: 2076,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.3gpp.pic-bw-small: psb
+        // application/vnd.3gpp.pic-bw-small: psb
         Entry {
             location: 2100,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.3gpp.pic-bw-var: pvb
+        // application/vnd.3gpp.pic-bw-var: pvb
         Entry {
             location: 2124,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.3gpp2.tcap: tcap
+        // application/vnd.3gpp2.tcap: tcap
         Entry {
             location: 2146,
             subtype_len: 14,
             extension_len: 4,
         },
-        // vnd.3m.post-it-notes: pwn
+        // application/vnd.3m.post-it-notes: pwn
         Entry {
             location: 2164,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.accpac.simply.aso: aso
+        // application/vnd.accpac.simply.aso: aso
         Entry {
             location: 2187,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.accpac.simply.imp: imp
+        // application/vnd.accpac.simply.imp: imp
         Entry {
             location: 2211,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.acucobol: acu
+        // application/vnd.acucobol: acu
         Entry {
             location: 2235,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.acucorp: atc
+        // application/vnd.acucorp: atc
         Entry {
             location: 2250,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.adobe.air-application-installer-package+zip: air
+        // application/vnd.adobe.air-application-installer-package+zip: air
         Entry {
             location: 2264,
             subtype_len: 47,
             extension_len: 3,
         },
-        // vnd.adobe.formscentral.fcdt: fcdt
+        // application/vnd.adobe.formscentral.fcdt: fcdt
         Entry {
             location: 2314,
             subtype_len: 27,
             extension_len: 4,
         },
-        // vnd.adobe.fxp: fxp
+        // application/vnd.adobe.fxp: fxp
         Entry {
             location: 2345,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.adobe.xdp+xml: xdp
+        // application/vnd.adobe.xdp+xml: xdp
         Entry {
             location: 2361,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.adobe.xfdf: xfdf
+        // application/vnd.adobe.xfdf: xfdf
         Entry {
             location: 2381,
             subtype_len: 14,
             extension_len: 4,
         },
-        // vnd.ahead.space: ahead
+        // application/vnd.ahead.space: ahead
         Entry {
             location: 2399,
             subtype_len: 15,
             extension_len: 5,
         },
-        // vnd.airzip.filesecure.azf: azf
+        // application/vnd.airzip.filesecure.azf: azf
         Entry {
             location: 2419,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.airzip.filesecure.azs: azs
+        // application/vnd.airzip.filesecure.azs: azs
         Entry {
             location: 2447,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.amazon.ebook: azw
+        // application/vnd.amazon.ebook: azw
         Entry {
             location: 2475,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.americandynamics.acc: acc
+        // application/vnd.americandynamics.acc: acc
         Entry {
             location: 2494,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.amiga.ami: ami
+        // application/vnd.amiga.ami: ami
         Entry {
             location: 2521,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.android.package-archive: apk
+        // application/vnd.android.package-archive: apk
         Entry {
             location: 2537,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.anser-web-certificate-issue-initiation: cii
+        // application/vnd.anser-web-certificate-issue-initiation: cii
         Entry {
             location: 2567,
             subtype_len: 42,
             extension_len: 3,
         },
-        // vnd.anser-web-funds-transfer-initiation: fti
+        // application/vnd.anser-web-funds-transfer-initiation: fti
         Entry {
             location: 2612,
             subtype_len: 39,
             extension_len: 3,
         },
-        // vnd.antix.game-component: atx
+        // application/vnd.antix.game-component: atx
         Entry {
             location: 2654,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.apple.installer+xml: mpkg
+        // application/vnd.apple.installer+xml: mpkg
         Entry {
             location: 2681,
             subtype_len: 23,
             extension_len: 4,
         },
-        // vnd.apple.keynote: key
+        // application/vnd.apple.keynote: key
         Entry {
             location: 2708,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.apple.mpegurl: m3u8
+        // application/vnd.apple.mpegurl: m3u8
         Entry {
             location: 2728,
             subtype_len: 17,
             extension_len: 4,
         },
-        // vnd.apple.numbers: numbers
+        // application/vnd.apple.numbers: numbers
         Entry {
             location: 2749,
             subtype_len: 17,
             extension_len: 7,
         },
-        // vnd.apple.pages: pages
+        // application/vnd.apple.pages: pages
         Entry {
             location: 2773,
             subtype_len: 15,
             extension_len: 5,
         },
-        // vnd.apple.pkpass: pkpass
+        // application/vnd.apple.pkpass: pkpass
         Entry {
             location: 2793,
             subtype_len: 16,
             extension_len: 6,
         },
-        // vnd.aristanetworks.swi: swi
+        // application/vnd.aristanetworks.swi: swi
         Entry {
             location: 2815,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.astraea-software.iota: iota
+        // application/vnd.astraea-software.iota: iota
         Entry {
             location: 2840,
             subtype_len: 25,
             extension_len: 4,
         },
-        // vnd.audiograph: aep
+        // application/vnd.audiograph: aep
         Entry {
             location: 2869,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.balsamiq.bmml+xml: bmml
+        // application/vnd.balsamiq.bmml+xml: bmml
         Entry {
             location: 2886,
             subtype_len: 21,
             extension_len: 4,
         },
-        // vnd.blueice.multipass: mpm
+        // application/vnd.blueice.multipass: mpm
         Entry {
             location: 2911,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.bmi: bmi
+        // application/vnd.bmi: bmi
         Entry {
             location: 2935,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.businessobjects: rep
+        // application/vnd.businessobjects: rep
         Entry {
             location: 2945,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.chemdraw+xml: cdxml
+        // application/vnd.chemdraw+xml: cdxml
         Entry {
             location: 2967,
             subtype_len: 16,
             extension_len: 5,
         },
-        // vnd.chipnuts.karaoke-mmd: mmd
+        // application/vnd.chipnuts.karaoke-mmd: mmd
         Entry {
             location: 2988,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.cinderella: cdy
+        // application/vnd.cinderella: cdy
         Entry {
             location: 3015,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.citationstyles.style+xml: csl
+        // application/vnd.citationstyles.style+xml: csl
         Entry {
             location: 3032,
             subtype_len: 28,
             extension_len: 3,
         },
-        // vnd.claymore: cla
+        // application/vnd.claymore: cla
         Entry {
             location: 3063,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.cloanto.rp9: rp9
+        // application/vnd.cloanto.rp9: rp9
         Entry {
             location: 3078,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.clonk.c4group: c4g
+        // application/vnd.clonk.c4group: c4g
         Entry {
             location: 3096,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.cluetrust.cartomobile-config: c11amc
+        // application/vnd.cluetrust.cartomobile-config: c11amc
         Entry {
             location: 3116,
             subtype_len: 32,
             extension_len: 6,
         },
-        // vnd.cluetrust.cartomobile-config-pkg: c11amz
+        // application/vnd.cluetrust.cartomobile-config-pkg: c11amz
         Entry {
             location: 3154,
             subtype_len: 36,
             extension_len: 6,
         },
-        // vnd.commonspace: csp
+        // application/vnd.commonspace: csp
         Entry {
             location: 3196,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.contact.cmsg: cdbcmsg
+        // application/vnd.contact.cmsg: cdbcmsg
         Entry {
             location: 3214,
             subtype_len: 16,
             extension_len: 7,
         },
-        // vnd.cosmocaller: cmc
+        // application/vnd.cosmocaller: cmc
         Entry {
             location: 3237,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.crick.clicker: clkx
+        // application/vnd.crick.clicker: clkx
         Entry {
             location: 3255,
             subtype_len: 17,
             extension_len: 4,
         },
-        // vnd.crick.clicker.keyboard: clkk
+        // application/vnd.crick.clicker.keyboard: clkk
         Entry {
             location: 3276,
             subtype_len: 26,
             extension_len: 4,
         },
-        // vnd.crick.clicker.palette: clkp
+        // application/vnd.crick.clicker.palette: clkp
         Entry {
             location: 3306,
             subtype_len: 25,
             extension_len: 4,
         },
-        // vnd.crick.clicker.template: clkt
+        // application/vnd.crick.clicker.template: clkt
         Entry {
             location: 3335,
             subtype_len: 26,
             extension_len: 4,
         },
-        // vnd.crick.clicker.wordbank: clkw
+        // application/vnd.crick.clicker.wordbank: clkw
         Entry {
             location: 3365,
             subtype_len: 26,
             extension_len: 4,
         },
-        // vnd.criticaltools.wbs+xml: wbs
+        // application/vnd.criticaltools.wbs+xml: wbs
         Entry {
             location: 3395,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.ctc-posml: pml
+        // application/vnd.ctc-posml: pml
         Entry {
             location: 3423,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.cups-ppd: ppd
+        // application/vnd.cups-ppd: ppd
         Entry {
             location: 3439,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.curl.car: car
+        // application/vnd.curl.car: car
         Entry {
             location: 3454,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.curl.pcurl: pcurl
+        // application/vnd.curl.pcurl: pcurl
         Entry {
             location: 3469,
             subtype_len: 14,
             extension_len: 5,
         },
-        // vnd.dart: dart
+        // application/vnd.dart: dart
         Entry {
             location: 3488,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.data-vision.rdz: rdz
+        // application/vnd.data-vision.rdz: rdz
         Entry {
             location: 3500,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.dbf: dbf
+        // application/vnd.dbf: dbf
         Entry {
             location: 3522,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.dece.data: uvf
+        // application/vnd.dece.data: uvf
         Entry {
             location: 3532,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.dece.ttml+xml: uvt
+        // application/vnd.dece.ttml+xml: uvt
         Entry {
             location: 3548,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.dece.unspecified: uvx
+        // application/vnd.dece.unspecified: uvx
         Entry {
             location: 3568,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.dece.zip: uvz
+        // application/vnd.dece.zip: uvz
         Entry {
             location: 3591,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.denovo.fcselayout-link: fe_launch
+        // application/vnd.denovo.fcselayout-link: fe_launch
         Entry {
             location: 3606,
             subtype_len: 26,
             extension_len: 9,
         },
-        // vnd.dna: dna
+        // application/vnd.dna: dna
         Entry {
             location: 3641,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.dolby.mlp: mlp
+        // application/vnd.dolby.mlp: mlp
         Entry {
             location: 3651,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.dpgraph: dpg
+        // application/vnd.dpgraph: dpg
         Entry {
             location: 3667,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.dreamfactory: dfac
+        // application/vnd.dreamfactory: dfac
         Entry {
             location: 3681,
             subtype_len: 16,
             extension_len: 4,
         },
-        // vnd.ds-keypoint: kpxx
+        // application/vnd.ds-keypoint: kpxx
         Entry {
             location: 3701,
             subtype_len: 15,
             extension_len: 4,
         },
-        // vnd.dvb.ait: ait
+        // application/vnd.dvb.ait: ait
         Entry {
             location: 3720,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.dvb.service: svc
+        // application/vnd.dvb.service: svc
         Entry {
             location: 3734,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.dynageo: geo
+        // application/vnd.dynageo: geo
         Entry {
             location: 3752,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.ecowin.chart: mag
+        // application/vnd.ecowin.chart: mag
         Entry {
             location: 3766,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.enliven: nml
+        // application/vnd.enliven: nml
         Entry {
             location: 3785,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.epson.esf: esf
+        // application/vnd.epson.esf: esf
         Entry {
             location: 3799,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.epson.msf: msf
+        // application/vnd.epson.msf: msf
         Entry {
             location: 3815,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.epson.quickanime: qam
+        // application/vnd.epson.quickanime: qam
         Entry {
             location: 3831,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.epson.salt: slt
+        // application/vnd.epson.salt: slt
         Entry {
             location: 3854,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.epson.ssf: ssf
+        // application/vnd.epson.ssf: ssf
         Entry {
             location: 3871,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.eszigno3+xml: es3
+        // application/vnd.eszigno3+xml: es3
         Entry {
             location: 3887,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.ezpix-album: ez2
+        // application/vnd.ezpix-album: ez2
         Entry {
             location: 3906,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.ezpix-package: ez3
+        // application/vnd.ezpix-package: ez3
         Entry {
             location: 3924,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.fdf: fdf
+        // application/vnd.fdf: fdf
         Entry {
             location: 3944,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.fdsn.mseed: mseed
+        // application/vnd.fdsn.mseed: mseed
         Entry {
             location: 3954,
             subtype_len: 14,
             extension_len: 5,
         },
-        // vnd.fdsn.seed: seed
+        // application/vnd.fdsn.seed: seed
         Entry {
             location: 3973,
             subtype_len: 13,
             extension_len: 4,
         },
-        // vnd.flographit: gph
+        // application/vnd.flographit: gph
         Entry {
             location: 3990,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.fluxtime.clip: ftc
+        // application/vnd.fluxtime.clip: ftc
         Entry {
             location: 4007,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.framemaker: fm
+        // application/vnd.framemaker: fm
         Entry {
             location: 4027,
             subtype_len: 14,
             extension_len: 2,
         },
-        // vnd.frogans.fnc: fnc
+        // application/vnd.frogans.fnc: fnc
         Entry {
             location: 4043,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.frogans.ltf: ltf
+        // application/vnd.frogans.ltf: ltf
         Entry {
             location: 4061,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.fsc.weblaunch: fsc
+        // application/vnd.fsc.weblaunch: fsc
         Entry {
             location: 4079,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.fujitsu.oasys: oas
+        // application/vnd.fujitsu.oasys: oas
         Entry {
             location: 4099,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.fujitsu.oasys2: oa2
+        // application/vnd.fujitsu.oasys2: oa2
         Entry {
             location: 4119,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.fujitsu.oasys3: oa3
+        // application/vnd.fujitsu.oasys3: oa3
         Entry {
             location: 4140,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.fujitsu.oasysgp: fg5
+        // application/vnd.fujitsu.oasysgp: fg5
         Entry {
             location: 4161,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.fujitsu.oasysprs: bh2
+        // application/vnd.fujitsu.oasysprs: bh2
         Entry {
             location: 4183,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.fujixerox.ddd: ddd
+        // application/vnd.fujixerox.ddd: ddd
         Entry {
             location: 4206,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.fujixerox.docuworks: xdw
+        // application/vnd.fujixerox.docuworks: xdw
         Entry {
             location: 4226,
             subtype_len: 23,
             extension_len: 3,
         },
-        // vnd.fujixerox.docuworks.binder: xbd
+        // application/vnd.fujixerox.docuworks.binder: xbd
         Entry {
             location: 4252,
             subtype_len: 30,
             extension_len: 3,
         },
-        // vnd.fuzzysheet: fzs
+        // application/vnd.fuzzysheet: fzs
         Entry {
             location: 4285,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.genomatix.tuxedo: txd
+        // application/vnd.genomatix.tuxedo: txd
         Entry {
             location: 4302,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.geogebra.file: ggb
+        // application/vnd.geogebra.file: ggb
         Entry {
             location: 4325,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.geogebra.tool: ggt
+        // application/vnd.geogebra.tool: ggt
         Entry {
             location: 4345,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.geometry-explorer: gex
+        // application/vnd.geometry-explorer: gex
         Entry {
             location: 4365,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.geonext: gxt
+        // application/vnd.geonext: gxt
         Entry {
             location: 4389,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.geoplan: g2w
+        // application/vnd.geoplan: g2w
         Entry {
             location: 4403,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.geospace: g3w
+        // application/vnd.geospace: g3w
         Entry {
             location: 4417,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.gmx: gmx
+        // application/vnd.gmx: gmx
         Entry {
             location: 4432,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.google-apps.document: gdoc
+        // application/vnd.google-apps.document: gdoc
         Entry {
             location: 4442,
             subtype_len: 24,
             extension_len: 4,
         },
-        // vnd.google-apps.presentation: gslides
+        // application/vnd.google-apps.presentation: gslides
         Entry {
             location: 4470,
             subtype_len: 28,
             extension_len: 7,
         },
-        // vnd.google-apps.spreadsheet: gsheet
+        // application/vnd.google-apps.spreadsheet: gsheet
         Entry {
             location: 4505,
             subtype_len: 27,
             extension_len: 6,
         },
-        // vnd.google-earth.kml+xml: kml
+        // application/vnd.google-earth.kml+xml: kml
         Entry {
             location: 4538,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.google-earth.kmz: kmz
+        // application/vnd.google-earth.kmz: kmz
         Entry {
             location: 4565,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.grafeq: gqf
+        // application/vnd.grafeq: gqf
         Entry {
             location: 4588,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.groove-account: gac
+        // application/vnd.groove-account: gac
         Entry {
             location: 4601,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.groove-help: ghf
+        // application/vnd.groove-help: ghf
         Entry {
             location: 4622,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.groove-identity-message: gim
+        // application/vnd.groove-identity-message: gim
         Entry {
             location: 4640,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.groove-injector: grv
+        // application/vnd.groove-injector: grv
         Entry {
             location: 4670,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.groove-tool-message: gtm
+        // application/vnd.groove-tool-message: gtm
         Entry {
             location: 4692,
             subtype_len: 23,
             extension_len: 3,
         },
-        // vnd.groove-tool-template: tpl
+        // application/vnd.groove-tool-template: tpl
         Entry {
             location: 4718,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.groove-vcard: vcg
+        // application/vnd.groove-vcard: vcg
         Entry {
             location: 4745,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.hal+xml: hal
+        // application/vnd.hal+xml: hal
         Entry {
             location: 4764,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.handheld-entertainment+xml: zmm
+        // application/vnd.handheld-entertainment+xml: zmm
         Entry {
             location: 4778,
             subtype_len: 30,
             extension_len: 3,
         },
-        // vnd.hbci: hbci
+        // application/vnd.hbci: hbci
         Entry {
             location: 4811,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.hhe.lesson-player: les
+        // application/vnd.hhe.lesson-player: les
         Entry {
             location: 4823,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.hp-hpgl: hpgl
+        // application/vnd.hp-hpgl: hpgl
         Entry {
             location: 4847,
             subtype_len: 11,
             extension_len: 4,
         },
-        // vnd.hp-hpid: hpid
+        // application/vnd.hp-hpid: hpid
         Entry {
             location: 4862,
             subtype_len: 11,
             extension_len: 4,
         },
-        // vnd.hp-hps: hps
+        // application/vnd.hp-hps: hps
         Entry {
             location: 4877,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.hp-jlyt: jlt
+        // application/vnd.hp-jlyt: jlt
         Entry {
             location: 4890,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.hp-pcl: pcl
+        // application/vnd.hp-pcl: pcl
         Entry {
             location: 4904,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.hp-pclxl: pclxl
+        // application/vnd.hp-pclxl: pclxl
         Entry {
             location: 4917,
             subtype_len: 12,
             extension_len: 5,
         },
-        // vnd.hydrostatix.sof-data: sfd-hdstx
+        // application/vnd.hydrostatix.sof-data: sfd-hdstx
         Entry {
             location: 4934,
             subtype_len: 24,
             extension_len: 9,
         },
-        // vnd.ibm.minipay: mpy
+        // application/vnd.ibm.minipay: mpy
         Entry {
             location: 4967,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.ibm.modcap: afp
+        // application/vnd.ibm.modcap: afp
         Entry {
             location: 4985,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.ibm.rights-management: irm
+        // application/vnd.ibm.rights-management: irm
         Entry {
             location: 5002,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.ibm.secure-container: sc
+        // application/vnd.ibm.secure-container: sc
         Entry {
             location: 5030,
             subtype_len: 24,
             extension_len: 2,
         },
-        // vnd.iccprofile: icc
+        // application/vnd.iccprofile: icc
         Entry {
             location: 5056,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.igloader: igl
+        // application/vnd.igloader: igl
         Entry {
             location: 5073,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.immervision-ivp: ivp
+        // application/vnd.immervision-ivp: ivp
         Entry {
             location: 5088,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.immervision-ivu: ivu
+        // application/vnd.immervision-ivu: ivu
         Entry {
             location: 5110,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.insors.igm: igm
+        // application/vnd.insors.igm: igm
         Entry {
             location: 5132,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.intercon.formnet: xpw
+        // application/vnd.intercon.formnet: xpw
         Entry {
             location: 5149,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.intergeo: i2g
+        // application/vnd.intergeo: i2g
         Entry {
             location: 5172,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.intu.qbo: qbo
+        // application/vnd.intu.qbo: qbo
         Entry {
             location: 5187,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.intu.qfx: qfx
+        // application/vnd.intu.qfx: qfx
         Entry {
             location: 5202,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.ipunplugged.rcprofile: rcprofile
+        // application/vnd.ipunplugged.rcprofile: rcprofile
         Entry {
             location: 5217,
             subtype_len: 25,
             extension_len: 9,
         },
-        // vnd.irepository.package+xml: irp
+        // application/vnd.irepository.package+xml: irp
         Entry {
             location: 5251,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.is-xpr: xpr
+        // application/vnd.is-xpr: xpr
         Entry {
             location: 5281,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.isac.fcs: fcs
+        // application/vnd.isac.fcs: fcs
         Entry {
             location: 5294,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.jam: jam
+        // application/vnd.jam: jam
         Entry {
             location: 5309,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.jcp.javame.midlet-rms: rms
+        // application/vnd.jcp.javame.midlet-rms: rms
         Entry {
             location: 5319,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.jisp: jisp
+        // application/vnd.jisp: jisp
         Entry {
             location: 5347,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.joost.joda-archive: joda
+        // application/vnd.joost.joda-archive: joda
         Entry {
             location: 5359,
             subtype_len: 22,
             extension_len: 4,
         },
-        // vnd.kahootz: ktz
+        // application/vnd.kahootz: ktz
         Entry {
             location: 5385,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.kde.karbon: karbon
+        // application/vnd.kde.karbon: karbon
         Entry {
             location: 5399,
             subtype_len: 14,
             extension_len: 6,
         },
-        // vnd.kde.kchart: chrt
+        // application/vnd.kde.kchart: chrt
         Entry {
             location: 5419,
             subtype_len: 14,
             extension_len: 4,
         },
-        // vnd.kde.kformula: kfo
+        // application/vnd.kde.kformula: kfo
         Entry {
             location: 5437,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.kde.kivio: flw
+        // application/vnd.kde.kivio: flw
         Entry {
             location: 5456,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.kde.kontour: kon
+        // application/vnd.kde.kontour: kon
         Entry {
             location: 5472,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.kde.kpresenter: kpr
+        // application/vnd.kde.kpresenter: kpr
         Entry {
             location: 5490,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.kde.kspread: ksp
+        // application/vnd.kde.kspread: ksp
         Entry {
             location: 5511,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.kde.kword: kwd
+        // application/vnd.kde.kword: kwd
         Entry {
             location: 5529,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.kenameaapp: htke
+        // application/vnd.kenameaapp: htke
         Entry {
             location: 5545,
             subtype_len: 14,
             extension_len: 4,
         },
-        // vnd.kidspiration: kia
+        // application/vnd.kidspiration: kia
         Entry {
             location: 5563,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.kinar: kne
+        // application/vnd.kinar: kne
         Entry {
             location: 5582,
             subtype_len: 9,
             extension_len: 3,
         },
-        // vnd.koan: skp
+        // application/vnd.koan: skp
         Entry {
             location: 5594,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.kodak-descriptor: sse
+        // application/vnd.kodak-descriptor: sse
         Entry {
             location: 5605,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.las.las+xml: lasxml
+        // application/vnd.las.las+xml: lasxml
         Entry {
             location: 5628,
             subtype_len: 15,
             extension_len: 6,
         },
-        // vnd.llamagraphics.life-balance.desktop: lbd
+        // application/vnd.llamagraphics.life-balance.desktop: lbd
         Entry {
             location: 5649,
             subtype_len: 38,
             extension_len: 3,
         },
-        // vnd.llamagraphics.life-balance.exchange+xml: lbe
+        // application/vnd.llamagraphics.life-balance.exchange+xml: lbe
         Entry {
             location: 5690,
             subtype_len: 43,
             extension_len: 3,
         },
-        // vnd.lotus-1-2-3: 123
+        // application/vnd.lotus-1-2-3: 123
         Entry {
             location: 5736,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.lotus-approach: apr
+        // application/vnd.lotus-approach: apr
         Entry {
             location: 5754,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.lotus-freelance: pre
+        // application/vnd.lotus-freelance: pre
         Entry {
             location: 5775,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.lotus-notes: nsf
+        // application/vnd.lotus-notes: nsf
         Entry {
             location: 5797,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.lotus-organizer: org
+        // application/vnd.lotus-organizer: org
         Entry {
             location: 5815,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.lotus-screencam: scm
+        // application/vnd.lotus-screencam: scm
         Entry {
             location: 5837,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.lotus-wordpro: lwp
+        // application/vnd.lotus-wordpro: lwp
         Entry {
             location: 5859,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.macports.portpkg: portpkg
+        // application/vnd.macports.portpkg: portpkg
         Entry {
             location: 5879,
             subtype_len: 20,
             extension_len: 7,
         },
-        // vnd.mapbox-vector-tile: mvt
+        // application/vnd.mapbox-vector-tile: mvt
         Entry {
             location: 5906,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.mcd: mcd
+        // application/vnd.mcd: mcd
         Entry {
             location: 5931,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.medcalcdata: mc1
+        // application/vnd.medcalcdata: mc1
         Entry {
             location: 5941,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.mediastation.cdkey: cdkey
+        // application/vnd.mediastation.cdkey: cdkey
         Entry {
             location: 5959,
             subtype_len: 22,
             extension_len: 5,
         },
-        // vnd.mfer: mwf
+        // application/vnd.mfer: mwf
         Entry {
             location: 5986,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.mfmp: mfm
+        // application/vnd.mfmp: mfm
         Entry {
             location: 5997,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.micrografx.flo: flo
+        // application/vnd.micrografx.flo: flo
         Entry {
             location: 6008,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.micrografx.igx: igx
+        // application/vnd.micrografx.igx: igx
         Entry {
             location: 6029,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.mif: mif
+        // application/vnd.mif: mif
         Entry {
             location: 6050,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.mobius.daf: daf
+        // application/vnd.mobius.daf: daf
         Entry {
             location: 6060,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mobius.dis: dis
+        // application/vnd.mobius.dis: dis
         Entry {
             location: 6077,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mobius.mbk: mbk
+        // application/vnd.mobius.mbk: mbk
         Entry {
             location: 6094,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mobius.mqy: mqy
+        // application/vnd.mobius.mqy: mqy
         Entry {
             location: 6111,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mobius.msl: msl
+        // application/vnd.mobius.msl: msl
         Entry {
             location: 6128,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mobius.plc: plc
+        // application/vnd.mobius.plc: plc
         Entry {
             location: 6145,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mobius.txf: txf
+        // application/vnd.mobius.txf: txf
         Entry {
             location: 6162,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.mophun.application: mpn
+        // application/vnd.mophun.application: mpn
         Entry {
             location: 6179,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.mophun.certificate: mpc
+        // application/vnd.mophun.certificate: mpc
         Entry {
             location: 6204,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.mozilla.xul+xml: xul
+        // application/vnd.mozilla.xul+xml: xul
         Entry {
             location: 6229,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.ms-artgalry: cil
+        // application/vnd.ms-artgalry: cil
         Entry {
             location: 6251,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.ms-cab-compressed: cab
+        // application/vnd.ms-cab-compressed: cab
         Entry {
             location: 6269,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.ms-excel: xls
+        // application/vnd.ms-excel: xls
         Entry {
             location: 6293,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.ms-excel.addin.macroenabled.12: xlam
+        // application/vnd.ms-excel.addin.macroenabled.12: xlam
         Entry {
             location: 6308,
             subtype_len: 34,
             extension_len: 4,
         },
-        // vnd.ms-excel.sheet.binary.macroenabled.12: xlsb
+        // application/vnd.ms-excel.sheet.binary.macroenabled.12: xlsb
         Entry {
             location: 6346,
             subtype_len: 41,
             extension_len: 4,
         },
-        // vnd.ms-excel.sheet.macroenabled.12: xlsm
+        // application/vnd.ms-excel.sheet.macroenabled.12: xlsm
         Entry {
             location: 6391,
             subtype_len: 34,
             extension_len: 4,
         },
-        // vnd.ms-excel.template.macroenabled.12: xltm
+        // application/vnd.ms-excel.template.macroenabled.12: xltm
         Entry {
             location: 6429,
             subtype_len: 37,
             extension_len: 4,
         },
-        // vnd.ms-fontobject: eot
+        // application/vnd.ms-fontobject: eot
         Entry {
             location: 6470,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.ms-htmlhelp: chm
+        // application/vnd.ms-htmlhelp: chm
         Entry {
             location: 6490,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.ms-ims: ims
+        // application/vnd.ms-ims: ims
         Entry {
             location: 6508,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.ms-lrm: lrm
+        // application/vnd.ms-lrm: lrm
         Entry {
             location: 6521,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.ms-officetheme: thmx
+        // application/vnd.ms-officetheme: thmx
         Entry {
             location: 6534,
             subtype_len: 18,
             extension_len: 4,
         },
-        // vnd.ms-outlook: msg
+        // application/vnd.ms-outlook: msg
         Entry {
             location: 6556,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.ms-pki.seccat: cat
+        // application/vnd.ms-pki.seccat: cat
         Entry {
             location: 6573,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.ms-pki.stl: stl
+        // application/vnd.ms-pki.stl: stl
         Entry {
             location: 6593,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.ms-powerpoint: ppt
+        // application/vnd.ms-powerpoint: ppt
         Entry {
             location: 6610,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.ms-powerpoint.addin.macroenabled.12: ppam
+        // application/vnd.ms-powerpoint.addin.macroenabled.12: ppam
         Entry {
             location: 6630,
             subtype_len: 39,
             extension_len: 4,
         },
-        // vnd.ms-powerpoint.presentation.macroenabled.12: pptm
+        // application/vnd.ms-powerpoint.presentation.macroenabled.12: pptm
         Entry {
             location: 6673,
             subtype_len: 46,
             extension_len: 4,
         },
-        // vnd.ms-powerpoint.slide.macroenabled.12: sldm
+        // application/vnd.ms-powerpoint.slide.macroenabled.12: sldm
         Entry {
             location: 6723,
             subtype_len: 39,
             extension_len: 4,
         },
-        // vnd.ms-powerpoint.slideshow.macroenabled.12: ppsm
+        // application/vnd.ms-powerpoint.slideshow.macroenabled.12: ppsm
         Entry {
             location: 6766,
             subtype_len: 43,
             extension_len: 4,
         },
-        // vnd.ms-powerpoint.template.macroenabled.12: potm
+        // application/vnd.ms-powerpoint.template.macroenabled.12: potm
         Entry {
             location: 6813,
             subtype_len: 42,
             extension_len: 4,
         },
-        // vnd.ms-project: mpp
+        // application/vnd.ms-project: mpp
         Entry {
             location: 6859,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.ms-word.document.macroenabled.12: docm
+        // application/vnd.ms-word.document.macroenabled.12: docm
         Entry {
             location: 6876,
             subtype_len: 36,
             extension_len: 4,
         },
-        // vnd.ms-word.template.macroenabled.12: dotm
+        // application/vnd.ms-word.template.macroenabled.12: dotm
         Entry {
             location: 6916,
             subtype_len: 36,
             extension_len: 4,
         },
-        // vnd.ms-works: wps
+        // application/vnd.ms-works: wps
         Entry {
             location: 6956,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.ms-wpl: wpl
+        // application/vnd.ms-wpl: wpl
         Entry {
             location: 6971,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.ms-xpsdocument: xps
+        // application/vnd.ms-xpsdocument: xps
         Entry {
             location: 6984,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.mseq: mseq
+        // application/vnd.mseq: mseq
         Entry {
             location: 7005,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.musician: mus
+        // application/vnd.musician: mus
         Entry {
             location: 7017,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.muvee.style: msty
+        // application/vnd.muvee.style: msty
         Entry {
             location: 7032,
             subtype_len: 15,
             extension_len: 4,
         },
-        // vnd.mynfc: taglet
+        // application/vnd.mynfc: taglet
         Entry {
             location: 7051,
             subtype_len: 9,
             extension_len: 6,
         },
-        // vnd.neurolanguage.nlu: nlu
+        // application/vnd.neurolanguage.nlu: nlu
         Entry {
             location: 7066,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.nitf: ntf
+        // application/vnd.nitf: ntf
         Entry {
             location: 7090,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.noblenet-directory: nnd
+        // application/vnd.noblenet-directory: nnd
         Entry {
             location: 7101,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.noblenet-sealer: nns
+        // application/vnd.noblenet-sealer: nns
         Entry {
             location: 7126,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.noblenet-web: nnw
+        // application/vnd.noblenet-web: nnw
         Entry {
             location: 7148,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.nokia.n-gage.ac+xml: ac
+        // application/vnd.nokia.n-gage.ac+xml: ac
         Entry {
             location: 7167,
             subtype_len: 23,
             extension_len: 2,
         },
-        // vnd.nokia.n-gage.data: ngdat
+        // application/vnd.nokia.n-gage.data: ngdat
         Entry {
             location: 7192,
             subtype_len: 21,
             extension_len: 5,
         },
-        // vnd.nokia.n-gage.symbian.install: n-gage
+        // application/vnd.nokia.n-gage.symbian.install: n-gage
         Entry {
             location: 7218,
             subtype_len: 32,
             extension_len: 6,
         },
-        // vnd.nokia.radio-preset: rpst
+        // application/vnd.nokia.radio-preset: rpst
         Entry {
             location: 7256,
             subtype_len: 22,
             extension_len: 4,
         },
-        // vnd.nokia.radio-presets: rpss
+        // application/vnd.nokia.radio-presets: rpss
         Entry {
             location: 7282,
             subtype_len: 23,
             extension_len: 4,
         },
-        // vnd.novadigm.edm: edm
+        // application/vnd.novadigm.edm: edm
         Entry {
             location: 7309,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.novadigm.edx: edx
+        // application/vnd.novadigm.edx: edx
         Entry {
             location: 7328,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.novadigm.ext: ext
+        // application/vnd.novadigm.ext: ext
         Entry {
             location: 7347,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.chart: odc
+        // application/vnd.oasis.opendocument.chart: odc
         Entry {
             location: 7366,
             subtype_len: 28,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.chart-template: otc
+        // application/vnd.oasis.opendocument.chart-template: otc
         Entry {
             location: 7397,
             subtype_len: 37,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.database: odb
+        // application/vnd.oasis.opendocument.database: odb
         Entry {
             location: 7437,
             subtype_len: 31,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.formula: odf
+        // application/vnd.oasis.opendocument.formula: odf
         Entry {
             location: 7471,
             subtype_len: 30,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.formula-template: odft
+        // application/vnd.oasis.opendocument.formula-template: odft
         Entry {
             location: 7504,
             subtype_len: 39,
             extension_len: 4,
         },
-        // vnd.oasis.opendocument.graphics: odg
+        // application/vnd.oasis.opendocument.graphics: odg
         Entry {
             location: 7547,
             subtype_len: 31,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.graphics-template: otg
+        // application/vnd.oasis.opendocument.graphics-template: otg
         Entry {
             location: 7581,
             subtype_len: 40,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.image: odi
+        // application/vnd.oasis.opendocument.image: odi
         Entry {
             location: 7624,
             subtype_len: 28,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.image-template: oti
+        // application/vnd.oasis.opendocument.image-template: oti
         Entry {
             location: 7655,
             subtype_len: 37,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.presentation: odp
+        // application/vnd.oasis.opendocument.presentation: odp
         Entry {
             location: 7695,
             subtype_len: 35,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.presentation-template: otp
+        // application/vnd.oasis.opendocument.presentation-template: otp
         Entry {
             location: 7733,
             subtype_len: 44,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.spreadsheet: ods
+        // application/vnd.oasis.opendocument.spreadsheet: ods
         Entry {
             location: 7780,
             subtype_len: 34,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.spreadsheet-template: ots
+        // application/vnd.oasis.opendocument.spreadsheet-template: ots
         Entry {
             location: 7817,
             subtype_len: 43,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.text: odt
+        // application/vnd.oasis.opendocument.text: odt
         Entry {
             location: 7863,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.text-master: odm
+        // application/vnd.oasis.opendocument.text-master: odm
         Entry {
             location: 7893,
             subtype_len: 34,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.text-template: ott
+        // application/vnd.oasis.opendocument.text-template: ott
         Entry {
             location: 7930,
             subtype_len: 36,
             extension_len: 3,
         },
-        // vnd.oasis.opendocument.text-web: oth
+        // application/vnd.oasis.opendocument.text-web: oth
         Entry {
             location: 7969,
             subtype_len: 31,
             extension_len: 3,
         },
-        // vnd.olpc-sugar: xo
+        // application/vnd.olpc-sugar: xo
         Entry {
             location: 8003,
             subtype_len: 14,
             extension_len: 2,
         },
-        // vnd.oma.dd2+xml: dd2
+        // application/vnd.oma.dd2+xml: dd2
         Entry {
             location: 8019,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.openblox.game+xml: obgx
+        // application/vnd.openblox.game+xml: obgx
         Entry {
             location: 8037,
             subtype_len: 21,
             extension_len: 4,
         },
-        // vnd.openofficeorg.extension: oxt
+        // application/vnd.openofficeorg.extension: oxt
         Entry {
             location: 8062,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.openstreetmap.data+xml: osm
+        // application/vnd.openstreetmap.data+xml: osm
         Entry {
             location: 8092,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.openxmlformats-officedocument.presentationml.presentation: pptx
+        // application/vnd.openxmlformats-officedocument.presentationml.presentation: pptx
         Entry {
             location: 8121,
             subtype_len: 61,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.presentationml.slide: sldx
+        // application/vnd.openxmlformats-officedocument.presentationml.slide: sldx
         Entry {
             location: 8186,
             subtype_len: 54,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.presentationml.slideshow: ppsx
+        // application/vnd.openxmlformats-officedocument.presentationml.slideshow: ppsx
         Entry {
             location: 8244,
             subtype_len: 58,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.presentationml.template: potx
+        // application/vnd.openxmlformats-officedocument.presentationml.template: potx
         Entry {
             location: 8306,
             subtype_len: 57,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.spreadsheetml.sheet: xlsx
+        // application/vnd.openxmlformats-officedocument.spreadsheetml.sheet: xlsx
         Entry {
             location: 8367,
             subtype_len: 53,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.spreadsheetml.template: xltx
+        // application/vnd.openxmlformats-officedocument.spreadsheetml.template: xltx
         Entry {
             location: 8424,
             subtype_len: 56,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.wordprocessingml.document: docx
+        // application/vnd.openxmlformats-officedocument.wordprocessingml.document: docx
         Entry {
             location: 8484,
             subtype_len: 59,
             extension_len: 4,
         },
-        // vnd.openxmlformats-officedocument.wordprocessingml.template: dotx
+        // application/vnd.openxmlformats-officedocument.wordprocessingml.template: dotx
         Entry {
             location: 8547,
             subtype_len: 59,
             extension_len: 4,
         },
-        // vnd.osgeo.mapguide.package: mgp
+        // application/vnd.osgeo.mapguide.package: mgp
         Entry {
             location: 8610,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.osgi.dp: dp
+        // application/vnd.osgi.dp: dp
         Entry {
             location: 8639,
             subtype_len: 11,
             extension_len: 2,
         },
-        // vnd.osgi.subsystem: esa
+        // application/vnd.osgi.subsystem: esa
         Entry {
             location: 8652,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.palm: pdb
+        // application/vnd.palm: pdb
         Entry {
             location: 8673,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.pawaafile: paw
+        // application/vnd.pawaafile: paw
         Entry {
             location: 8684,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.pg.format: str
+        // application/vnd.pg.format: str
         Entry {
             location: 8700,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.pg.osasli: ei6
+        // application/vnd.pg.osasli: ei6
         Entry {
             location: 8716,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.picsel: efif
+        // application/vnd.picsel: efif
         Entry {
             location: 8732,
             subtype_len: 10,
             extension_len: 4,
         },
-        // vnd.pmi.widget: wg
+        // application/vnd.pmi.widget: wg
         Entry {
             location: 8746,
             subtype_len: 14,
             extension_len: 2,
         },
-        // vnd.pocketlearn: plf
+        // application/vnd.pocketlearn: plf
         Entry {
             location: 8762,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.powerbuilder6: pbd
+        // application/vnd.powerbuilder6: pbd
         Entry {
             location: 8780,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.previewsystems.box: box
+        // application/vnd.previewsystems.box: box
         Entry {
             location: 8800,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.proteus.magazine: mgz
+        // application/vnd.proteus.magazine: mgz
         Entry {
             location: 8825,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.publishare-delta-tree: qps
+        // application/vnd.publishare-delta-tree: qps
         Entry {
             location: 8848,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.pvi.ptid1: ptid
+        // application/vnd.pvi.ptid1: ptid
         Entry {
             location: 8876,
             subtype_len: 13,
             extension_len: 4,
         },
-        // vnd.quark.quarkxpress: qxd
+        // application/vnd.quark.quarkxpress: qxd
         Entry {
             location: 8893,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.rar: rar
+        // application/vnd.rar: rar
         Entry {
             location: 8917,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.realvnc.bed: bed
+        // application/vnd.realvnc.bed: bed
         Entry {
             location: 8927,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.recordare.musicxml: mxl
+        // application/vnd.recordare.musicxml: mxl
         Entry {
             location: 8945,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.recordare.musicxml+xml: musicxml
+        // application/vnd.recordare.musicxml+xml: musicxml
         Entry {
             location: 8970,
             subtype_len: 26,
             extension_len: 8,
         },
-        // vnd.rig.cryptonote: cryptonote
+        // application/vnd.rig.cryptonote: cryptonote
         Entry {
             location: 9004,
             subtype_len: 18,
             extension_len: 10,
         },
-        // vnd.rim.cod: cod
+        // application/vnd.rim.cod: cod
         Entry {
             location: 9032,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.rn-realmedia: rm
+        // application/vnd.rn-realmedia: rm
         Entry {
             location: 9046,
             subtype_len: 16,
             extension_len: 2,
         },
-        // vnd.rn-realmedia-vbr: rmvb
+        // application/vnd.rn-realmedia-vbr: rmvb
         Entry {
             location: 9064,
             subtype_len: 20,
             extension_len: 4,
         },
-        // vnd.route66.link66+xml: link66
+        // application/vnd.route66.link66+xml: link66
         Entry {
             location: 9088,
             subtype_len: 22,
             extension_len: 6,
         },
-        // vnd.sailingtracker.track: st
+        // application/vnd.sailingtracker.track: st
         Entry {
             location: 9116,
             subtype_len: 24,
             extension_len: 2,
         },
-        // vnd.seemail: see
+        // application/vnd.seemail: see
         Entry {
             location: 9142,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.sema: sema
+        // application/vnd.sema: sema
         Entry {
             location: 9156,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.semd: semd
+        // application/vnd.semd: semd
         Entry {
             location: 9168,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.semf: semf
+        // application/vnd.semf: semf
         Entry {
             location: 9180,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.shana.informed.formdata: ifm
+        // application/vnd.shana.informed.formdata: ifm
         Entry {
             location: 9192,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.shana.informed.formtemplate: itp
+        // application/vnd.shana.informed.formtemplate: itp
         Entry {
             location: 9222,
             subtype_len: 31,
             extension_len: 3,
         },
-        // vnd.shana.informed.interchange: iif
+        // application/vnd.shana.informed.interchange: iif
         Entry {
             location: 9256,
             subtype_len: 30,
             extension_len: 3,
         },
-        // vnd.shana.informed.package: ipk
+        // application/vnd.shana.informed.package: ipk
         Entry {
             location: 9289,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.simtech-mindmapper: twd
+        // application/vnd.simtech-mindmapper: twd
         Entry {
             location: 9318,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.smaf: mmf
+        // application/vnd.smaf: mmf
         Entry {
             location: 9343,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.smart.teacher: teacher
+        // application/vnd.smart.teacher: teacher
         Entry {
             location: 9354,
             subtype_len: 17,
             extension_len: 7,
         },
-        // vnd.software602.filler.form+xml: fo
+        // application/vnd.software602.filler.form+xml: fo
         Entry {
             location: 9378,
             subtype_len: 31,
             extension_len: 2,
         },
-        // vnd.solent.sdkm+xml: sdkm
+        // application/vnd.solent.sdkm+xml: sdkm
         Entry {
             location: 9411,
             subtype_len: 19,
             extension_len: 4,
         },
-        // vnd.spotfire.dxp: dxp
+        // application/vnd.spotfire.dxp: dxp
         Entry {
             location: 9434,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.spotfire.sfs: sfs
+        // application/vnd.spotfire.sfs: sfs
         Entry {
             location: 9453,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.stardivision.calc: sdc
+        // application/vnd.stardivision.calc: sdc
         Entry {
             location: 9472,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.stardivision.draw: sda
+        // application/vnd.stardivision.draw: sda
         Entry {
             location: 9496,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.stardivision.impress: sdd
+        // application/vnd.stardivision.impress: sdd
         Entry {
             location: 9520,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.stardivision.math: smf
+        // application/vnd.stardivision.math: smf
         Entry {
             location: 9547,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.stardivision.writer: sdw
+        // application/vnd.stardivision.writer: sdw
         Entry {
             location: 9571,
             subtype_len: 23,
             extension_len: 3,
         },
-        // vnd.stardivision.writer-global: sgl
+        // application/vnd.stardivision.writer-global: sgl
         Entry {
             location: 9597,
             subtype_len: 30,
             extension_len: 3,
         },
-        // vnd.stepmania.package: smzip
+        // application/vnd.stepmania.package: smzip
         Entry {
             location: 9630,
             subtype_len: 21,
             extension_len: 5,
         },
-        // vnd.stepmania.stepchart: sm
+        // application/vnd.stepmania.stepchart: sm
         Entry {
             location: 9656,
             subtype_len: 23,
             extension_len: 2,
         },
-        // vnd.sun.wadl+xml: wadl
+        // application/vnd.sun.wadl+xml: wadl
         Entry {
             location: 9681,
             subtype_len: 16,
             extension_len: 4,
         },
-        // vnd.sun.xml.calc: sxc
+        // application/vnd.sun.xml.calc: sxc
         Entry {
             location: 9701,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.sun.xml.calc.template: stc
+        // application/vnd.sun.xml.calc.template: stc
         Entry {
             location: 9720,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.sun.xml.draw: sxd
+        // application/vnd.sun.xml.draw: sxd
         Entry {
             location: 9748,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.sun.xml.draw.template: std
+        // application/vnd.sun.xml.draw.template: std
         Entry {
             location: 9767,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.sun.xml.impress: sxi
+        // application/vnd.sun.xml.impress: sxi
         Entry {
             location: 9795,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.sun.xml.impress.template: sti
+        // application/vnd.sun.xml.impress.template: sti
         Entry {
             location: 9817,
             subtype_len: 28,
             extension_len: 3,
         },
-        // vnd.sun.xml.math: sxm
+        // application/vnd.sun.xml.math: sxm
         Entry {
             location: 9848,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.sun.xml.writer: sxw
+        // application/vnd.sun.xml.writer: sxw
         Entry {
             location: 9867,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.sun.xml.writer.global: sxg
+        // application/vnd.sun.xml.writer.global: sxg
         Entry {
             location: 9888,
             subtype_len: 25,
             extension_len: 3,
         },
-        // vnd.sun.xml.writer.template: stw
+        // application/vnd.sun.xml.writer.template: stw
         Entry {
             location: 9916,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.sus-calendar: sus
+        // application/vnd.sus-calendar: sus
         Entry {
             location: 9946,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.svd: svd
+        // application/vnd.svd: svd
         Entry {
             location: 9965,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.symbian.install: sis
+        // application/vnd.symbian.install: sis
         Entry {
             location: 9975,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.syncml+xml: xsm
+        // application/vnd.syncml+xml: xsm
         Entry {
             location: 9997,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.syncml.dm+wbxml: bdm
+        // application/vnd.syncml.dm+wbxml: bdm
         Entry {
             location: 10014,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.syncml.dm+xml: xdm
+        // application/vnd.syncml.dm+xml: xdm
         Entry {
             location: 10036,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.syncml.dmddf+xml: ddf
+        // application/vnd.syncml.dmddf+xml: ddf
         Entry {
             location: 10056,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.tao.intent-module-archive: tao
+        // application/vnd.tao.intent-module-archive: tao
         Entry {
             location: 10079,
             subtype_len: 29,
             extension_len: 3,
         },
-        // vnd.tcpdump.pcap: pcap
+        // application/vnd.tcpdump.pcap: pcap
         Entry {
             location: 10111,
             subtype_len: 16,
             extension_len: 4,
         },
-        // vnd.tmobile-livetv: tmo
+        // application/vnd.tmobile-livetv: tmo
         Entry {
             location: 10131,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.trid.tpt: tpt
+        // application/vnd.trid.tpt: tpt
         Entry {
             location: 10152,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.triscape.mxs: mxs
+        // application/vnd.triscape.mxs: mxs
         Entry {
             location: 10167,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.trueapp: tra
+        // application/vnd.trueapp: tra
         Entry {
             location: 10186,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.ufdl: ufd
+        // application/vnd.ufdl: ufd
         Entry {
             location: 10200,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.uiq.theme: utz
+        // application/vnd.uiq.theme: utz
         Entry {
             location: 10211,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.umajin: umj
+        // application/vnd.umajin: umj
         Entry {
             location: 10227,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.unity: unityweb
+        // application/vnd.unity: unityweb
         Entry {
             location: 10240,
             subtype_len: 9,
             extension_len: 8,
         },
-        // vnd.uoml+xml: uoml
+        // application/vnd.uoml+xml: uoml
         Entry {
             location: 10257,
             subtype_len: 12,
             extension_len: 4,
         },
-        // vnd.vcx: vcx
+        // application/vnd.vcx: vcx
         Entry {
             location: 10273,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.visio: vsd
+        // application/vnd.visio: vsd
         Entry {
             location: 10283,
             subtype_len: 9,
             extension_len: 3,
         },
-        // vnd.visionary: vis
+        // application/vnd.visionary: vis
         Entry {
             location: 10295,
             subtype_len: 13,
             extension_len: 3,
         },
-        // vnd.vsf: vsf
+        // application/vnd.vsf: vsf
         Entry {
             location: 10311,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.wap.wbxml: wbxml
+        // application/vnd.wap.wbxml: wbxml
         Entry {
             location: 10321,
             subtype_len: 13,
             extension_len: 5,
         },
-        // vnd.wap.wmlc: wmlc
+        // application/vnd.wap.wmlc: wmlc
         Entry {
             location: 10339,
             subtype_len: 12,
             extension_len: 4,
         },
-        // vnd.wap.wmlscriptc: wmlsc
+        // application/vnd.wap.wmlscriptc: wmlsc
         Entry {
             location: 10355,
             subtype_len: 18,
             extension_len: 5,
         },
-        // vnd.webturbo: wtb
+        // application/vnd.webturbo: wtb
         Entry {
             location: 10378,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.wolfram.player: nbp
+        // application/vnd.wolfram.player: nbp
         Entry {
             location: 10393,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.wordperfect: wpd
+        // application/vnd.wordperfect: wpd
         Entry {
             location: 10414,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.wqd: wqd
+        // application/vnd.wqd: wqd
         Entry {
             location: 10432,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.wt.stf: stf
+        // application/vnd.wt.stf: stf
         Entry {
             location: 10442,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.xara: xar
+        // application/vnd.xara: xar
         Entry {
             location: 10455,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.xfdl: xfdl
+        // application/vnd.xfdl: xfdl
         Entry {
             location: 10466,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.yamaha.hv-dic: hvd
+        // application/vnd.yamaha.hv-dic: hvd
         Entry {
             location: 10478,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.yamaha.hv-script: hvs
+        // application/vnd.yamaha.hv-script: hvs
         Entry {
             location: 10498,
             subtype_len: 20,
             extension_len: 3,
         },
-        // vnd.yamaha.hv-voice: hvp
+        // application/vnd.yamaha.hv-voice: hvp
         Entry {
             location: 10521,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.yamaha.openscoreformat: osf
+        // application/vnd.yamaha.openscoreformat: osf
         Entry {
             location: 10543,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.yamaha.openscoreformat.osfpvg+xml: osfpvg
+        // application/vnd.yamaha.openscoreformat.osfpvg+xml: osfpvg
         Entry {
             location: 10572,
             subtype_len: 37,
             extension_len: 6,
         },
-        // vnd.yamaha.smaf-audio: saf
+        // application/vnd.yamaha.smaf-audio: saf
         Entry {
             location: 10615,
             subtype_len: 21,
             extension_len: 3,
         },
-        // vnd.yamaha.smaf-phrase: spf
+        // application/vnd.yamaha.smaf-phrase: spf
         Entry {
             location: 10639,
             subtype_len: 22,
             extension_len: 3,
         },
-        // vnd.yellowriver-custom-menu: cmp
+        // application/vnd.yellowriver-custom-menu: cmp
         Entry {
             location: 10664,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.zul: zir
+        // application/vnd.zul: zir
         Entry {
             location: 10694,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.zzazz.deck+xml: zaz
+        // application/vnd.zzazz.deck+xml: zaz
         Entry {
             location: 10704,
             subtype_len: 18,
             extension_len: 3,
         },
-        // voicexml+xml: vxml
+        // application/voicexml+xml: vxml
         Entry {
             location: 10725,
             subtype_len: 12,
             extension_len: 4,
         },
-        // wasm: wasm
+        // application/wasm: wasm
         Entry {
             location: 10741,
             subtype_len: 4,
             extension_len: 4,
         },
-        // widget: wgt
+        // application/widget: wgt
         Entry {
             location: 10749,
             subtype_len: 6,
             extension_len: 3,
         },
-        // winhlp: hlp
+        // application/winhlp: hlp
         Entry {
             location: 10758,
             subtype_len: 6,
             extension_len: 3,
         },
-        // wsdl+xml: wsdl
+        // application/wsdl+xml: wsdl
         Entry {
             location: 10767,
             subtype_len: 8,
             extension_len: 4,
         },
-        // wspolicy+xml: wspolicy
+        // application/wspolicy+xml: wspolicy
         Entry {
             location: 10779,
             subtype_len: 12,
             extension_len: 8,
         },
-        // x-7z-compressed: 7z
+        // application/x-7z-compressed: 7z
         Entry {
             location: 10799,
             subtype_len: 15,
             extension_len: 2,
         },
-        // x-abiword: abw
+        // application/x-abiword: abw
         Entry {
             location: 10816,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-ace-compressed: ace
+        // application/x-ace-compressed: ace
         Entry {
             location: 10828,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-apple-diskimage: dmg
+        // application/x-apple-diskimage: dmg
         Entry {
             location: 10847,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-arj: arj
+        // application/x-arj: arj
         Entry {
             location: 10867,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-authorware-bin: aab
+        // application/x-authorware-bin: aab
         Entry {
             location: 10875,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-authorware-map: aam
+        // application/x-authorware-map: aam
         Entry {
             location: 10894,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-authorware-seg: aas
+        // application/x-authorware-seg: aas
         Entry {
             location: 10913,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-bcpio: bcpio
+        // application/x-bcpio: bcpio
         Entry {
             location: 10932,
             subtype_len: 7,
             extension_len: 5,
         },
-        // x-bdoc: bdoc
+        // application/x-bdoc: bdoc
         Entry {
             location: 10944,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-bittorrent: torrent
+        // application/x-bittorrent: torrent
         Entry {
             location: 10954,
             subtype_len: 12,
             extension_len: 7,
         },
-        // x-blorb: blb
+        // application/x-blorb: blb
         Entry {
             location: 10973,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x-bzip: bz
+        // application/x-bzip: bz
         Entry {
             location: 10983,
             subtype_len: 6,
             extension_len: 2,
         },
-        // x-bzip2: bz2
+        // application/x-bzip2: bz2
         Entry {
             location: 10991,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x-cbr: cbr
+        // application/x-cbr: cbr
         Entry {
             location: 11001,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-cdlink: vcd
+        // application/x-cdlink: vcd
         Entry {
             location: 11009,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-cfs-compressed: cfs
+        // application/x-cfs-compressed: cfs
         Entry {
             location: 11020,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-chat: chat
+        // application/x-chat: chat
         Entry {
             location: 11039,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-chess-pgn: pgn
+        // application/x-chess-pgn: pgn
         Entry {
             location: 11049,
             subtype_len: 11,
             extension_len: 3,
         },
-        // x-chrome-extension: crx
+        // application/x-chrome-extension: crx
         Entry {
             location: 11063,
             subtype_len: 18,
             extension_len: 3,
         },
-        // x-cocoa: cco
+        // application/x-cocoa: cco
         Entry {
             location: 11084,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x-conference: nsc
+        // application/x-conference: nsc
         Entry {
             location: 11094,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-cpio: cpio
+        // application/x-cpio: cpio
         Entry {
             location: 11109,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-csh: csh
+        // application/x-csh: csh
         Entry {
             location: 11119,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-debian-package: deb
+        // application/x-debian-package: deb
         Entry {
             location: 11127,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-dgc-compressed: dgc
+        // application/x-dgc-compressed: dgc
         Entry {
             location: 11146,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-director: dir
+        // application/x-director: dir
         Entry {
             location: 11165,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-doom: wad
+        // application/x-doom: wad
         Entry {
             location: 11178,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-dtbncx+xml: ncx
+        // application/x-dtbncx+xml: ncx
         Entry {
             location: 11187,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-dtbook+xml: dtb
+        // application/x-dtbook+xml: dtb
         Entry {
             location: 11202,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-dtbresource+xml: res
+        // application/x-dtbresource+xml: res
         Entry {
             location: 11217,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-dvi: dvi
+        // application/x-dvi: dvi
         Entry {
             location: 11237,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-envoy: evy
+        // application/x-envoy: evy
         Entry {
             location: 11245,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x-eva: eva
+        // application/x-eva: eva
         Entry {
             location: 11255,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-font-bdf: bdf
+        // application/x-font-bdf: bdf
         Entry {
             location: 11263,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-font-ghostscript: gsf
+        // application/x-font-ghostscript: gsf
         Entry {
             location: 11276,
             subtype_len: 18,
             extension_len: 3,
         },
-        // x-font-linux-psf: psf
+        // application/x-font-linux-psf: psf
         Entry {
             location: 11297,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-font-pcf: pcf
+        // application/x-font-pcf: pcf
         Entry {
             location: 11316,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-font-snf: snf
+        // application/x-font-snf: snf
         Entry {
             location: 11329,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-font-type1: pfa
+        // application/x-font-type1: pfa
         Entry {
             location: 11342,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-freearc: arc
+        // application/x-freearc: arc
         Entry {
             location: 11357,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-futuresplash: spl
+        // application/x-futuresplash: spl
         Entry {
             location: 11369,
             subtype_len: 14,
             extension_len: 3,
         },
-        // x-gca-compressed: gca
+        // application/x-gca-compressed: gca
         Entry {
             location: 11386,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-glulx: ulx
+        // application/x-glulx: ulx
         Entry {
             location: 11405,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x-gnumeric: gnumeric
+        // application/x-gnumeric: gnumeric
         Entry {
             location: 11415,
             subtype_len: 10,
             extension_len: 8,
         },
-        // x-gramps-xml: gramps
+        // application/x-gramps-xml: gramps
         Entry {
             location: 11433,
             subtype_len: 12,
             extension_len: 6,
         },
-        // x-gtar: gtar
+        // application/x-gtar: gtar
         Entry {
             location: 11451,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-hdf: hdf
+        // application/x-hdf: hdf
         Entry {
             location: 11461,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-httpd-php: php
+        // application/x-httpd-php: php
         Entry {
             location: 11469,
             subtype_len: 11,
             extension_len: 3,
         },
-        // x-install-instructions: install
+        // application/x-install-instructions: install
         Entry {
             location: 11483,
             subtype_len: 22,
             extension_len: 7,
         },
-        // x-iso9660-image: iso
+        // application/x-iso9660-image: iso
         Entry {
             location: 11512,
             subtype_len: 15,
             extension_len: 3,
         },
-        // x-java-archive-diff: jardiff
+        // application/x-java-archive-diff: jardiff
         Entry {
             location: 11530,
             subtype_len: 19,
             extension_len: 7,
         },
-        // x-java-jnlp-file: jnlp
+        // application/x-java-jnlp-file: jnlp
         Entry {
             location: 11556,
             subtype_len: 16,
             extension_len: 4,
         },
-        // x-keepass2: kdbx
+        // application/x-keepass2: kdbx
         Entry {
             location: 11576,
             subtype_len: 10,
             extension_len: 4,
         },
-        // x-latex: latex
+        // application/x-latex: latex
         Entry {
             location: 11590,
             subtype_len: 7,
             extension_len: 5,
         },
-        // x-lua-bytecode: luac
+        // application/x-lua-bytecode: luac
         Entry {
             location: 11602,
             subtype_len: 14,
             extension_len: 4,
         },
-        // x-lzh-compressed: lzh
+        // application/x-lzh-compressed: lzh
         Entry {
             location: 11620,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-makeself: run
+        // application/x-makeself: run
         Entry {
             location: 11639,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-mie: mie
+        // application/x-mie: mie
         Entry {
             location: 11652,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-mobipocket-ebook: prc
+        // application/x-mobipocket-ebook: prc
         Entry {
             location: 11660,
             subtype_len: 18,
             extension_len: 3,
         },
-        // x-ms-application: application
+        // application/x-ms-application: application
         Entry {
             location: 11681,
             subtype_len: 16,
             extension_len: 11,
         },
-        // x-ms-shortcut: lnk
+        // application/x-ms-shortcut: lnk
         Entry {
             location: 11708,
             subtype_len: 13,
             extension_len: 3,
         },
-        // x-ms-wmd: wmd
+        // application/x-ms-wmd: wmd
         Entry {
             location: 11724,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-wmz: wmz
+        // application/x-ms-wmz: wmz
         Entry {
             location: 11735,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-xbap: xbap
+        // application/x-ms-xbap: xbap
         Entry {
             location: 11746,
             subtype_len: 9,
             extension_len: 4,
         },
-        // x-msaccess: mdb
+        // application/x-msaccess: mdb
         Entry {
             location: 11759,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-msbinder: obd
+        // application/x-msbinder: obd
         Entry {
             location: 11772,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-mscardfile: crd
+        // application/x-mscardfile: crd
         Entry {
             location: 11785,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-msclip: clp
+        // application/x-msclip: clp
         Entry {
             location: 11800,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-msdos-program: exe
+        // application/x-msdos-program: exe
         Entry {
             location: 11811,
             subtype_len: 15,
             extension_len: 3,
         },
-        // x-msdownload: exe
+        // application/x-msdownload: exe
         Entry {
             location: 11829,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-msmediaview: mvb
+        // application/x-msmediaview: mvb
         Entry {
             location: 11844,
             subtype_len: 13,
             extension_len: 3,
         },
-        // x-msmetafile: wmf
+        // application/x-msmetafile: wmf
         Entry {
             location: 11860,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-msmoney: mny
+        // application/x-msmoney: mny
         Entry {
             location: 11875,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-mspublisher: pub
+        // application/x-mspublisher: pub
         Entry {
             location: 11887,
             subtype_len: 13,
             extension_len: 3,
         },
-        // x-msschedule: scd
+        // application/x-msschedule: scd
         Entry {
             location: 11903,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-msterminal: trm
+        // application/x-msterminal: trm
         Entry {
             location: 11918,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-mswrite: wri
+        // application/x-mswrite: wri
         Entry {
             location: 11933,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-netcdf: nc
+        // application/x-netcdf: nc
         Entry {
             location: 11945,
             subtype_len: 8,
             extension_len: 2,
         },
-        // x-ns-proxy-autoconfig: pac
+        // application/x-ns-proxy-autoconfig: pac
         Entry {
             location: 11955,
             subtype_len: 21,
             extension_len: 3,
         },
-        // x-nzb: nzb
+        // application/x-nzb: nzb
         Entry {
             location: 11979,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-perl: pl
+        // application/x-perl: pl
         Entry {
             location: 11987,
             subtype_len: 6,
             extension_len: 2,
         },
-        // x-pilot: prc
+        // application/x-pilot: prc
         Entry {
             location: 11995,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x-pkcs12: p12
+        // application/x-pkcs12: p12
         Entry {
             location: 12005,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-pkcs7-certificates: p7b
+        // application/x-pkcs7-certificates: p7b
         Entry {
             location: 12016,
             subtype_len: 20,
             extension_len: 3,
         },
-        // x-pkcs7-certreqresp: p7r
+        // application/x-pkcs7-certreqresp: p7r
         Entry {
             location: 12039,
             subtype_len: 19,
             extension_len: 3,
         },
-        // x-rar-compressed: rar
+        // application/x-rar-compressed: rar
         Entry {
             location: 12061,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-redhat-package-manager: rpm
+        // application/x-redhat-package-manager: rpm
         Entry {
             location: 12080,
             subtype_len: 24,
             extension_len: 3,
         },
-        // x-research-info-systems: ris
+        // application/x-research-info-systems: ris
         Entry {
             location: 12107,
             subtype_len: 23,
             extension_len: 3,
         },
-        // x-sea: sea
+        // application/x-sea: sea
         Entry {
             location: 12133,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-sh: sh
+        // application/x-sh: sh
         Entry {
             location: 12141,
             subtype_len: 4,
             extension_len: 2,
         },
-        // x-shar: shar
+        // application/x-shar: shar
         Entry {
             location: 12147,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-shockwave-flash: swf
+        // application/x-shockwave-flash: swf
         Entry {
             location: 12157,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-silverlight-app: xap
+        // application/x-silverlight-app: xap
         Entry {
             location: 12177,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-sql: sql
+        // application/x-sql: sql
         Entry {
             location: 12197,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-stuffit: sit
+        // application/x-stuffit: sit
         Entry {
             location: 12205,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-stuffitx: sitx
+        // application/x-stuffitx: sitx
         Entry {
             location: 12217,
             subtype_len: 10,
             extension_len: 4,
         },
-        // x-subrip: srt
+        // application/x-subrip: srt
         Entry {
             location: 12231,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-sv4cpio: sv4cpio
+        // application/x-sv4cpio: sv4cpio
         Entry {
             location: 12242,
             subtype_len: 9,
             extension_len: 7,
         },
-        // x-sv4crc: sv4crc
+        // application/x-sv4crc: sv4crc
         Entry {
             location: 12258,
             subtype_len: 8,
             extension_len: 6,
         },
-        // x-t3vm-image: t3
+        // application/x-t3vm-image: t3
         Entry {
             location: 12272,
             subtype_len: 12,
             extension_len: 2,
         },
-        // x-tads: gam
+        // application/x-tads: gam
         Entry {
             location: 12286,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-tar: tar
+        // application/x-tar: tar
         Entry {
             location: 12295,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-tcl: tcl
+        // application/x-tcl: tcl
         Entry {
             location: 12303,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-tex: tex
+        // application/x-tex: tex
         Entry {
             location: 12311,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-tex-tfm: tfm
+        // application/x-tex-tfm: tfm
         Entry {
             location: 12319,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-texinfo: texinfo
+        // application/x-texinfo: texinfo
         Entry {
             location: 12331,
             subtype_len: 9,
             extension_len: 7,
         },
-        // x-tgif: obj
+        // application/x-tgif: obj
         Entry {
             location: 12347,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-ustar: ustar
+        // application/x-ustar: ustar
         Entry {
             location: 12356,
             subtype_len: 7,
             extension_len: 5,
         },
-        // x-virtualbox-hdd: hdd
+        // application/x-virtualbox-hdd: hdd
         Entry {
             location: 12368,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-virtualbox-ova: ova
+        // application/x-virtualbox-ova: ova
         Entry {
             location: 12387,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-virtualbox-ovf: ovf
+        // application/x-virtualbox-ovf: ovf
         Entry {
             location: 12406,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-virtualbox-vbox: vbox
+        // application/x-virtualbox-vbox: vbox
         Entry {
             location: 12425,
             subtype_len: 17,
             extension_len: 4,
         },
-        // x-virtualbox-vbox-extpack: vbox-extpack
+        // application/x-virtualbox-vbox-extpack: vbox-extpack
         Entry {
             location: 12446,
             subtype_len: 25,
             extension_len: 12,
         },
-        // x-virtualbox-vdi: vdi
+        // application/x-virtualbox-vdi: vdi
         Entry {
             location: 12483,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-virtualbox-vhd: vhd
+        // application/x-virtualbox-vhd: vhd
         Entry {
             location: 12502,
             subtype_len: 16,
             extension_len: 3,
         },
-        // x-virtualbox-vmdk: vmdk
+        // application/x-virtualbox-vmdk: vmdk
         Entry {
             location: 12521,
             subtype_len: 17,
             extension_len: 4,
         },
-        // x-wais-source: src
+        // application/x-wais-source: src
         Entry {
             location: 12542,
             subtype_len: 13,
             extension_len: 3,
         },
-        // x-web-app-manifest+json: webapp
+        // application/x-web-app-manifest+json: webapp
         Entry {
             location: 12558,
             subtype_len: 23,
             extension_len: 6,
         },
-        // x-x509-ca-cert: der
+        // application/x-x509-ca-cert: der
         Entry {
             location: 12587,
             subtype_len: 14,
             extension_len: 3,
         },
-        // x-xfig: fig
+        // application/x-xfig: fig
         Entry {
             location: 12604,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-xliff+xml: xlf
+        // application/x-xliff+xml: xlf
         Entry {
             location: 12613,
             subtype_len: 11,
             extension_len: 3,
         },
-        // x-xpinstall: xpi
+        // application/x-xpinstall: xpi
         Entry {
             location: 12627,
             subtype_len: 11,
             extension_len: 3,
         },
-        // x-xz: xz
+        // application/x-xz: xz
         Entry {
             location: 12641,
             subtype_len: 4,
             extension_len: 2,
         },
-        // x-zmachine: z1
+        // application/x-zmachine: z1
         Entry {
             location: 12647,
             subtype_len: 10,
             extension_len: 2,
         },
-        // xaml+xml: xaml
+        // application/xaml+xml: xaml
         Entry {
             location: 12659,
             subtype_len: 8,
             extension_len: 4,
         },
-        // xcap-att+xml: xav
+        // application/xcap-att+xml: xav
         Entry {
             location: 12671,
             subtype_len: 12,
             extension_len: 3,
         },
-        // xcap-caps+xml: xca
+        // application/xcap-caps+xml: xca
         Entry {
             location: 12686,
             subtype_len: 13,
             extension_len: 3,
         },
-        // xcap-diff+xml: xdf
+        // application/xcap-diff+xml: xdf
         Entry {
             location: 12702,
             subtype_len: 13,
             extension_len: 3,
         },
-        // xcap-el+xml: xel
+        // application/xcap-el+xml: xel
         Entry {
             location: 12718,
             subtype_len: 11,
             extension_len: 3,
         },
-        // xcap-ns+xml: xns
+        // application/xcap-ns+xml: xns
         Entry {
             location: 12732,
             subtype_len: 11,
             extension_len: 3,
         },
-        // xenc+xml: xenc
+        // application/xenc+xml: xenc
         Entry {
             location: 12746,
             subtype_len: 8,
             extension_len: 4,
         },
-        // xhtml+xml: xhtml
+        // application/xhtml+xml: xhtml
         Entry {
             location: 12758,
             subtype_len: 9,
             extension_len: 5,
         },
-        // xliff+xml: xlf
+        // application/xliff+xml: xlf
         Entry {
             location: 12772,
             subtype_len: 9,
             extension_len: 3,
         },
-        // xml: xml
+        // application/xml: xml
         Entry {
             location: 12784,
             subtype_len: 3,
             extension_len: 3,
         },
-        // xml-dtd: dtd
+        // application/xml-dtd: dtd
         Entry {
             location: 12790,
             subtype_len: 7,
             extension_len: 3,
         },
-        // xop+xml: xop
+        // application/xop+xml: xop
         Entry {
             location: 12800,
             subtype_len: 7,
             extension_len: 3,
         },
-        // xproc+xml: xpl
+        // application/xproc+xml: xpl
         Entry {
             location: 12810,
             subtype_len: 9,
             extension_len: 3,
         },
-        // xslt+xml: xsl
+        // application/xslt+xml: xsl
         Entry {
             location: 12822,
             subtype_len: 8,
             extension_len: 3,
         },
-        // xspf+xml: xspf
+        // application/xspf+xml: xspf
         Entry {
             location: 12833,
             subtype_len: 8,
             extension_len: 4,
         },
-        // xv+xml: mxml
+        // application/xv+xml: mxml
         Entry {
             location: 12845,
             subtype_len: 6,
             extension_len: 4,
         },
-        // yang: yang
+        // application/yang: yang
         Entry {
             location: 12855,
             subtype_len: 4,
             extension_len: 4,
         },
-        // yin+xml: yin
+        // application/yin+xml: yin
         Entry {
             location: 12863,
             subtype_len: 7,
             extension_len: 3,
         },
-        // zip: zip
+        // application/zip: zip
         Entry {
             location: 12873,
             subtype_len: 3,
@@ -4049,241 +4049,241 @@
         },
     ]),
     ("audio", &[
-        // 3gpp: 3gpp
+        // audio/3gpp: 3gpp
         Entry {
             location: 12879,
             subtype_len: 4,
             extension_len: 4,
         },
-        // adpcm: adp
+        // audio/adpcm: adp
         Entry {
             location: 12887,
             subtype_len: 5,
             extension_len: 3,
         },
-        // amr: amr
+        // audio/amr: amr
         Entry {
             location: 12895,
             subtype_len: 3,
             extension_len: 3,
         },
-        // basic: au
+        // audio/basic: au
         Entry {
             location: 12901,
             subtype_len: 5,
             extension_len: 2,
         },
-        // midi: mid
+        // audio/midi: mid
         Entry {
             location: 12908,
             subtype_len: 4,
             extension_len: 3,
         },
-        // mobile-xmf: mxmf
+        // audio/mobile-xmf: mxmf
         Entry {
             location: 12915,
             subtype_len: 10,
             extension_len: 4,
         },
-        // mp3: mp3
+        // audio/mp3: mp3
         Entry {
             location: 12929,
             subtype_len: 3,
             extension_len: 3,
         },
-        // mp4: m4a
+        // audio/mp4: m4a
         Entry {
             location: 12935,
             subtype_len: 3,
             extension_len: 3,
         },
-        // mpeg: mpga
+        // audio/mpeg: mpga
         Entry {
             location: 12941,
             subtype_len: 4,
             extension_len: 4,
         },
-        // ogg: oga
+        // audio/ogg: oga
         Entry {
             location: 12949,
             subtype_len: 3,
             extension_len: 3,
         },
-        // s3m: s3m
+        // audio/s3m: s3m
         Entry {
             location: 12955,
             subtype_len: 3,
             extension_len: 3,
         },
-        // silk: sil
+        // audio/silk: sil
         Entry {
             location: 12961,
             subtype_len: 4,
             extension_len: 3,
         },
-        // vnd.dece.audio: uva
+        // audio/vnd.dece.audio: uva
         Entry {
             location: 12968,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.digital-winds: eol
+        // audio/vnd.digital-winds: eol
         Entry {
             location: 12985,
             subtype_len: 17,
             extension_len: 3,
         },
-        // vnd.dra: dra
+        // audio/vnd.dra: dra
         Entry {
             location: 13005,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.dts: dts
+        // audio/vnd.dts: dts
         Entry {
             location: 13015,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.dts.hd: dtshd
+        // audio/vnd.dts.hd: dtshd
         Entry {
             location: 13025,
             subtype_len: 10,
             extension_len: 5,
         },
-        // vnd.lucent.voice: lvp
+        // audio/vnd.lucent.voice: lvp
         Entry {
             location: 13040,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.ms-playready.media.pya: pya
+        // audio/vnd.ms-playready.media.pya: pya
         Entry {
             location: 13059,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.nuera.ecelp4800: ecelp4800
+        // audio/vnd.nuera.ecelp4800: ecelp4800
         Entry {
             location: 13088,
             subtype_len: 19,
             extension_len: 9,
         },
-        // vnd.nuera.ecelp7470: ecelp7470
+        // audio/vnd.nuera.ecelp7470: ecelp7470
         Entry {
             location: 13116,
             subtype_len: 19,
             extension_len: 9,
         },
-        // vnd.nuera.ecelp9600: ecelp9600
+        // audio/vnd.nuera.ecelp9600: ecelp9600
         Entry {
             location: 13144,
             subtype_len: 19,
             extension_len: 9,
         },
-        // vnd.rip: rip
+        // audio/vnd.rip: rip
         Entry {
             location: 13172,
             subtype_len: 7,
             extension_len: 3,
         },
-        // wav: wav
+        // audio/wav: wav
         Entry {
             location: 13182,
             subtype_len: 3,
             extension_len: 3,
         },
-        // wave: wav
+        // audio/wave: wav
         Entry {
             location: 13188,
             subtype_len: 4,
             extension_len: 3,
         },
-        // webm: weba
+        // audio/webm: weba
         Entry {
             location: 13195,
             subtype_len: 4,
             extension_len: 4,
         },
-        // x-aac: aac
+        // audio/x-aac: aac
         Entry {
             location: 13203,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-aiff: aif
+        // audio/x-aiff: aif
         Entry {
             location: 13211,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-caf: caf
+        // audio/x-caf: caf
         Entry {
             location: 13220,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-flac: flac
+        // audio/x-flac: flac
         Entry {
             location: 13228,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-m4a: m4a
+        // audio/x-m4a: m4a
         Entry {
             location: 13238,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-matroska: mka
+        // audio/x-matroska: mka
         Entry {
             location: 13246,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-mpegurl: m3u
+        // audio/x-mpegurl: m3u
         Entry {
             location: 13259,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-ms-wax: wax
+        // audio/x-ms-wax: wax
         Entry {
             location: 13271,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-wma: wma
+        // audio/x-ms-wma: wma
         Entry {
             location: 13282,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-pn-realaudio: ram
+        // audio/x-pn-realaudio: ram
         Entry {
             location: 13293,
             subtype_len: 14,
             extension_len: 3,
         },
-        // x-pn-realaudio-plugin: rmp
+        // audio/x-pn-realaudio-plugin: rmp
         Entry {
             location: 13310,
             subtype_len: 21,
             extension_len: 3,
         },
-        // x-realaudio: ra
+        // audio/x-realaudio: ra
         Entry {
             location: 13334,
             subtype_len: 11,
             extension_len: 2,
         },
-        // x-wav: wav
+        // audio/x-wav: wav
         Entry {
             location: 13347,
             subtype_len: 5,
             extension_len: 3,
         },
-        // xm: xm
+        // audio/xm: xm
         Entry {
             location: 13355,
             subtype_len: 2,
@@ -4291,37 +4291,37 @@
         },
     ]),
     ("chemical", &[
-        // x-cdx: cdx
+        // chemical/x-cdx: cdx
         Entry {
             location: 13359,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-cif: cif
+        // chemical/x-cif: cif
         Entry {
             location: 13367,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-cmdf: cmdf
+        // chemical/x-cmdf: cmdf
         Entry {
             location: 13375,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-cml: cml
+        // chemical/x-cml: cml
         Entry {
             location: 13385,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-csml: csml
+        // chemical/x-csml: csml
         Entry {
             location: 13393,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-xyz: xyz
+        // chemical/x-xyz: xyz
         Entry {
             location: 13403,
             subtype_len: 5,
@@ -4329,31 +4329,31 @@
         },
     ]),
     ("font", &[
-        // collection: ttc
+        // font/collection: ttc
         Entry {
             location: 13411,
             subtype_len: 10,
             extension_len: 3,
         },
-        // otf: otf
+        // font/otf: otf
         Entry {
             location: 13424,
             subtype_len: 3,
             extension_len: 3,
         },
-        // ttf: ttf
+        // font/ttf: ttf
         Entry {
             location: 13430,
             subtype_len: 3,
             extension_len: 3,
         },
-        // woff: woff
+        // font/woff: woff
         Entry {
             location: 13436,
             subtype_len: 4,
             extension_len: 4,
         },
-        // woff2: woff2
+        // font/woff2: woff2
         Entry {
             location: 13444,
             subtype_len: 5,
@@ -4361,511 +4361,511 @@
         },
     ]),
     ("image", &[
-        // aces: exr
+        // image/aces: exr
         Entry {
             location: 13454,
             subtype_len: 4,
             extension_len: 3,
         },
-        // apng: apng
+        // image/apng: apng
         Entry {
             location: 13461,
             subtype_len: 4,
             extension_len: 4,
         },
-        // avif: avif
+        // image/avif: avif
         Entry {
             location: 13469,
             subtype_len: 4,
             extension_len: 4,
         },
-        // bmp: bmp
+        // image/bmp: bmp
         Entry {
             location: 13477,
             subtype_len: 3,
             extension_len: 3,
         },
-        // cgm: cgm
+        // image/cgm: cgm
         Entry {
             location: 13483,
             subtype_len: 3,
             extension_len: 3,
         },
-        // dicom-rle: drle
+        // image/dicom-rle: drle
         Entry {
             location: 13489,
             subtype_len: 9,
             extension_len: 4,
         },
-        // emf: emf
+        // image/emf: emf
         Entry {
             location: 13502,
             subtype_len: 3,
             extension_len: 3,
         },
-        // fits: fits
+        // image/fits: fits
         Entry {
             location: 13508,
             subtype_len: 4,
             extension_len: 4,
         },
-        // g3fax: g3
+        // image/g3fax: g3
         Entry {
             location: 13516,
             subtype_len: 5,
             extension_len: 2,
         },
-        // gif: gif
+        // image/gif: gif
         Entry {
             location: 13523,
             subtype_len: 3,
             extension_len: 3,
         },
-        // heic: heic
+        // image/heic: heic
         Entry {
             location: 13529,
             subtype_len: 4,
             extension_len: 4,
         },
-        // heic-sequence: heics
+        // image/heic-sequence: heics
         Entry {
             location: 13537,
             subtype_len: 13,
             extension_len: 5,
         },
-        // heif: heif
+        // image/heif: heif
         Entry {
             location: 13555,
             subtype_len: 4,
             extension_len: 4,
         },
-        // heif-sequence: heifs
+        // image/heif-sequence: heifs
         Entry {
             location: 13563,
             subtype_len: 13,
             extension_len: 5,
         },
-        // hej2k: hej2
+        // image/hej2k: hej2
         Entry {
             location: 13581,
             subtype_len: 5,
             extension_len: 4,
         },
-        // hsj2: hsj2
+        // image/hsj2: hsj2
         Entry {
             location: 13590,
             subtype_len: 4,
             extension_len: 4,
         },
-        // ief: ief
+        // image/ief: ief
         Entry {
             location: 13598,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jls: jls
+        // image/jls: jls
         Entry {
             location: 13604,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jp2: jp2
+        // image/jp2: jp2
         Entry {
             location: 13610,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jpeg: jpeg
+        // image/jpeg: jpeg
         Entry {
             location: 13616,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jph: jph
+        // image/jph: jph
         Entry {
             location: 13624,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jphc: jhc
+        // image/jphc: jhc
         Entry {
             location: 13630,
             subtype_len: 4,
             extension_len: 3,
         },
-        // jpm: jpm
+        // image/jpm: jpm
         Entry {
             location: 13637,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jpx: jpx
+        // image/jpx: jpx
         Entry {
             location: 13643,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jxr: jxr
+        // image/jxr: jxr
         Entry {
             location: 13649,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jxra: jxra
+        // image/jxra: jxra
         Entry {
             location: 13655,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jxrs: jxrs
+        // image/jxrs: jxrs
         Entry {
             location: 13663,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jxs: jxs
+        // image/jxs: jxs
         Entry {
             location: 13671,
             subtype_len: 3,
             extension_len: 3,
         },
-        // jxsc: jxsc
+        // image/jxsc: jxsc
         Entry {
             location: 13677,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jxsi: jxsi
+        // image/jxsi: jxsi
         Entry {
             location: 13685,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jxss: jxss
+        // image/jxss: jxss
         Entry {
             location: 13693,
             subtype_len: 4,
             extension_len: 4,
         },
-        // ktx: ktx
+        // image/ktx: ktx
         Entry {
             location: 13701,
             subtype_len: 3,
             extension_len: 3,
         },
-        // ktx2: ktx2
+        // image/ktx2: ktx2
         Entry {
             location: 13707,
             subtype_len: 4,
             extension_len: 4,
         },
-        // png: png
+        // image/png: png
         Entry {
             location: 13715,
             subtype_len: 3,
             extension_len: 3,
         },
-        // prs.btif: btif
+        // image/prs.btif: btif
         Entry {
             location: 13721,
             subtype_len: 8,
             extension_len: 4,
         },
-        // prs.pti: pti
+        // image/prs.pti: pti
         Entry {
             location: 13733,
             subtype_len: 7,
             extension_len: 3,
         },
-        // sgi: sgi
+        // image/sgi: sgi
         Entry {
             location: 13743,
             subtype_len: 3,
             extension_len: 3,
         },
-        // svg+xml: svg
+        // image/svg+xml: svg
         Entry {
             location: 13749,
             subtype_len: 7,
             extension_len: 3,
         },
-        // t38: t38
+        // image/t38: t38
         Entry {
             location: 13759,
             subtype_len: 3,
             extension_len: 3,
         },
-        // tiff: tif
+        // image/tiff: tif
         Entry {
             location: 13765,
             subtype_len: 4,
             extension_len: 3,
         },
-        // tiff-fx: tfx
+        // image/tiff-fx: tfx
         Entry {
             location: 13772,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.adobe.photoshop: psd
+        // image/vnd.adobe.photoshop: psd
         Entry {
             location: 13782,
             subtype_len: 19,
             extension_len: 3,
         },
-        // vnd.airzip.accelerator.azv: azv
+        // image/vnd.airzip.accelerator.azv: azv
         Entry {
             location: 13804,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.dece.graphic: uvi
+        // image/vnd.dece.graphic: uvi
         Entry {
             location: 13833,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.djvu: djvu
+        // image/vnd.djvu: djvu
         Entry {
             location: 13852,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.dvb.subtitle: sub
+        // image/vnd.dvb.subtitle: sub
         Entry {
             location: 13864,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.dwg: dwg
+        // image/vnd.dwg: dwg
         Entry {
             location: 13883,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.dxf: dxf
+        // image/vnd.dxf: dxf
         Entry {
             location: 13893,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.fastbidsheet: fbs
+        // image/vnd.fastbidsheet: fbs
         Entry {
             location: 13903,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.fpx: fpx
+        // image/vnd.fpx: fpx
         Entry {
             location: 13922,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.fst: fst
+        // image/vnd.fst: fst
         Entry {
             location: 13932,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.fujixerox.edmics-mmr: mmr
+        // image/vnd.fujixerox.edmics-mmr: mmr
         Entry {
             location: 13942,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.fujixerox.edmics-rlc: rlc
+        // image/vnd.fujixerox.edmics-rlc: rlc
         Entry {
             location: 13969,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.microsoft.icon: ico
+        // image/vnd.microsoft.icon: ico
         Entry {
             location: 13996,
             subtype_len: 18,
             extension_len: 3,
         },
-        // vnd.ms-dds: dds
+        // image/vnd.ms-dds: dds
         Entry {
             location: 14017,
             subtype_len: 10,
             extension_len: 3,
         },
-        // vnd.ms-modi: mdi
+        // image/vnd.ms-modi: mdi
         Entry {
             location: 14030,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.ms-photo: wdp
+        // image/vnd.ms-photo: wdp
         Entry {
             location: 14044,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.net-fpx: npx
+        // image/vnd.net-fpx: npx
         Entry {
             location: 14059,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.pco.b16: b16
+        // image/vnd.pco.b16: b16
         Entry {
             location: 14073,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.tencent.tap: tap
+        // image/vnd.tencent.tap: tap
         Entry {
             location: 14087,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.valve.source.texture: vtf
+        // image/vnd.valve.source.texture: vtf
         Entry {
             location: 14105,
             subtype_len: 24,
             extension_len: 3,
         },
-        // vnd.wap.wbmp: wbmp
+        // image/vnd.wap.wbmp: wbmp
         Entry {
             location: 14132,
             subtype_len: 12,
             extension_len: 4,
         },
-        // vnd.xiff: xif
+        // image/vnd.xiff: xif
         Entry {
             location: 14148,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vnd.zbrush.pcx: pcx
+        // image/vnd.zbrush.pcx: pcx
         Entry {
             location: 14159,
             subtype_len: 14,
             extension_len: 3,
         },
-        // webp: webp
+        // image/webp: webp
         Entry {
             location: 14176,
             subtype_len: 4,
             extension_len: 4,
         },
-        // wmf: wmf
+        // image/wmf: wmf
         Entry {
             location: 14184,
             subtype_len: 3,
             extension_len: 3,
         },
-        // x-3ds: 3ds
+        // image/x-3ds: 3ds
         Entry {
             location: 14190,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-cmu-raster: ras
+        // image/x-cmu-raster: ras
         Entry {
             location: 14198,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-cmx: cmx
+        // image/x-cmx: cmx
         Entry {
             location: 14213,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-freehand: fh
+        // image/x-freehand: fh
         Entry {
             location: 14221,
             subtype_len: 10,
             extension_len: 2,
         },
-        // x-icon: ico
+        // image/x-icon: ico
         Entry {
             location: 14233,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-jng: jng
+        // image/x-jng: jng
         Entry {
             location: 14242,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-mrsid-image: sid
+        // image/x-mrsid-image: sid
         Entry {
             location: 14250,
             subtype_len: 13,
             extension_len: 3,
         },
-        // x-ms-bmp: bmp
+        // image/x-ms-bmp: bmp
         Entry {
             location: 14266,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-pcx: pcx
+        // image/x-pcx: pcx
         Entry {
             location: 14277,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-pict: pic
+        // image/x-pict: pic
         Entry {
             location: 14285,
             subtype_len: 6,
             extension_len: 3,
         },
-        // x-portable-anymap: pnm
+        // image/x-portable-anymap: pnm
         Entry {
             location: 14294,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-portable-bitmap: pbm
+        // image/x-portable-bitmap: pbm
         Entry {
             location: 14314,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-portable-graymap: pgm
+        // image/x-portable-graymap: pgm
         Entry {
             location: 14334,
             subtype_len: 18,
             extension_len: 3,
         },
-        // x-portable-pixmap: ppm
+        // image/x-portable-pixmap: ppm
         Entry {
             location: 14355,
             subtype_len: 17,
             extension_len: 3,
         },
-        // x-rgb: rgb
+        // image/x-rgb: rgb
         Entry {
             location: 14375,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-tga: tga
+        // image/x-tga: tga
         Entry {
             location: 14383,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-xbitmap: xbm
+        // image/x-xbitmap: xbm
         Entry {
             location: 14391,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-xpixmap: xpm
+        // image/x-xpixmap: xpm
         Entry {
             location: 14403,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-xwindowdump: xwd
+        // image/x-xwindowdump: xwd
         Entry {
             location: 14415,
             subtype_len: 13,
@@ -4873,43 +4873,43 @@
         },
     ]),
     ("message", &[
-        // disposition-notification: disposition-notification
+        // message/disposition-notification: disposition-notification
         Entry {
             location: 14431,
             subtype_len: 24,
             extension_len: 24,
         },
-        // global: u8msg
+        // message/global: u8msg
         Entry {
             location: 14479,
             subtype_len: 6,
             extension_len: 5,
         },
-        // global-delivery-status: u8dsn
+        // message/global-delivery-status: u8dsn
         Entry {
             location: 14490,
             subtype_len: 22,
             extension_len: 5,
         },
-        // global-disposition-notification: u8mdn
+        // message/global-disposition-notification: u8mdn
         Entry {
             location: 14517,
             subtype_len: 31,
             extension_len: 5,
         },
-        // global-headers: u8hdr
+        // message/global-headers: u8hdr
         Entry {
             location: 14553,
             subtype_len: 14,
             extension_len: 5,
         },
-        // rfc822: eml
+        // message/rfc822: eml
         Entry {
             location: 14572,
             subtype_len: 6,
             extension_len: 3,
         },
-        // vnd.wfa.wsc: wsc
+        // message/vnd.wfa.wsc: wsc
         Entry {
             location: 14581,
             subtype_len: 11,
@@ -4917,169 +4917,169 @@
         },
     ]),
     ("model", &[
-        // 3mf: 3mf
+        // model/3mf: 3mf
         Entry {
             location: 14595,
             subtype_len: 3,
             extension_len: 3,
         },
-        // gltf+json: gltf
+        // model/gltf+json: gltf
         Entry {
             location: 14601,
             subtype_len: 9,
             extension_len: 4,
         },
-        // gltf-binary: glb
+        // model/gltf-binary: glb
         Entry {
             location: 14614,
             subtype_len: 11,
             extension_len: 3,
         },
-        // iges: igs
+        // model/iges: igs
         Entry {
             location: 14628,
             subtype_len: 4,
             extension_len: 3,
         },
-        // mesh: msh
+        // model/mesh: msh
         Entry {
             location: 14635,
             subtype_len: 4,
             extension_len: 3,
         },
-        // mtl: mtl
+        // model/mtl: mtl
         Entry {
             location: 14642,
             subtype_len: 3,
             extension_len: 3,
         },
-        // obj: obj
+        // model/obj: obj
         Entry {
             location: 14648,
             subtype_len: 3,
             extension_len: 3,
         },
-        // step+zip: stpz
+        // model/step+zip: stpz
         Entry {
             location: 14654,
             subtype_len: 8,
             extension_len: 4,
         },
-        // step-xml+zip: stpxz
+        // model/step-xml+zip: stpxz
         Entry {
             location: 14666,
             subtype_len: 12,
             extension_len: 5,
         },
-        // stl: stl
+        // model/stl: stl
         Entry {
             location: 14683,
             subtype_len: 3,
             extension_len: 3,
         },
-        // vnd.collada+xml: dae
+        // model/vnd.collada+xml: dae
         Entry {
             location: 14689,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.dwf: dwf
+        // model/vnd.dwf: dwf
         Entry {
             location: 14707,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.gdl: gdl
+        // model/vnd.gdl: gdl
         Entry {
             location: 14717,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.gtw: gtw
+        // model/vnd.gtw: gtw
         Entry {
             location: 14727,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.mts: mts
+        // model/vnd.mts: mts
         Entry {
             location: 14737,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.opengex: ogex
+        // model/vnd.opengex: ogex
         Entry {
             location: 14747,
             subtype_len: 11,
             extension_len: 4,
         },
-        // vnd.parasolid.transmit.binary: x_b
+        // model/vnd.parasolid.transmit.binary: x_b
         Entry {
             location: 14762,
             subtype_len: 29,
             extension_len: 3,
         },
-        // vnd.parasolid.transmit.text: x_t
+        // model/vnd.parasolid.transmit.text: x_t
         Entry {
             location: 14794,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.sap.vds: vds
+        // model/vnd.sap.vds: vds
         Entry {
             location: 14824,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.usdz+zip: usdz
+        // model/vnd.usdz+zip: usdz
         Entry {
             location: 14838,
             subtype_len: 12,
             extension_len: 4,
         },
-        // vnd.valve.source.compiled-map: bsp
+        // model/vnd.valve.source.compiled-map: bsp
         Entry {
             location: 14854,
             subtype_len: 29,
             extension_len: 3,
         },
-        // vnd.vtu: vtu
+        // model/vnd.vtu: vtu
         Entry {
             location: 14886,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vrml: wrl
+        // model/vrml: wrl
         Entry {
             location: 14896,
             subtype_len: 4,
             extension_len: 3,
         },
-        // x3d+binary: x3db
+        // model/x3d+binary: x3db
         Entry {
             location: 14903,
             subtype_len: 10,
             extension_len: 4,
         },
-        // x3d+fastinfoset: x3db
+        // model/x3d+fastinfoset: x3db
         Entry {
             location: 14917,
             subtype_len: 15,
             extension_len: 4,
         },
-        // x3d+vrml: x3dv
+        // model/x3d+vrml: x3dv
         Entry {
             location: 14936,
             subtype_len: 8,
             extension_len: 4,
         },
-        // x3d+xml: x3d
+        // model/x3d+xml: x3d
         Entry {
             location: 14948,
             subtype_len: 7,
             extension_len: 3,
         },
-        // x3d-vrml: x3dv
+        // model/x3d-vrml: x3dv
         Entry {
             location: 14958,
             subtype_len: 8,
@@ -5087,385 +5087,385 @@
         },
     ]),
     ("text", &[
-        // cache-manifest: appcache
+        // text/cache-manifest: appcache
         Entry {
             location: 14970,
             subtype_len: 14,
             extension_len: 8,
         },
-        // calendar: ics
+        // text/calendar: ics
         Entry {
             location: 14992,
             subtype_len: 8,
             extension_len: 3,
         },
-        // coffeescript: coffee
+        // text/coffeescript: coffee
         Entry {
             location: 15003,
             subtype_len: 12,
             extension_len: 6,
         },
-        // css: css
+        // text/css: css
         Entry {
             location: 15021,
             subtype_len: 3,
             extension_len: 3,
         },
-        // csv: csv
+        // text/csv: csv
         Entry {
             location: 15027,
             subtype_len: 3,
             extension_len: 3,
         },
-        // html: html
+        // text/html: html
         Entry {
             location: 15033,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jade: jade
+        // text/jade: jade
         Entry {
             location: 15041,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jsx: jsx
+        // text/jsx: jsx
         Entry {
             location: 15049,
             subtype_len: 3,
             extension_len: 3,
         },
-        // less: less
+        // text/less: less
         Entry {
             location: 15055,
             subtype_len: 4,
             extension_len: 4,
         },
-        // markdown: markdown
+        // text/markdown: markdown
         Entry {
             location: 15063,
             subtype_len: 8,
             extension_len: 8,
         },
-        // mathml: mml
+        // text/mathml: mml
         Entry {
             location: 15079,
             subtype_len: 6,
             extension_len: 3,
         },
-        // mdx: mdx
+        // text/mdx: mdx
         Entry {
             location: 15088,
             subtype_len: 3,
             extension_len: 3,
         },
-        // n3: n3
+        // text/n3: n3
         Entry {
             location: 15094,
             subtype_len: 2,
             extension_len: 2,
         },
-        // plain: txt
+        // text/plain: txt
         Entry {
             location: 15098,
             subtype_len: 5,
             extension_len: 3,
         },
-        // prs.lines.tag: dsc
+        // text/prs.lines.tag: dsc
         Entry {
             location: 15106,
             subtype_len: 13,
             extension_len: 3,
         },
-        // richtext: rtx
+        // text/richtext: rtx
         Entry {
             location: 15122,
             subtype_len: 8,
             extension_len: 3,
         },
-        // rtf: rtf
+        // text/rtf: rtf
         Entry {
             location: 15133,
             subtype_len: 3,
             extension_len: 3,
         },
-        // sgml: sgml
+        // text/sgml: sgml
         Entry {
             location: 15139,
             subtype_len: 4,
             extension_len: 4,
         },
-        // shex: shex
+        // text/shex: shex
         Entry {
             location: 15147,
             subtype_len: 4,
             extension_len: 4,
         },
-        // slim: slim
+        // text/slim: slim
         Entry {
             location: 15155,
             subtype_len: 4,
             extension_len: 4,
         },
-        // spdx: spdx
+        // text/spdx: spdx
         Entry {
             location: 15163,
             subtype_len: 4,
             extension_len: 4,
         },
-        // stylus: stylus
+        // text/stylus: stylus
         Entry {
             location: 15171,
             subtype_len: 6,
             extension_len: 6,
         },
-        // tab-separated-values: tsv
+        // text/tab-separated-values: tsv
         Entry {
             location: 15183,
             subtype_len: 20,
             extension_len: 3,
         },
-        // troff: t
+        // text/troff: t
         Entry {
             location: 15206,
             subtype_len: 5,
             extension_len: 1,
         },
-        // turtle: ttl
+        // text/turtle: ttl
         Entry {
             location: 15212,
             subtype_len: 6,
             extension_len: 3,
         },
-        // uri-list: uri
+        // text/uri-list: uri
         Entry {
             location: 15221,
             subtype_len: 8,
             extension_len: 3,
         },
-        // vcard: vcard
+        // text/vcard: vcard
         Entry {
             location: 15232,
             subtype_len: 5,
             extension_len: 5,
         },
-        // vnd.curl: curl
+        // text/vnd.curl: curl
         Entry {
             location: 15242,
             subtype_len: 8,
             extension_len: 4,
         },
-        // vnd.curl.dcurl: dcurl
+        // text/vnd.curl.dcurl: dcurl
         Entry {
             location: 15254,
             subtype_len: 14,
             extension_len: 5,
         },
-        // vnd.curl.mcurl: mcurl
+        // text/vnd.curl.mcurl: mcurl
         Entry {
             location: 15273,
             subtype_len: 14,
             extension_len: 5,
         },
-        // vnd.curl.scurl: scurl
+        // text/vnd.curl.scurl: scurl
         Entry {
             location: 15292,
             subtype_len: 14,
             extension_len: 5,
         },
-        // vnd.dvb.subtitle: sub
+        // text/vnd.dvb.subtitle: sub
         Entry {
             location: 15311,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.fly: fly
+        // text/vnd.fly: fly
         Entry {
             location: 15330,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.fmi.flexstor: flx
+        // text/vnd.fmi.flexstor: flx
         Entry {
             location: 15340,
             subtype_len: 16,
             extension_len: 3,
         },
-        // vnd.graphviz: gv
+        // text/vnd.graphviz: gv
         Entry {
             location: 15359,
             subtype_len: 12,
             extension_len: 2,
         },
-        // vnd.in3d.3dml: 3dml
+        // text/vnd.in3d.3dml: 3dml
         Entry {
             location: 15373,
             subtype_len: 13,
             extension_len: 4,
         },
-        // vnd.in3d.spot: spot
+        // text/vnd.in3d.spot: spot
         Entry {
             location: 15390,
             subtype_len: 13,
             extension_len: 4,
         },
-        // vnd.sun.j2me.app-descriptor: jad
+        // text/vnd.sun.j2me.app-descriptor: jad
         Entry {
             location: 15407,
             subtype_len: 27,
             extension_len: 3,
         },
-        // vnd.wap.wml: wml
+        // text/vnd.wap.wml: wml
         Entry {
             location: 15437,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.wap.wmlscript: wmls
+        // text/vnd.wap.wmlscript: wmls
         Entry {
             location: 15451,
             subtype_len: 17,
             extension_len: 4,
         },
-        // vtt: vtt
+        // text/vtt: vtt
         Entry {
             location: 15472,
             subtype_len: 3,
             extension_len: 3,
         },
-        // x-asm: s
+        // text/x-asm: s
         Entry {
             location: 15478,
             subtype_len: 5,
             extension_len: 1,
         },
-        // x-c: c
+        // text/x-c: c
         Entry {
             location: 15484,
             subtype_len: 3,
             extension_len: 1,
         },
-        // x-component: htc
+        // text/x-component: htc
         Entry {
             location: 15488,
             subtype_len: 11,
             extension_len: 3,
         },
-        // x-fortran: f
+        // text/x-fortran: f
         Entry {
             location: 15502,
             subtype_len: 9,
             extension_len: 1,
         },
-        // x-handlebars-template: hbs
+        // text/x-handlebars-template: hbs
         Entry {
             location: 15512,
             subtype_len: 21,
             extension_len: 3,
         },
-        // x-java-source: java
+        // text/x-java-source: java
         Entry {
             location: 15536,
             subtype_len: 13,
             extension_len: 4,
         },
-        // x-lua: lua
+        // text/x-lua: lua
         Entry {
             location: 15553,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-markdown: mkd
+        // text/x-markdown: mkd
         Entry {
             location: 15561,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-nfo: nfo
+        // text/x-nfo: nfo
         Entry {
             location: 15574,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-opml: opml
+        // text/x-opml: opml
         Entry {
             location: 15582,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-org: org
+        // text/x-org: org
         Entry {
             location: 15592,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-pascal: p
+        // text/x-pascal: p
         Entry {
             location: 15600,
             subtype_len: 8,
             extension_len: 1,
         },
-        // x-processing: pde
+        // text/x-processing: pde
         Entry {
             location: 15609,
             subtype_len: 12,
             extension_len: 3,
         },
-        // x-sass: sass
+        // text/x-sass: sass
         Entry {
             location: 15624,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-scss: scss
+        // text/x-scss: scss
         Entry {
             location: 15634,
             subtype_len: 6,
             extension_len: 4,
         },
-        // x-setext: etx
+        // text/x-setext: etx
         Entry {
             location: 15644,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-sfv: sfv
+        // text/x-sfv: sfv
         Entry {
             location: 15655,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-suse-ymp: ymp
+        // text/x-suse-ymp: ymp
         Entry {
             location: 15663,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-uuencode: uu
+        // text/x-uuencode: uu
         Entry {
             location: 15676,
             subtype_len: 10,
             extension_len: 2,
         },
-        // x-vcalendar: vcs
+        // text/x-vcalendar: vcs
         Entry {
             location: 15688,
             subtype_len: 11,
             extension_len: 3,
         },
-        // x-vcard: vcf
+        // text/x-vcard: vcf
         Entry {
             location: 15702,
             subtype_len: 7,
             extension_len: 3,
         },
-        // xml: xml
+        // text/xml: xml
         Entry {
             location: 15712,
             subtype_len: 3,
             extension_len: 3,
         },
-        // yaml: yaml
+        // text/yaml: yaml
         Entry {
             location: 15718,
             subtype_len: 4,
@@ -5473,247 +5473,247 @@
         },
     ]),
     ("video", &[
-        // 3gpp: 3gp
+        // video/3gpp: 3gp
         Entry {
             location: 15726,
             subtype_len: 4,
             extension_len: 3,
         },
-        // 3gpp2: 3g2
+        // video/3gpp2: 3g2
         Entry {
             location: 15733,
             subtype_len: 5,
             extension_len: 3,
         },
-        // h261: h261
+        // video/h261: h261
         Entry {
             location: 15741,
             subtype_len: 4,
             extension_len: 4,
         },
-        // h263: h263
+        // video/h263: h263
         Entry {
             location: 15749,
             subtype_len: 4,
             extension_len: 4,
         },
-        // h264: h264
+        // video/h264: h264
         Entry {
             location: 15757,
             subtype_len: 4,
             extension_len: 4,
         },
-        // iso.segment: m4s
+        // video/iso.segment: m4s
         Entry {
             location: 15765,
             subtype_len: 11,
             extension_len: 3,
         },
-        // jpeg: jpgv
+        // video/jpeg: jpgv
         Entry {
             location: 15779,
             subtype_len: 4,
             extension_len: 4,
         },
-        // jpm: jpm
+        // video/jpm: jpm
         Entry {
             location: 15787,
             subtype_len: 3,
             extension_len: 3,
         },
-        // mj2: mj2
+        // video/mj2: mj2
         Entry {
             location: 15793,
             subtype_len: 3,
             extension_len: 3,
         },
-        // mp2t: ts
+        // video/mp2t: ts
         Entry {
             location: 15799,
             subtype_len: 4,
             extension_len: 2,
         },
-        // mp4: mp4
+        // video/mp4: mp4
         Entry {
             location: 15805,
             subtype_len: 3,
             extension_len: 3,
         },
-        // mpeg: mpeg
+        // video/mpeg: mpeg
         Entry {
             location: 15811,
             subtype_len: 4,
             extension_len: 4,
         },
-        // ogg: ogv
+        // video/ogg: ogv
         Entry {
             location: 15819,
             subtype_len: 3,
             extension_len: 3,
         },
-        // quicktime: qt
+        // video/quicktime: qt
         Entry {
             location: 15825,
             subtype_len: 9,
             extension_len: 2,
         },
-        // vnd.dece.hd: uvh
+        // video/vnd.dece.hd: uvh
         Entry {
             location: 15836,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.dece.mobile: uvm
+        // video/vnd.dece.mobile: uvm
         Entry {
             location: 15850,
             subtype_len: 15,
             extension_len: 3,
         },
-        // vnd.dece.pd: uvp
+        // video/vnd.dece.pd: uvp
         Entry {
             location: 15868,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.dece.sd: uvs
+        // video/vnd.dece.sd: uvs
         Entry {
             location: 15882,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.dece.video: uvv
+        // video/vnd.dece.video: uvv
         Entry {
             location: 15896,
             subtype_len: 14,
             extension_len: 3,
         },
-        // vnd.dvb.file: dvb
+        // video/vnd.dvb.file: dvb
         Entry {
             location: 15913,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.fvt: fvt
+        // video/vnd.fvt: fvt
         Entry {
             location: 15928,
             subtype_len: 7,
             extension_len: 3,
         },
-        // vnd.mpegurl: mxu
+        // video/vnd.mpegurl: mxu
         Entry {
             location: 15938,
             subtype_len: 11,
             extension_len: 3,
         },
-        // vnd.ms-playready.media.pyv: pyv
+        // video/vnd.ms-playready.media.pyv: pyv
         Entry {
             location: 15952,
             subtype_len: 26,
             extension_len: 3,
         },
-        // vnd.uvvu.mp4: uvu
+        // video/vnd.uvvu.mp4: uvu
         Entry {
             location: 15981,
             subtype_len: 12,
             extension_len: 3,
         },
-        // vnd.vivo: viv
+        // video/vnd.vivo: viv
         Entry {
             location: 15996,
             subtype_len: 8,
             extension_len: 3,
         },
-        // webm: webm
+        // video/webm: webm
         Entry {
             location: 16007,
             subtype_len: 4,
             extension_len: 4,
         },
-        // x-f4v: f4v
+        // video/x-f4v: f4v
         Entry {
             location: 16015,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-fli: fli
+        // video/x-fli: fli
         Entry {
             location: 16023,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-flv: flv
+        // video/x-flv: flv
         Entry {
             location: 16031,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-m4v: m4v
+        // video/x-m4v: m4v
         Entry {
             location: 16039,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-matroska: mkv
+        // video/x-matroska: mkv
         Entry {
             location: 16047,
             subtype_len: 10,
             extension_len: 3,
         },
-        // x-mng: mng
+        // video/x-mng: mng
         Entry {
             location: 16060,
             subtype_len: 5,
             extension_len: 3,
         },
-        // x-ms-asf: asf
+        // video/x-ms-asf: asf
         Entry {
             location: 16068,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-vob: vob
+        // video/x-ms-vob: vob
         Entry {
             location: 16079,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-wm: wm
+        // video/x-ms-wm: wm
         Entry {
             location: 16090,
             subtype_len: 7,
             extension_len: 2,
         },
-        // x-ms-wmv: wmv
+        // video/x-ms-wmv: wmv
         Entry {
             location: 16099,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-wmx: wmx
+        // video/x-ms-wmx: wmx
         Entry {
             location: 16110,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-ms-wvx: wvx
+        // video/x-ms-wvx: wvx
         Entry {
             location: 16121,
             subtype_len: 8,
             extension_len: 3,
         },
-        // x-msvideo: avi
+        // video/x-msvideo: avi
         Entry {
             location: 16132,
             subtype_len: 9,
             extension_len: 3,
         },
-        // x-sgi-movie: movie
+        // video/x-sgi-movie: movie
         Entry {
             location: 16144,
             subtype_len: 11,
             extension_len: 5,
         },
-        // x-smv: smv
+        // video/x-smv: smv
         Entry {
             location: 16160,
             subtype_len: 5,
@@ -5721,7 +5721,7 @@
         },
     ]),
     ("x-conference", &[
-        // x-cooltalk: ice
+        // x-conference/x-cooltalk: ice
         Entry {
             location: 16168,
             subtype_len: 10,

@@ -51,7 +51,7 @@ for type_, extensions in by_type.items():
         assert_boring_ascii(extension)
         assert "." not in extension
         lookup_text.write(
-            f"""        // {subtype}: {extension}
+            f"""        // {type_}/{subtype}: {extension}
         Entry {{
             location: {raw_data.tell()},
             subtype_len: {len(subtype)},
