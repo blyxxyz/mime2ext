@@ -158,6 +158,7 @@ mod tests {
         ("application/ecmascript", "es"),              // Changed v1.47.0
         ("application/vnd.mapbox-vector-tile", "mvt"), // Added v1.48.0
         ("model/step-xml+zip", "stpxz"),               // Added v1.49.0
+        ("application/express", "exp"),                // Added v1.50.0
     ];
 
     #[test]

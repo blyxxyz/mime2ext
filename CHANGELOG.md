@@ -1,3 +1,14 @@
+<!-- git diff | rg '^[^\s]\s*//' | sort -->
+## 0.1.50 (2021-09-16)
+- mime-db 1.50.0
+
+### New extensions
+- `application/express` → `exp`
+- `application/x-iwork-keynote-sffkey` → `key`
+- `application/x-iwork-numbers-sffnumbers` → `numbers`
+- `application/x-iwork-pages-sffpages` → `pages`
+- `model/step+xml` → `stpx`
+
 ## 0.1.49 (2021-08-01)
 - Lower MSRV to 1.6
 - Start tracking mime-db version number

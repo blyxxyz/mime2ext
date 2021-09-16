@@ -177,3873 +177,3897 @@
             subtype_len: 3,
             extension_len: 3,
         },
-        // application/fdt+xml: fdt
+        // application/express: exp
         Entry {
             location: 428,
             subtype_len: 7,
             extension_len: 3,
         },
-        // application/font-tdpfr: pfr
+        // application/fdt+xml: fdt
         Entry {
             location: 438,
+            subtype_len: 7,
+            extension_len: 3,
+        },
+        // application/font-tdpfr: pfr
+        Entry {
+            location: 448,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/geo+json: geojson
         Entry {
-            location: 451,
+            location: 461,
             subtype_len: 8,
             extension_len: 7,
         },
         // application/gml+xml: gml
         Entry {
-            location: 466,
+            location: 476,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/gpx+xml: gpx
         Entry {
-            location: 476,
+            location: 486,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/gxf: gxf
         Entry {
-            location: 486,
+            location: 496,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/gzip: gz
         Entry {
-            location: 492,
+            location: 502,
             subtype_len: 4,
             extension_len: 2,
         },
         // application/hjson: hjson
         Entry {
-            location: 498,
+            location: 508,
             subtype_len: 5,
             extension_len: 5,
         },
         // application/hyperstudio: stk
         Entry {
-            location: 508,
+            location: 518,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/inkml+xml: ink
         Entry {
-            location: 522,
+            location: 532,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/ipfix: ipfix
         Entry {
-            location: 534,
+            location: 544,
             subtype_len: 5,
             extension_len: 5,
         },
         // application/its+xml: its
         Entry {
-            location: 544,
+            location: 554,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/java-archive: jar
         Entry {
-            location: 554,
+            location: 564,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/java-serialized-object: ser
         Entry {
-            location: 569,
+            location: 579,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/java-vm: class
         Entry {
-            location: 594,
+            location: 604,
             subtype_len: 7,
             extension_len: 5,
         },
         // application/javascript: js
         Entry {
-            location: 606,
+            location: 616,
             subtype_len: 10,
             extension_len: 2,
         },
         // application/json: json
         Entry {
-            location: 618,
+            location: 628,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/json5: json5
         Entry {
-            location: 626,
+            location: 636,
             subtype_len: 5,
             extension_len: 5,
         },
         // application/jsonml+json: jsonml
         Entry {
-            location: 636,
+            location: 646,
             subtype_len: 11,
             extension_len: 6,
         },
         // application/ld+json: jsonld
         Entry {
-            location: 653,
+            location: 663,
             subtype_len: 7,
             extension_len: 6,
         },
         // application/lgr+xml: lgr
         Entry {
-            location: 666,
+            location: 676,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/lost+xml: lostxml
         Entry {
-            location: 676,
+            location: 686,
             subtype_len: 8,
             extension_len: 7,
         },
         // application/mac-binhex40: hqx
         Entry {
-            location: 691,
+            location: 701,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/mac-compactpro: cpt
         Entry {
-            location: 706,
+            location: 716,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/mads+xml: mads
         Entry {
-            location: 723,
+            location: 733,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/manifest+json: webmanifest
         Entry {
-            location: 735,
+            location: 745,
             subtype_len: 13,
             extension_len: 11,
         },
         // application/marc: mrc
         Entry {
-            location: 759,
+            location: 769,
             subtype_len: 4,
             extension_len: 3,
         },
         // application/marcxml+xml: mrcx
         Entry {
-            location: 766,
+            location: 776,
             subtype_len: 11,
             extension_len: 4,
         },
         // application/mathematica: ma
         Entry {
-            location: 781,
+            location: 791,
             subtype_len: 11,
             extension_len: 2,
         },
         // application/mathml+xml: mathml
         Entry {
-            location: 794,
+            location: 804,
             subtype_len: 10,
             extension_len: 6,
         },
         // application/mbox: mbox
         Entry {
-            location: 810,
+            location: 820,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/mediaservercontrol+xml: mscml
         Entry {
-            location: 818,
+            location: 828,
             subtype_len: 22,
             extension_len: 5,
         },
         // application/metalink+xml: metalink
         Entry {
-            location: 845,
+            location: 855,
             subtype_len: 12,
             extension_len: 8,
         },
         // application/metalink4+xml: meta4
         Entry {
-            location: 865,
+            location: 875,
             subtype_len: 13,
             extension_len: 5,
         },
         // application/mets+xml: mets
         Entry {
-            location: 883,
+            location: 893,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/mmt-aei+xml: maei
         Entry {
-            location: 895,
+            location: 905,
             subtype_len: 11,
             extension_len: 4,
         },
         // application/mmt-usd+xml: musd
         Entry {
-            location: 910,
+            location: 920,
             subtype_len: 11,
             extension_len: 4,
         },
         // application/mods+xml: mods
         Entry {
-            location: 925,
+            location: 935,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/mp21: m21
         Entry {
-            location: 937,
+            location: 947,
             subtype_len: 4,
             extension_len: 3,
         },
         // application/mp4: mp4s
         Entry {
-            location: 944,
+            location: 954,
             subtype_len: 3,
             extension_len: 4,
         },
         // application/msword: doc
         Entry {
-            location: 951,
+            location: 961,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/mxf: mxf
         Entry {
-            location: 960,
+            location: 970,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/n-quads: nq
         Entry {
-            location: 966,
+            location: 976,
             subtype_len: 7,
             extension_len: 2,
         },
         // application/n-triples: nt
         Entry {
-            location: 975,
+            location: 985,
             subtype_len: 9,
             extension_len: 2,
         },
         // application/node: cjs
         Entry {
-            location: 986,
+            location: 996,
             subtype_len: 4,
             extension_len: 3,
         },
         // application/octet-stream: bin
         Entry {
-            location: 993,
+            location: 1003,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/oda: oda
         Entry {
-            location: 1008,
+            location: 1018,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/oebps-package+xml: opf
         Entry {
-            location: 1014,
+            location: 1024,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/ogg: ogx
         Entry {
-            location: 1034,
+            location: 1044,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/omdoc+xml: omdoc
         Entry {
-            location: 1040,
+            location: 1050,
             subtype_len: 9,
             extension_len: 5,
         },
         // application/onenote: onetoc
         Entry {
-            location: 1054,
+            location: 1064,
             subtype_len: 7,
             extension_len: 6,
         },
         // application/oxps: oxps
         Entry {
-            location: 1067,
+            location: 1077,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/p2p-overlay+xml: relo
         Entry {
-            location: 1075,
+            location: 1085,
             subtype_len: 15,
             extension_len: 4,
         },
         // application/patch-ops-error+xml: xer
         Entry {
-            location: 1094,
+            location: 1104,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/pdf: pdf
         Entry {
-            location: 1116,
+            location: 1126,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/pgp-encrypted: pgp
         Entry {
-            location: 1122,
+            location: 1132,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/pgp-signature: asc
         Entry {
-            location: 1138,
+            location: 1148,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/pics-rules: prf
         Entry {
-            location: 1154,
+            location: 1164,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/pkcs10: p10
         Entry {
-            location: 1167,
+            location: 1177,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/pkcs7-mime: p7m
         Entry {
-            location: 1176,
+            location: 1186,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/pkcs7-signature: p7s
         Entry {
-            location: 1189,
+            location: 1199,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/pkcs8: p8
         Entry {
-            location: 1207,
+            location: 1217,
             subtype_len: 5,
             extension_len: 2,
         },
         // application/pkix-attr-cert: ac
         Entry {
-            location: 1214,
+            location: 1224,
             subtype_len: 14,
             extension_len: 2,
         },
         // application/pkix-cert: cer
         Entry {
-            location: 1230,
+            location: 1240,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/pkix-crl: crl
         Entry {
-            location: 1242,
+            location: 1252,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/pkix-pkipath: pkipath
         Entry {
-            location: 1253,
+            location: 1263,
             subtype_len: 12,
             extension_len: 7,
         },
         // application/pkixcmp: pki
         Entry {
-            location: 1272,
+            location: 1282,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/pls+xml: pls
         Entry {
-            location: 1282,
+            location: 1292,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/postscript: ai
         Entry {
-            location: 1292,
+            location: 1302,
             subtype_len: 10,
             extension_len: 2,
         },
         // application/provenance+xml: provx
         Entry {
-            location: 1304,
+            location: 1314,
             subtype_len: 14,
             extension_len: 5,
         },
         // application/prs.cww: cww
         Entry {
-            location: 1323,
+            location: 1333,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/pskc+xml: pskcxml
         Entry {
-            location: 1333,
+            location: 1343,
             subtype_len: 8,
             extension_len: 7,
         },
         // application/raml+yaml: raml
         Entry {
-            location: 1348,
+            location: 1358,
             subtype_len: 9,
             extension_len: 4,
         },
         // application/rdf+xml: rdf
         Entry {
-            location: 1361,
+            location: 1371,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/reginfo+xml: rif
         Entry {
-            location: 1371,
+            location: 1381,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/relax-ng-compact-syntax: rnc
         Entry {
-            location: 1385,
+            location: 1395,
             subtype_len: 23,
             extension_len: 3,
         },
         // application/resource-lists+xml: rl
         Entry {
-            location: 1411,
+            location: 1421,
             subtype_len: 18,
             extension_len: 2,
         },
         // application/resource-lists-diff+xml: rld
         Entry {
-            location: 1431,
+            location: 1441,
             subtype_len: 23,
             extension_len: 3,
         },
         // application/rls-services+xml: rs
         Entry {
-            location: 1457,
+            location: 1467,
             subtype_len: 16,
             extension_len: 2,
         },
         // application/route-apd+xml: rapd
         Entry {
-            location: 1475,
+            location: 1485,
             subtype_len: 13,
             extension_len: 4,
         },
         // application/route-s-tsid+xml: sls
         Entry {
-            location: 1492,
+            location: 1502,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/route-usd+xml: rusd
         Entry {
-            location: 1511,
+            location: 1521,
             subtype_len: 13,
             extension_len: 4,
         },
         // application/rpki-ghostbusters: gbr
         Entry {
-            location: 1528,
+            location: 1538,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/rpki-manifest: mft
         Entry {
-            location: 1548,
+            location: 1558,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/rpki-roa: roa
         Entry {
-            location: 1564,
+            location: 1574,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/rsd+xml: rsd
         Entry {
-            location: 1575,
+            location: 1585,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/rss+xml: rss
         Entry {
-            location: 1585,
+            location: 1595,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/rtf: rtf
         Entry {
-            location: 1595,
+            location: 1605,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/sbml+xml: sbml
         Entry {
-            location: 1601,
+            location: 1611,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/scvp-cv-request: scq
         Entry {
-            location: 1613,
+            location: 1623,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/scvp-cv-response: scs
         Entry {
-            location: 1631,
+            location: 1641,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/scvp-vp-request: spq
         Entry {
-            location: 1650,
+            location: 1660,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/scvp-vp-response: spp
         Entry {
-            location: 1668,
+            location: 1678,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/sdp: sdp
         Entry {
-            location: 1687,
+            location: 1697,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/senml+xml: senmlx
         Entry {
-            location: 1693,
+            location: 1703,
             subtype_len: 9,
             extension_len: 6,
         },
         // application/sensml+xml: sensmlx
         Entry {
-            location: 1708,
+            location: 1718,
             subtype_len: 10,
             extension_len: 7,
         },
         // application/set-payment-initiation: setpay
         Entry {
-            location: 1725,
+            location: 1735,
             subtype_len: 22,
             extension_len: 6,
         },
         // application/set-registration-initiation: setreg
         Entry {
-            location: 1753,
+            location: 1763,
             subtype_len: 27,
             extension_len: 6,
         },
         // application/shf+xml: shf
         Entry {
-            location: 1786,
+            location: 1796,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/sieve: siv
         Entry {
-            location: 1796,
+            location: 1806,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/smil+xml: smi
         Entry {
-            location: 1804,
+            location: 1814,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/sparql-query: rq
         Entry {
-            location: 1815,
+            location: 1825,
             subtype_len: 12,
             extension_len: 2,
         },
         // application/sparql-results+xml: srx
         Entry {
-            location: 1829,
+            location: 1839,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/srgs: gram
         Entry {
-            location: 1850,
+            location: 1860,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/srgs+xml: grxml
         Entry {
-            location: 1858,
+            location: 1868,
             subtype_len: 8,
             extension_len: 5,
         },
         // application/sru+xml: sru
         Entry {
-            location: 1871,
+            location: 1881,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/ssdl+xml: ssdl
         Entry {
-            location: 1881,
+            location: 1891,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/ssml+xml: ssml
         Entry {
-            location: 1893,
+            location: 1903,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/swid+xml: swidtag
         Entry {
-            location: 1905,
+            location: 1915,
             subtype_len: 8,
             extension_len: 7,
         },
         // application/tei+xml: tei
         Entry {
-            location: 1920,
+            location: 1930,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/thraud+xml: tfi
         Entry {
-            location: 1930,
+            location: 1940,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/timestamped-data: tsd
         Entry {
-            location: 1943,
+            location: 1953,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/toml: toml
         Entry {
-            location: 1962,
+            location: 1972,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/trig: trig
         Entry {
-            location: 1970,
+            location: 1980,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/ttml+xml: ttml
         Entry {
-            location: 1978,
+            location: 1988,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/ubjson: ubj
         Entry {
-            location: 1990,
+            location: 2000,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/urc-ressheet+xml: rsheet
         Entry {
-            location: 1999,
+            location: 2009,
             subtype_len: 16,
             extension_len: 6,
         },
         // application/urc-targetdesc+xml: td
         Entry {
-            location: 2021,
+            location: 2031,
             subtype_len: 18,
             extension_len: 2,
         },
         // application/vnd.1000minds.decision-model+xml: 1km
         Entry {
-            location: 2041,
+            location: 2051,
             subtype_len: 32,
             extension_len: 3,
         },
         // application/vnd.3gpp.pic-bw-large: plb
         Entry {
-            location: 2076,
+            location: 2086,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.3gpp.pic-bw-small: psb
         Entry {
-            location: 2100,
+            location: 2110,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.3gpp.pic-bw-var: pvb
         Entry {
-            location: 2124,
+            location: 2134,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.3gpp2.tcap: tcap
         Entry {
-            location: 2146,
+            location: 2156,
             subtype_len: 14,
             extension_len: 4,
         },
         // application/vnd.3m.post-it-notes: pwn
         Entry {
-            location: 2164,
+            location: 2174,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.accpac.simply.aso: aso
         Entry {
-            location: 2187,
+            location: 2197,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.accpac.simply.imp: imp
         Entry {
-            location: 2211,
+            location: 2221,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.acucobol: acu
         Entry {
-            location: 2235,
+            location: 2245,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.acucorp: atc
         Entry {
-            location: 2250,
+            location: 2260,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.adobe.air-application-installer-package+zip: air
         Entry {
-            location: 2264,
+            location: 2274,
             subtype_len: 47,
             extension_len: 3,
         },
         // application/vnd.adobe.formscentral.fcdt: fcdt
         Entry {
-            location: 2314,
+            location: 2324,
             subtype_len: 27,
             extension_len: 4,
         },
         // application/vnd.adobe.fxp: fxp
         Entry {
-            location: 2345,
+            location: 2355,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.adobe.xdp+xml: xdp
         Entry {
-            location: 2361,
+            location: 2371,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.adobe.xfdf: xfdf
         Entry {
-            location: 2381,
+            location: 2391,
             subtype_len: 14,
             extension_len: 4,
         },
         // application/vnd.ahead.space: ahead
         Entry {
-            location: 2399,
+            location: 2409,
             subtype_len: 15,
             extension_len: 5,
         },
         // application/vnd.airzip.filesecure.azf: azf
         Entry {
-            location: 2419,
+            location: 2429,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.airzip.filesecure.azs: azs
         Entry {
-            location: 2447,
+            location: 2457,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.amazon.ebook: azw
         Entry {
-            location: 2475,
+            location: 2485,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.americandynamics.acc: acc
         Entry {
-            location: 2494,
+            location: 2504,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/vnd.amiga.ami: ami
         Entry {
-            location: 2521,
+            location: 2531,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.android.package-archive: apk
         Entry {
-            location: 2537,
+            location: 2547,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.anser-web-certificate-issue-initiation: cii
         Entry {
-            location: 2567,
+            location: 2577,
             subtype_len: 42,
             extension_len: 3,
         },
         // application/vnd.anser-web-funds-transfer-initiation: fti
         Entry {
-            location: 2612,
+            location: 2622,
             subtype_len: 39,
             extension_len: 3,
         },
         // application/vnd.antix.game-component: atx
         Entry {
-            location: 2654,
+            location: 2664,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/vnd.apple.installer+xml: mpkg
         Entry {
-            location: 2681,
+            location: 2691,
             subtype_len: 23,
             extension_len: 4,
         },
         // application/vnd.apple.keynote: key
         Entry {
-            location: 2708,
+            location: 2718,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.apple.mpegurl: m3u8
         Entry {
-            location: 2728,
+            location: 2738,
             subtype_len: 17,
             extension_len: 4,
         },
         // application/vnd.apple.numbers: numbers
         Entry {
-            location: 2749,
+            location: 2759,
             subtype_len: 17,
             extension_len: 7,
         },
         // application/vnd.apple.pages: pages
         Entry {
-            location: 2773,
+            location: 2783,
             subtype_len: 15,
             extension_len: 5,
         },
         // application/vnd.apple.pkpass: pkpass
         Entry {
-            location: 2793,
+            location: 2803,
             subtype_len: 16,
             extension_len: 6,
         },
         // application/vnd.aristanetworks.swi: swi
         Entry {
-            location: 2815,
+            location: 2825,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.astraea-software.iota: iota
         Entry {
-            location: 2840,
+            location: 2850,
             subtype_len: 25,
             extension_len: 4,
         },
         // application/vnd.audiograph: aep
         Entry {
-            location: 2869,
+            location: 2879,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.balsamiq.bmml+xml: bmml
         Entry {
-            location: 2886,
+            location: 2896,
             subtype_len: 21,
             extension_len: 4,
         },
         // application/vnd.blueice.multipass: mpm
         Entry {
-            location: 2911,
+            location: 2921,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.bmi: bmi
         Entry {
-            location: 2935,
+            location: 2945,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.businessobjects: rep
         Entry {
-            location: 2945,
+            location: 2955,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.chemdraw+xml: cdxml
         Entry {
-            location: 2967,
+            location: 2977,
             subtype_len: 16,
             extension_len: 5,
         },
         // application/vnd.chipnuts.karaoke-mmd: mmd
         Entry {
-            location: 2988,
+            location: 2998,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/vnd.cinderella: cdy
         Entry {
-            location: 3015,
+            location: 3025,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.citationstyles.style+xml: csl
         Entry {
-            location: 3032,
+            location: 3042,
             subtype_len: 28,
             extension_len: 3,
         },
         // application/vnd.claymore: cla
         Entry {
-            location: 3063,
+            location: 3073,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.cloanto.rp9: rp9
         Entry {
-            location: 3078,
+            location: 3088,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.clonk.c4group: c4g
         Entry {
-            location: 3096,
+            location: 3106,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.cluetrust.cartomobile-config: c11amc
         Entry {
-            location: 3116,
+            location: 3126,
             subtype_len: 32,
             extension_len: 6,
         },
         // application/vnd.cluetrust.cartomobile-config-pkg: c11amz
         Entry {
-            location: 3154,
+            location: 3164,
             subtype_len: 36,
             extension_len: 6,
         },
         // application/vnd.commonspace: csp
         Entry {
-            location: 3196,
+            location: 3206,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.contact.cmsg: cdbcmsg
         Entry {
-            location: 3214,
+            location: 3224,
             subtype_len: 16,
             extension_len: 7,
         },
         // application/vnd.cosmocaller: cmc
         Entry {
-            location: 3237,
+            location: 3247,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.crick.clicker: clkx
         Entry {
-            location: 3255,
+            location: 3265,
             subtype_len: 17,
             extension_len: 4,
         },
         // application/vnd.crick.clicker.keyboard: clkk
         Entry {
-            location: 3276,
+            location: 3286,
             subtype_len: 26,
             extension_len: 4,
         },
         // application/vnd.crick.clicker.palette: clkp
         Entry {
-            location: 3306,
+            location: 3316,
             subtype_len: 25,
             extension_len: 4,
         },
         // application/vnd.crick.clicker.template: clkt
         Entry {
-            location: 3335,
+            location: 3345,
             subtype_len: 26,
             extension_len: 4,
         },
         // application/vnd.crick.clicker.wordbank: clkw
         Entry {
-            location: 3365,
+            location: 3375,
             subtype_len: 26,
             extension_len: 4,
         },
         // application/vnd.criticaltools.wbs+xml: wbs
         Entry {
-            location: 3395,
+            location: 3405,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.ctc-posml: pml
         Entry {
-            location: 3423,
+            location: 3433,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.cups-ppd: ppd
         Entry {
-            location: 3439,
+            location: 3449,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.curl.car: car
         Entry {
-            location: 3454,
+            location: 3464,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.curl.pcurl: pcurl
         Entry {
-            location: 3469,
+            location: 3479,
             subtype_len: 14,
             extension_len: 5,
         },
         // application/vnd.dart: dart
         Entry {
-            location: 3488,
+            location: 3498,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.data-vision.rdz: rdz
         Entry {
-            location: 3500,
+            location: 3510,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.dbf: dbf
         Entry {
-            location: 3522,
+            location: 3532,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.dece.data: uvf
         Entry {
-            location: 3532,
+            location: 3542,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.dece.ttml+xml: uvt
         Entry {
-            location: 3548,
+            location: 3558,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.dece.unspecified: uvx
         Entry {
-            location: 3568,
+            location: 3578,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.dece.zip: uvz
         Entry {
-            location: 3591,
+            location: 3601,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.denovo.fcselayout-link: fe_launch
         Entry {
-            location: 3606,
+            location: 3616,
             subtype_len: 26,
             extension_len: 9,
         },
         // application/vnd.dna: dna
         Entry {
-            location: 3641,
+            location: 3651,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.dolby.mlp: mlp
         Entry {
-            location: 3651,
+            location: 3661,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.dpgraph: dpg
         Entry {
-            location: 3667,
+            location: 3677,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.dreamfactory: dfac
         Entry {
-            location: 3681,
+            location: 3691,
             subtype_len: 16,
             extension_len: 4,
         },
         // application/vnd.ds-keypoint: kpxx
         Entry {
-            location: 3701,
+            location: 3711,
             subtype_len: 15,
             extension_len: 4,
         },
         // application/vnd.dvb.ait: ait
         Entry {
-            location: 3720,
+            location: 3730,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.dvb.service: svc
         Entry {
-            location: 3734,
+            location: 3744,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.dynageo: geo
         Entry {
-            location: 3752,
+            location: 3762,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.ecowin.chart: mag
         Entry {
-            location: 3766,
+            location: 3776,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.enliven: nml
         Entry {
-            location: 3785,
+            location: 3795,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.epson.esf: esf
         Entry {
-            location: 3799,
+            location: 3809,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.epson.msf: msf
         Entry {
-            location: 3815,
+            location: 3825,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.epson.quickanime: qam
         Entry {
-            location: 3831,
+            location: 3841,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.epson.salt: slt
         Entry {
-            location: 3854,
+            location: 3864,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.epson.ssf: ssf
         Entry {
-            location: 3871,
+            location: 3881,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.eszigno3+xml: es3
         Entry {
-            location: 3887,
+            location: 3897,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.ezpix-album: ez2
         Entry {
-            location: 3906,
+            location: 3916,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.ezpix-package: ez3
         Entry {
-            location: 3924,
+            location: 3934,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.fdf: fdf
         Entry {
-            location: 3944,
+            location: 3954,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.fdsn.mseed: mseed
         Entry {
-            location: 3954,
+            location: 3964,
             subtype_len: 14,
             extension_len: 5,
         },
         // application/vnd.fdsn.seed: seed
         Entry {
-            location: 3973,
+            location: 3983,
             subtype_len: 13,
             extension_len: 4,
         },
         // application/vnd.flographit: gph
         Entry {
-            location: 3990,
+            location: 4000,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.fluxtime.clip: ftc
         Entry {
-            location: 4007,
+            location: 4017,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.framemaker: fm
         Entry {
-            location: 4027,
+            location: 4037,
             subtype_len: 14,
             extension_len: 2,
         },
         // application/vnd.frogans.fnc: fnc
         Entry {
-            location: 4043,
+            location: 4053,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.frogans.ltf: ltf
         Entry {
-            location: 4061,
+            location: 4071,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.fsc.weblaunch: fsc
         Entry {
-            location: 4079,
+            location: 4089,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.fujitsu.oasys: oas
         Entry {
-            location: 4099,
+            location: 4109,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.fujitsu.oasys2: oa2
         Entry {
-            location: 4119,
+            location: 4129,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.fujitsu.oasys3: oa3
         Entry {
-            location: 4140,
+            location: 4150,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.fujitsu.oasysgp: fg5
         Entry {
-            location: 4161,
+            location: 4171,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.fujitsu.oasysprs: bh2
         Entry {
-            location: 4183,
+            location: 4193,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.fujixerox.ddd: ddd
         Entry {
-            location: 4206,
+            location: 4216,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.fujixerox.docuworks: xdw
         Entry {
-            location: 4226,
+            location: 4236,
             subtype_len: 23,
             extension_len: 3,
         },
         // application/vnd.fujixerox.docuworks.binder: xbd
         Entry {
-            location: 4252,
+            location: 4262,
             subtype_len: 30,
             extension_len: 3,
         },
         // application/vnd.fuzzysheet: fzs
         Entry {
-            location: 4285,
+            location: 4295,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.genomatix.tuxedo: txd
         Entry {
-            location: 4302,
+            location: 4312,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.geogebra.file: ggb
         Entry {
-            location: 4325,
+            location: 4335,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.geogebra.tool: ggt
         Entry {
-            location: 4345,
+            location: 4355,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.geometry-explorer: gex
         Entry {
-            location: 4365,
+            location: 4375,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.geonext: gxt
         Entry {
-            location: 4389,
+            location: 4399,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.geoplan: g2w
         Entry {
-            location: 4403,
+            location: 4413,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.geospace: g3w
         Entry {
-            location: 4417,
+            location: 4427,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.gmx: gmx
         Entry {
-            location: 4432,
+            location: 4442,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.google-apps.document: gdoc
         Entry {
-            location: 4442,
+            location: 4452,
             subtype_len: 24,
             extension_len: 4,
         },
         // application/vnd.google-apps.presentation: gslides
         Entry {
-            location: 4470,
+            location: 4480,
             subtype_len: 28,
             extension_len: 7,
         },
         // application/vnd.google-apps.spreadsheet: gsheet
         Entry {
-            location: 4505,
+            location: 4515,
             subtype_len: 27,
             extension_len: 6,
         },
         // application/vnd.google-earth.kml+xml: kml
         Entry {
-            location: 4538,
+            location: 4548,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/vnd.google-earth.kmz: kmz
         Entry {
-            location: 4565,
+            location: 4575,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.grafeq: gqf
         Entry {
-            location: 4588,
+            location: 4598,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.groove-account: gac
         Entry {
-            location: 4601,
+            location: 4611,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.groove-help: ghf
         Entry {
-            location: 4622,
+            location: 4632,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.groove-identity-message: gim
         Entry {
-            location: 4640,
+            location: 4650,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.groove-injector: grv
         Entry {
-            location: 4670,
+            location: 4680,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.groove-tool-message: gtm
         Entry {
-            location: 4692,
+            location: 4702,
             subtype_len: 23,
             extension_len: 3,
         },
         // application/vnd.groove-tool-template: tpl
         Entry {
-            location: 4718,
+            location: 4728,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/vnd.groove-vcard: vcg
         Entry {
-            location: 4745,
+            location: 4755,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.hal+xml: hal
         Entry {
-            location: 4764,
+            location: 4774,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.handheld-entertainment+xml: zmm
         Entry {
-            location: 4778,
+            location: 4788,
             subtype_len: 30,
             extension_len: 3,
         },
         // application/vnd.hbci: hbci
         Entry {
-            location: 4811,
+            location: 4821,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.hhe.lesson-player: les
         Entry {
-            location: 4823,
+            location: 4833,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.hp-hpgl: hpgl
         Entry {
-            location: 4847,
+            location: 4857,
             subtype_len: 11,
             extension_len: 4,
         },
         // application/vnd.hp-hpid: hpid
         Entry {
-            location: 4862,
+            location: 4872,
             subtype_len: 11,
             extension_len: 4,
         },
         // application/vnd.hp-hps: hps
         Entry {
-            location: 4877,
+            location: 4887,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.hp-jlyt: jlt
         Entry {
-            location: 4890,
+            location: 4900,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.hp-pcl: pcl
         Entry {
-            location: 4904,
+            location: 4914,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.hp-pclxl: pclxl
         Entry {
-            location: 4917,
+            location: 4927,
             subtype_len: 12,
             extension_len: 5,
         },
         // application/vnd.hydrostatix.sof-data: sfd-hdstx
         Entry {
-            location: 4934,
+            location: 4944,
             subtype_len: 24,
             extension_len: 9,
         },
         // application/vnd.ibm.minipay: mpy
         Entry {
-            location: 4967,
+            location: 4977,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.ibm.modcap: afp
         Entry {
-            location: 4985,
+            location: 4995,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.ibm.rights-management: irm
         Entry {
-            location: 5002,
+            location: 5012,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.ibm.secure-container: sc
         Entry {
-            location: 5030,
+            location: 5040,
             subtype_len: 24,
             extension_len: 2,
         },
         // application/vnd.iccprofile: icc
         Entry {
-            location: 5056,
+            location: 5066,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.igloader: igl
         Entry {
-            location: 5073,
+            location: 5083,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.immervision-ivp: ivp
         Entry {
-            location: 5088,
+            location: 5098,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.immervision-ivu: ivu
         Entry {
-            location: 5110,
+            location: 5120,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.insors.igm: igm
         Entry {
-            location: 5132,
+            location: 5142,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.intercon.formnet: xpw
         Entry {
-            location: 5149,
+            location: 5159,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.intergeo: i2g
         Entry {
-            location: 5172,
+            location: 5182,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.intu.qbo: qbo
         Entry {
-            location: 5187,
+            location: 5197,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.intu.qfx: qfx
         Entry {
-            location: 5202,
+            location: 5212,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.ipunplugged.rcprofile: rcprofile
         Entry {
-            location: 5217,
+            location: 5227,
             subtype_len: 25,
             extension_len: 9,
         },
         // application/vnd.irepository.package+xml: irp
         Entry {
-            location: 5251,
+            location: 5261,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.is-xpr: xpr
         Entry {
-            location: 5281,
+            location: 5291,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.isac.fcs: fcs
         Entry {
-            location: 5294,
+            location: 5304,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.jam: jam
         Entry {
-            location: 5309,
+            location: 5319,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.jcp.javame.midlet-rms: rms
         Entry {
-            location: 5319,
+            location: 5329,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.jisp: jisp
         Entry {
-            location: 5347,
+            location: 5357,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.joost.joda-archive: joda
         Entry {
-            location: 5359,
+            location: 5369,
             subtype_len: 22,
             extension_len: 4,
         },
         // application/vnd.kahootz: ktz
         Entry {
-            location: 5385,
+            location: 5395,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.kde.karbon: karbon
         Entry {
-            location: 5399,
+            location: 5409,
             subtype_len: 14,
             extension_len: 6,
         },
         // application/vnd.kde.kchart: chrt
         Entry {
-            location: 5419,
+            location: 5429,
             subtype_len: 14,
             extension_len: 4,
         },
         // application/vnd.kde.kformula: kfo
         Entry {
-            location: 5437,
+            location: 5447,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.kde.kivio: flw
         Entry {
-            location: 5456,
+            location: 5466,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.kde.kontour: kon
         Entry {
-            location: 5472,
+            location: 5482,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.kde.kpresenter: kpr
         Entry {
-            location: 5490,
+            location: 5500,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.kde.kspread: ksp
         Entry {
-            location: 5511,
+            location: 5521,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.kde.kword: kwd
         Entry {
-            location: 5529,
+            location: 5539,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.kenameaapp: htke
         Entry {
-            location: 5545,
+            location: 5555,
             subtype_len: 14,
             extension_len: 4,
         },
         // application/vnd.kidspiration: kia
         Entry {
-            location: 5563,
+            location: 5573,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.kinar: kne
         Entry {
-            location: 5582,
+            location: 5592,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/vnd.koan: skp
         Entry {
-            location: 5594,
+            location: 5604,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.kodak-descriptor: sse
         Entry {
-            location: 5605,
+            location: 5615,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.las.las+xml: lasxml
         Entry {
-            location: 5628,
+            location: 5638,
             subtype_len: 15,
             extension_len: 6,
         },
         // application/vnd.llamagraphics.life-balance.desktop: lbd
         Entry {
-            location: 5649,
+            location: 5659,
             subtype_len: 38,
             extension_len: 3,
         },
         // application/vnd.llamagraphics.life-balance.exchange+xml: lbe
         Entry {
-            location: 5690,
+            location: 5700,
             subtype_len: 43,
             extension_len: 3,
         },
         // application/vnd.lotus-1-2-3: 123
         Entry {
-            location: 5736,
+            location: 5746,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.lotus-approach: apr
         Entry {
-            location: 5754,
+            location: 5764,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.lotus-freelance: pre
         Entry {
-            location: 5775,
+            location: 5785,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.lotus-notes: nsf
         Entry {
-            location: 5797,
+            location: 5807,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.lotus-organizer: org
         Entry {
-            location: 5815,
+            location: 5825,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.lotus-screencam: scm
         Entry {
-            location: 5837,
+            location: 5847,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.lotus-wordpro: lwp
         Entry {
-            location: 5859,
+            location: 5869,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.macports.portpkg: portpkg
         Entry {
-            location: 5879,
+            location: 5889,
             subtype_len: 20,
             extension_len: 7,
         },
         // application/vnd.mapbox-vector-tile: mvt
         Entry {
-            location: 5906,
+            location: 5916,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.mcd: mcd
         Entry {
-            location: 5931,
+            location: 5941,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.medcalcdata: mc1
         Entry {
-            location: 5941,
+            location: 5951,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.mediastation.cdkey: cdkey
         Entry {
-            location: 5959,
+            location: 5969,
             subtype_len: 22,
             extension_len: 5,
         },
         // application/vnd.mfer: mwf
         Entry {
-            location: 5986,
+            location: 5996,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.mfmp: mfm
         Entry {
-            location: 5997,
+            location: 6007,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.micrografx.flo: flo
         Entry {
-            location: 6008,
+            location: 6018,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.micrografx.igx: igx
         Entry {
-            location: 6029,
+            location: 6039,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.mif: mif
         Entry {
-            location: 6050,
+            location: 6060,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.mobius.daf: daf
         Entry {
-            location: 6060,
+            location: 6070,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mobius.dis: dis
         Entry {
-            location: 6077,
+            location: 6087,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mobius.mbk: mbk
         Entry {
-            location: 6094,
+            location: 6104,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mobius.mqy: mqy
         Entry {
-            location: 6111,
+            location: 6121,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mobius.msl: msl
         Entry {
-            location: 6128,
+            location: 6138,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mobius.plc: plc
         Entry {
-            location: 6145,
+            location: 6155,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mobius.txf: txf
         Entry {
-            location: 6162,
+            location: 6172,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.mophun.application: mpn
         Entry {
-            location: 6179,
+            location: 6189,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.mophun.certificate: mpc
         Entry {
-            location: 6204,
+            location: 6214,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.mozilla.xul+xml: xul
         Entry {
-            location: 6229,
+            location: 6239,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.ms-artgalry: cil
         Entry {
-            location: 6251,
+            location: 6261,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.ms-cab-compressed: cab
         Entry {
-            location: 6269,
+            location: 6279,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.ms-excel: xls
         Entry {
-            location: 6293,
+            location: 6303,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.ms-excel.addin.macroenabled.12: xlam
         Entry {
-            location: 6308,
+            location: 6318,
             subtype_len: 34,
             extension_len: 4,
         },
         // application/vnd.ms-excel.sheet.binary.macroenabled.12: xlsb
         Entry {
-            location: 6346,
+            location: 6356,
             subtype_len: 41,
             extension_len: 4,
         },
         // application/vnd.ms-excel.sheet.macroenabled.12: xlsm
         Entry {
-            location: 6391,
+            location: 6401,
             subtype_len: 34,
             extension_len: 4,
         },
         // application/vnd.ms-excel.template.macroenabled.12: xltm
         Entry {
-            location: 6429,
+            location: 6439,
             subtype_len: 37,
             extension_len: 4,
         },
         // application/vnd.ms-fontobject: eot
         Entry {
-            location: 6470,
+            location: 6480,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.ms-htmlhelp: chm
         Entry {
-            location: 6490,
+            location: 6500,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.ms-ims: ims
         Entry {
-            location: 6508,
+            location: 6518,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.ms-lrm: lrm
         Entry {
-            location: 6521,
+            location: 6531,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.ms-officetheme: thmx
         Entry {
-            location: 6534,
+            location: 6544,
             subtype_len: 18,
             extension_len: 4,
         },
         // application/vnd.ms-outlook: msg
         Entry {
-            location: 6556,
+            location: 6566,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.ms-pki.seccat: cat
         Entry {
-            location: 6573,
+            location: 6583,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.ms-pki.stl: stl
         Entry {
-            location: 6593,
+            location: 6603,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.ms-powerpoint: ppt
         Entry {
-            location: 6610,
+            location: 6620,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.ms-powerpoint.addin.macroenabled.12: ppam
         Entry {
-            location: 6630,
+            location: 6640,
             subtype_len: 39,
             extension_len: 4,
         },
         // application/vnd.ms-powerpoint.presentation.macroenabled.12: pptm
         Entry {
-            location: 6673,
+            location: 6683,
             subtype_len: 46,
             extension_len: 4,
         },
         // application/vnd.ms-powerpoint.slide.macroenabled.12: sldm
         Entry {
-            location: 6723,
+            location: 6733,
             subtype_len: 39,
             extension_len: 4,
         },
         // application/vnd.ms-powerpoint.slideshow.macroenabled.12: ppsm
         Entry {
-            location: 6766,
+            location: 6776,
             subtype_len: 43,
             extension_len: 4,
         },
         // application/vnd.ms-powerpoint.template.macroenabled.12: potm
         Entry {
-            location: 6813,
+            location: 6823,
             subtype_len: 42,
             extension_len: 4,
         },
         // application/vnd.ms-project: mpp
         Entry {
-            location: 6859,
+            location: 6869,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.ms-word.document.macroenabled.12: docm
         Entry {
-            location: 6876,
+            location: 6886,
             subtype_len: 36,
             extension_len: 4,
         },
         // application/vnd.ms-word.template.macroenabled.12: dotm
         Entry {
-            location: 6916,
+            location: 6926,
             subtype_len: 36,
             extension_len: 4,
         },
         // application/vnd.ms-works: wps
         Entry {
-            location: 6956,
+            location: 6966,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.ms-wpl: wpl
         Entry {
-            location: 6971,
+            location: 6981,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.ms-xpsdocument: xps
         Entry {
-            location: 6984,
+            location: 6994,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.mseq: mseq
         Entry {
-            location: 7005,
+            location: 7015,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.musician: mus
         Entry {
-            location: 7017,
+            location: 7027,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.muvee.style: msty
         Entry {
-            location: 7032,
+            location: 7042,
             subtype_len: 15,
             extension_len: 4,
         },
         // application/vnd.mynfc: taglet
         Entry {
-            location: 7051,
+            location: 7061,
             subtype_len: 9,
             extension_len: 6,
         },
         // application/vnd.neurolanguage.nlu: nlu
         Entry {
-            location: 7066,
+            location: 7076,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.nitf: ntf
         Entry {
-            location: 7090,
+            location: 7100,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.noblenet-directory: nnd
         Entry {
-            location: 7101,
+            location: 7111,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.noblenet-sealer: nns
         Entry {
-            location: 7126,
+            location: 7136,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.noblenet-web: nnw
         Entry {
-            location: 7148,
+            location: 7158,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.nokia.n-gage.ac+xml: ac
         Entry {
-            location: 7167,
+            location: 7177,
             subtype_len: 23,
             extension_len: 2,
         },
         // application/vnd.nokia.n-gage.data: ngdat
         Entry {
-            location: 7192,
+            location: 7202,
             subtype_len: 21,
             extension_len: 5,
         },
         // application/vnd.nokia.n-gage.symbian.install: n-gage
         Entry {
-            location: 7218,
+            location: 7228,
             subtype_len: 32,
             extension_len: 6,
         },
         // application/vnd.nokia.radio-preset: rpst
         Entry {
-            location: 7256,
+            location: 7266,
             subtype_len: 22,
             extension_len: 4,
         },
         // application/vnd.nokia.radio-presets: rpss
         Entry {
-            location: 7282,
+            location: 7292,
             subtype_len: 23,
             extension_len: 4,
         },
         // application/vnd.novadigm.edm: edm
         Entry {
-            location: 7309,
+            location: 7319,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.novadigm.edx: edx
         Entry {
-            location: 7328,
+            location: 7338,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.novadigm.ext: ext
         Entry {
-            location: 7347,
+            location: 7357,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.chart: odc
         Entry {
-            location: 7366,
+            location: 7376,
             subtype_len: 28,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.chart-template: otc
         Entry {
-            location: 7397,
+            location: 7407,
             subtype_len: 37,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.database: odb
         Entry {
-            location: 7437,
+            location: 7447,
             subtype_len: 31,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.formula: odf
         Entry {
-            location: 7471,
+            location: 7481,
             subtype_len: 30,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.formula-template: odft
         Entry {
-            location: 7504,
+            location: 7514,
             subtype_len: 39,
             extension_len: 4,
         },
         // application/vnd.oasis.opendocument.graphics: odg
         Entry {
-            location: 7547,
+            location: 7557,
             subtype_len: 31,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.graphics-template: otg
         Entry {
-            location: 7581,
+            location: 7591,
             subtype_len: 40,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.image: odi
         Entry {
-            location: 7624,
+            location: 7634,
             subtype_len: 28,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.image-template: oti
         Entry {
-            location: 7655,
+            location: 7665,
             subtype_len: 37,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.presentation: odp
         Entry {
-            location: 7695,
+            location: 7705,
             subtype_len: 35,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.presentation-template: otp
         Entry {
-            location: 7733,
+            location: 7743,
             subtype_len: 44,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.spreadsheet: ods
         Entry {
-            location: 7780,
+            location: 7790,
             subtype_len: 34,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.spreadsheet-template: ots
         Entry {
-            location: 7817,
+            location: 7827,
             subtype_len: 43,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.text: odt
         Entry {
-            location: 7863,
+            location: 7873,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.text-master: odm
         Entry {
-            location: 7893,
+            location: 7903,
             subtype_len: 34,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.text-template: ott
         Entry {
-            location: 7930,
+            location: 7940,
             subtype_len: 36,
             extension_len: 3,
         },
         // application/vnd.oasis.opendocument.text-web: oth
         Entry {
-            location: 7969,
+            location: 7979,
             subtype_len: 31,
             extension_len: 3,
         },
         // application/vnd.olpc-sugar: xo
         Entry {
-            location: 8003,
+            location: 8013,
             subtype_len: 14,
             extension_len: 2,
         },
         // application/vnd.oma.dd2+xml: dd2
         Entry {
-            location: 8019,
+            location: 8029,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.openblox.game+xml: obgx
         Entry {
-            location: 8037,
+            location: 8047,
             subtype_len: 21,
             extension_len: 4,
         },
         // application/vnd.openofficeorg.extension: oxt
         Entry {
-            location: 8062,
+            location: 8072,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.openstreetmap.data+xml: osm
         Entry {
-            location: 8092,
+            location: 8102,
             subtype_len: 26,
             extension_len: 3,
         },
         // application/vnd.openxmlformats-officedocument.presentationml.presentation: pptx
         Entry {
-            location: 8121,
+            location: 8131,
             subtype_len: 61,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.presentationml.slide: sldx
         Entry {
-            location: 8186,
+            location: 8196,
             subtype_len: 54,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.presentationml.slideshow: ppsx
         Entry {
-            location: 8244,
+            location: 8254,
             subtype_len: 58,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.presentationml.template: potx
         Entry {
-            location: 8306,
+            location: 8316,
             subtype_len: 57,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.spreadsheetml.sheet: xlsx
         Entry {
-            location: 8367,
+            location: 8377,
             subtype_len: 53,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.spreadsheetml.template: xltx
         Entry {
-            location: 8424,
+            location: 8434,
             subtype_len: 56,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.wordprocessingml.document: docx
         Entry {
-            location: 8484,
+            location: 8494,
             subtype_len: 59,
             extension_len: 4,
         },
         // application/vnd.openxmlformats-officedocument.wordprocessingml.template: dotx
         Entry {
-            location: 8547,
+            location: 8557,
             subtype_len: 59,
             extension_len: 4,
         },
         // application/vnd.osgeo.mapguide.package: mgp
         Entry {
-            location: 8610,
+            location: 8620,
             subtype_len: 26,
             extension_len: 3,
         },
         // application/vnd.osgi.dp: dp
         Entry {
-            location: 8639,
+            location: 8649,
             subtype_len: 11,
             extension_len: 2,
         },
         // application/vnd.osgi.subsystem: esa
         Entry {
-            location: 8652,
+            location: 8662,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.palm: pdb
         Entry {
-            location: 8673,
+            location: 8683,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.pawaafile: paw
         Entry {
-            location: 8684,
+            location: 8694,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.pg.format: str
         Entry {
-            location: 8700,
+            location: 8710,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.pg.osasli: ei6
         Entry {
-            location: 8716,
+            location: 8726,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.picsel: efif
         Entry {
-            location: 8732,
+            location: 8742,
             subtype_len: 10,
             extension_len: 4,
         },
         // application/vnd.pmi.widget: wg
         Entry {
-            location: 8746,
+            location: 8756,
             subtype_len: 14,
             extension_len: 2,
         },
         // application/vnd.pocketlearn: plf
         Entry {
-            location: 8762,
+            location: 8772,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.powerbuilder6: pbd
         Entry {
-            location: 8780,
+            location: 8790,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.previewsystems.box: box
         Entry {
-            location: 8800,
+            location: 8810,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.proteus.magazine: mgz
         Entry {
-            location: 8825,
+            location: 8835,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.publishare-delta-tree: qps
         Entry {
-            location: 8848,
+            location: 8858,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.pvi.ptid1: ptid
         Entry {
-            location: 8876,
+            location: 8886,
             subtype_len: 13,
             extension_len: 4,
         },
         // application/vnd.quark.quarkxpress: qxd
         Entry {
-            location: 8893,
+            location: 8903,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.rar: rar
         Entry {
-            location: 8917,
+            location: 8927,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.realvnc.bed: bed
         Entry {
-            location: 8927,
+            location: 8937,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.recordare.musicxml: mxl
         Entry {
-            location: 8945,
+            location: 8955,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.recordare.musicxml+xml: musicxml
         Entry {
-            location: 8970,
+            location: 8980,
             subtype_len: 26,
             extension_len: 8,
         },
         // application/vnd.rig.cryptonote: cryptonote
         Entry {
-            location: 9004,
+            location: 9014,
             subtype_len: 18,
             extension_len: 10,
         },
         // application/vnd.rim.cod: cod
         Entry {
-            location: 9032,
+            location: 9042,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.rn-realmedia: rm
         Entry {
-            location: 9046,
+            location: 9056,
             subtype_len: 16,
             extension_len: 2,
         },
         // application/vnd.rn-realmedia-vbr: rmvb
         Entry {
-            location: 9064,
+            location: 9074,
             subtype_len: 20,
             extension_len: 4,
         },
         // application/vnd.route66.link66+xml: link66
         Entry {
-            location: 9088,
+            location: 9098,
             subtype_len: 22,
             extension_len: 6,
         },
         // application/vnd.sailingtracker.track: st
         Entry {
-            location: 9116,
+            location: 9126,
             subtype_len: 24,
             extension_len: 2,
         },
         // application/vnd.seemail: see
         Entry {
-            location: 9142,
+            location: 9152,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.sema: sema
         Entry {
-            location: 9156,
+            location: 9166,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.semd: semd
         Entry {
-            location: 9168,
+            location: 9178,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.semf: semf
         Entry {
-            location: 9180,
+            location: 9190,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.shana.informed.formdata: ifm
         Entry {
-            location: 9192,
+            location: 9202,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.shana.informed.formtemplate: itp
         Entry {
-            location: 9222,
+            location: 9232,
             subtype_len: 31,
             extension_len: 3,
         },
         // application/vnd.shana.informed.interchange: iif
         Entry {
-            location: 9256,
+            location: 9266,
             subtype_len: 30,
             extension_len: 3,
         },
         // application/vnd.shana.informed.package: ipk
         Entry {
-            location: 9289,
+            location: 9299,
             subtype_len: 26,
             extension_len: 3,
         },
         // application/vnd.simtech-mindmapper: twd
         Entry {
-            location: 9318,
+            location: 9328,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.smaf: mmf
         Entry {
-            location: 9343,
+            location: 9353,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.smart.teacher: teacher
         Entry {
-            location: 9354,
+            location: 9364,
             subtype_len: 17,
             extension_len: 7,
         },
         // application/vnd.software602.filler.form+xml: fo
         Entry {
-            location: 9378,
+            location: 9388,
             subtype_len: 31,
             extension_len: 2,
         },
         // application/vnd.solent.sdkm+xml: sdkm
         Entry {
-            location: 9411,
+            location: 9421,
             subtype_len: 19,
             extension_len: 4,
         },
         // application/vnd.spotfire.dxp: dxp
         Entry {
-            location: 9434,
+            location: 9444,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.spotfire.sfs: sfs
         Entry {
-            location: 9453,
+            location: 9463,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.stardivision.calc: sdc
         Entry {
-            location: 9472,
+            location: 9482,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.stardivision.draw: sda
         Entry {
-            location: 9496,
+            location: 9506,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.stardivision.impress: sdd
         Entry {
-            location: 9520,
+            location: 9530,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/vnd.stardivision.math: smf
         Entry {
-            location: 9547,
+            location: 9557,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.stardivision.writer: sdw
         Entry {
-            location: 9571,
+            location: 9581,
             subtype_len: 23,
             extension_len: 3,
         },
         // application/vnd.stardivision.writer-global: sgl
         Entry {
-            location: 9597,
+            location: 9607,
             subtype_len: 30,
             extension_len: 3,
         },
         // application/vnd.stepmania.package: smzip
         Entry {
-            location: 9630,
+            location: 9640,
             subtype_len: 21,
             extension_len: 5,
         },
         // application/vnd.stepmania.stepchart: sm
         Entry {
-            location: 9656,
+            location: 9666,
             subtype_len: 23,
             extension_len: 2,
         },
         // application/vnd.sun.wadl+xml: wadl
         Entry {
-            location: 9681,
+            location: 9691,
             subtype_len: 16,
             extension_len: 4,
         },
         // application/vnd.sun.xml.calc: sxc
         Entry {
-            location: 9701,
+            location: 9711,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.sun.xml.calc.template: stc
         Entry {
-            location: 9720,
+            location: 9730,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.sun.xml.draw: sxd
         Entry {
-            location: 9748,
+            location: 9758,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.sun.xml.draw.template: std
         Entry {
-            location: 9767,
+            location: 9777,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.sun.xml.impress: sxi
         Entry {
-            location: 9795,
+            location: 9805,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.sun.xml.impress.template: sti
         Entry {
-            location: 9817,
+            location: 9827,
             subtype_len: 28,
             extension_len: 3,
         },
         // application/vnd.sun.xml.math: sxm
         Entry {
-            location: 9848,
+            location: 9858,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.sun.xml.writer: sxw
         Entry {
-            location: 9867,
+            location: 9877,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.sun.xml.writer.global: sxg
         Entry {
-            location: 9888,
+            location: 9898,
             subtype_len: 25,
             extension_len: 3,
         },
         // application/vnd.sun.xml.writer.template: stw
         Entry {
-            location: 9916,
+            location: 9926,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.sus-calendar: sus
         Entry {
-            location: 9946,
+            location: 9956,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.svd: svd
         Entry {
-            location: 9965,
+            location: 9975,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.symbian.install: sis
         Entry {
-            location: 9975,
+            location: 9985,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.syncml+xml: xsm
         Entry {
-            location: 9997,
+            location: 10007,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/vnd.syncml.dm+wbxml: bdm
         Entry {
-            location: 10014,
+            location: 10024,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.syncml.dm+xml: xdm
         Entry {
-            location: 10036,
+            location: 10046,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.syncml.dmddf+xml: ddf
         Entry {
-            location: 10056,
+            location: 10066,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.tao.intent-module-archive: tao
         Entry {
-            location: 10079,
+            location: 10089,
             subtype_len: 29,
             extension_len: 3,
         },
         // application/vnd.tcpdump.pcap: pcap
         Entry {
-            location: 10111,
+            location: 10121,
             subtype_len: 16,
             extension_len: 4,
         },
         // application/vnd.tmobile-livetv: tmo
         Entry {
-            location: 10131,
+            location: 10141,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.trid.tpt: tpt
         Entry {
-            location: 10152,
+            location: 10162,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.triscape.mxs: mxs
         Entry {
-            location: 10167,
+            location: 10177,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/vnd.trueapp: tra
         Entry {
-            location: 10186,
+            location: 10196,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/vnd.ufdl: ufd
         Entry {
-            location: 10200,
+            location: 10210,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.uiq.theme: utz
         Entry {
-            location: 10211,
+            location: 10221,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.umajin: umj
         Entry {
-            location: 10227,
+            location: 10237,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.unity: unityweb
         Entry {
-            location: 10240,
+            location: 10250,
             subtype_len: 9,
             extension_len: 8,
         },
         // application/vnd.uoml+xml: uoml
         Entry {
-            location: 10257,
+            location: 10267,
             subtype_len: 12,
             extension_len: 4,
         },
         // application/vnd.vcx: vcx
         Entry {
-            location: 10273,
+            location: 10283,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.visio: vsd
         Entry {
-            location: 10283,
+            location: 10293,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/vnd.visionary: vis
         Entry {
-            location: 10295,
+            location: 10305,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/vnd.vsf: vsf
         Entry {
-            location: 10311,
+            location: 10321,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.wap.wbxml: wbxml
         Entry {
-            location: 10321,
+            location: 10331,
             subtype_len: 13,
             extension_len: 5,
         },
         // application/vnd.wap.wmlc: wmlc
         Entry {
-            location: 10339,
+            location: 10349,
             subtype_len: 12,
             extension_len: 4,
         },
         // application/vnd.wap.wmlscriptc: wmlsc
         Entry {
-            location: 10355,
+            location: 10365,
             subtype_len: 18,
             extension_len: 5,
         },
         // application/vnd.webturbo: wtb
         Entry {
-            location: 10378,
+            location: 10388,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/vnd.wolfram.player: nbp
         Entry {
-            location: 10393,
+            location: 10403,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/vnd.wordperfect: wpd
         Entry {
-            location: 10414,
+            location: 10424,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/vnd.wqd: wqd
         Entry {
-            location: 10432,
+            location: 10442,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.wt.stf: stf
         Entry {
-            location: 10442,
+            location: 10452,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/vnd.xara: xar
         Entry {
-            location: 10455,
+            location: 10465,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/vnd.xfdl: xfdl
         Entry {
-            location: 10466,
+            location: 10476,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/vnd.yamaha.hv-dic: hvd
         Entry {
-            location: 10478,
+            location: 10488,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/vnd.yamaha.hv-script: hvs
         Entry {
-            location: 10498,
+            location: 10508,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/vnd.yamaha.hv-voice: hvp
         Entry {
-            location: 10521,
+            location: 10531,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/vnd.yamaha.openscoreformat: osf
         Entry {
-            location: 10543,
+            location: 10553,
             subtype_len: 26,
             extension_len: 3,
         },
         // application/vnd.yamaha.openscoreformat.osfpvg+xml: osfpvg
         Entry {
-            location: 10572,
+            location: 10582,
             subtype_len: 37,
             extension_len: 6,
         },
         // application/vnd.yamaha.smaf-audio: saf
         Entry {
-            location: 10615,
+            location: 10625,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/vnd.yamaha.smaf-phrase: spf
         Entry {
-            location: 10639,
+            location: 10649,
             subtype_len: 22,
             extension_len: 3,
         },
         // application/vnd.yellowriver-custom-menu: cmp
         Entry {
-            location: 10664,
+            location: 10674,
             subtype_len: 27,
             extension_len: 3,
         },
         // application/vnd.zul: zir
         Entry {
-            location: 10694,
+            location: 10704,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/vnd.zzazz.deck+xml: zaz
         Entry {
-            location: 10704,
+            location: 10714,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/voicexml+xml: vxml
         Entry {
-            location: 10725,
+            location: 10735,
             subtype_len: 12,
             extension_len: 4,
         },
         // application/wasm: wasm
         Entry {
-            location: 10741,
+            location: 10751,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/widget: wgt
         Entry {
-            location: 10749,
+            location: 10759,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/winhlp: hlp
         Entry {
-            location: 10758,
+            location: 10768,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/wsdl+xml: wsdl
         Entry {
-            location: 10767,
+            location: 10777,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/wspolicy+xml: wspolicy
         Entry {
-            location: 10779,
+            location: 10789,
             subtype_len: 12,
             extension_len: 8,
         },
         // application/x-7z-compressed: 7z
         Entry {
-            location: 10799,
+            location: 10809,
             subtype_len: 15,
             extension_len: 2,
         },
         // application/x-abiword: abw
         Entry {
-            location: 10816,
+            location: 10826,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/x-ace-compressed: ace
         Entry {
-            location: 10828,
+            location: 10838,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-apple-diskimage: dmg
         Entry {
-            location: 10847,
+            location: 10857,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/x-arj: arj
         Entry {
-            location: 10867,
+            location: 10877,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-authorware-bin: aab
         Entry {
-            location: 10875,
+            location: 10885,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-authorware-map: aam
         Entry {
-            location: 10894,
+            location: 10904,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-authorware-seg: aas
         Entry {
-            location: 10913,
+            location: 10923,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-bcpio: bcpio
         Entry {
-            location: 10932,
+            location: 10942,
             subtype_len: 7,
             extension_len: 5,
         },
         // application/x-bdoc: bdoc
         Entry {
-            location: 10944,
+            location: 10954,
             subtype_len: 6,
             extension_len: 4,
         },
         // application/x-bittorrent: torrent
         Entry {
-            location: 10954,
+            location: 10964,
             subtype_len: 12,
             extension_len: 7,
         },
         // application/x-blorb: blb
         Entry {
-            location: 10973,
+            location: 10983,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/x-bzip: bz
         Entry {
-            location: 10983,
+            location: 10993,
             subtype_len: 6,
             extension_len: 2,
         },
         // application/x-bzip2: bz2
         Entry {
-            location: 10991,
+            location: 11001,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/x-cbr: cbr
         Entry {
-            location: 11001,
+            location: 11011,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-cdlink: vcd
         Entry {
-            location: 11009,
+            location: 11019,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/x-cfs-compressed: cfs
         Entry {
-            location: 11020,
+            location: 11030,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-chat: chat
         Entry {
-            location: 11039,
+            location: 11049,
             subtype_len: 6,
             extension_len: 4,
         },
         // application/x-chess-pgn: pgn
         Entry {
-            location: 11049,
+            location: 11059,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/x-chrome-extension: crx
         Entry {
-            location: 11063,
+            location: 11073,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/x-cocoa: cco
         Entry {
-            location: 11084,
+            location: 11094,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/x-conference: nsc
         Entry {
-            location: 11094,
+            location: 11104,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-cpio: cpio
         Entry {
-            location: 11109,
+            location: 11119,
             subtype_len: 6,
             extension_len: 4,
         },
         // application/x-csh: csh
         Entry {
-            location: 11119,
+            location: 11129,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-debian-package: deb
         Entry {
-            location: 11127,
+            location: 11137,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-dgc-compressed: dgc
         Entry {
-            location: 11146,
+            location: 11156,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-director: dir
         Entry {
-            location: 11165,
+            location: 11175,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-doom: wad
         Entry {
-            location: 11178,
+            location: 11188,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/x-dtbncx+xml: ncx
         Entry {
-            location: 11187,
+            location: 11197,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-dtbook+xml: dtb
         Entry {
-            location: 11202,
+            location: 11212,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-dtbresource+xml: res
         Entry {
-            location: 11217,
+            location: 11227,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/x-dvi: dvi
         Entry {
-            location: 11237,
+            location: 11247,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-envoy: evy
         Entry {
-            location: 11245,
+            location: 11255,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/x-eva: eva
         Entry {
-            location: 11255,
+            location: 11265,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-font-bdf: bdf
         Entry {
-            location: 11263,
+            location: 11273,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-font-ghostscript: gsf
         Entry {
-            location: 11276,
+            location: 11286,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/x-font-linux-psf: psf
         Entry {
-            location: 11297,
+            location: 11307,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-font-pcf: pcf
         Entry {
-            location: 11316,
+            location: 11326,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-font-snf: snf
         Entry {
-            location: 11329,
+            location: 11339,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-font-type1: pfa
         Entry {
-            location: 11342,
+            location: 11352,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-freearc: arc
         Entry {
-            location: 11357,
+            location: 11367,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/x-futuresplash: spl
         Entry {
-            location: 11369,
+            location: 11379,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/x-gca-compressed: gca
         Entry {
-            location: 11386,
+            location: 11396,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-glulx: ulx
         Entry {
-            location: 11405,
+            location: 11415,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/x-gnumeric: gnumeric
         Entry {
-            location: 11415,
+            location: 11425,
             subtype_len: 10,
             extension_len: 8,
         },
         // application/x-gramps-xml: gramps
         Entry {
-            location: 11433,
+            location: 11443,
             subtype_len: 12,
             extension_len: 6,
         },
         // application/x-gtar: gtar
         Entry {
-            location: 11451,
+            location: 11461,
             subtype_len: 6,
             extension_len: 4,
         },
         // application/x-hdf: hdf
         Entry {
-            location: 11461,
+            location: 11471,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-httpd-php: php
         Entry {
-            location: 11469,
+            location: 11479,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/x-install-instructions: install
         Entry {
-            location: 11483,
+            location: 11493,
             subtype_len: 22,
             extension_len: 7,
         },
         // application/x-iso9660-image: iso
         Entry {
-            location: 11512,
+            location: 11522,
             subtype_len: 15,
             extension_len: 3,
         },
+        // application/x-iwork-keynote-sffkey: key
+        Entry {
+            location: 11540,
+            subtype_len: 22,
+            extension_len: 3,
+        },
+        // application/x-iwork-numbers-sffnumbers: numbers
+        Entry {
+            location: 11565,
+            subtype_len: 26,
+            extension_len: 7,
+        },
+        // application/x-iwork-pages-sffpages: pages
+        Entry {
+            location: 11598,
+            subtype_len: 22,
+            extension_len: 5,
+        },
         // application/x-java-archive-diff: jardiff
         Entry {
-            location: 11530,
+            location: 11625,
             subtype_len: 19,
             extension_len: 7,
         },
         // application/x-java-jnlp-file: jnlp
         Entry {
-            location: 11556,
+            location: 11651,
             subtype_len: 16,
             extension_len: 4,
         },
         // application/x-keepass2: kdbx
         Entry {
-            location: 11576,
+            location: 11671,
             subtype_len: 10,
             extension_len: 4,
         },
         // application/x-latex: latex
         Entry {
-            location: 11590,
+            location: 11685,
             subtype_len: 7,
             extension_len: 5,
         },
         // application/x-lua-bytecode: luac
         Entry {
-            location: 11602,
+            location: 11697,
             subtype_len: 14,
             extension_len: 4,
         },
         // application/x-lzh-compressed: lzh
         Entry {
-            location: 11620,
+            location: 11715,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-makeself: run
         Entry {
-            location: 11639,
+            location: 11734,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-mie: mie
         Entry {
-            location: 11652,
+            location: 11747,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-mobipocket-ebook: prc
         Entry {
-            location: 11660,
+            location: 11755,
             subtype_len: 18,
             extension_len: 3,
         },
         // application/x-ms-application: application
         Entry {
-            location: 11681,
+            location: 11776,
             subtype_len: 16,
             extension_len: 11,
         },
         // application/x-ms-shortcut: lnk
         Entry {
-            location: 11708,
+            location: 11803,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/x-ms-wmd: wmd
         Entry {
-            location: 11724,
+            location: 11819,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/x-ms-wmz: wmz
         Entry {
-            location: 11735,
+            location: 11830,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/x-ms-xbap: xbap
         Entry {
-            location: 11746,
+            location: 11841,
             subtype_len: 9,
             extension_len: 4,
         },
         // application/x-msaccess: mdb
         Entry {
-            location: 11759,
+            location: 11854,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-msbinder: obd
         Entry {
-            location: 11772,
+            location: 11867,
             subtype_len: 10,
             extension_len: 3,
         },
         // application/x-mscardfile: crd
         Entry {
-            location: 11785,
+            location: 11880,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-msclip: clp
         Entry {
-            location: 11800,
+            location: 11895,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/x-msdos-program: exe
         Entry {
-            location: 11811,
+            location: 11906,
             subtype_len: 15,
             extension_len: 3,
         },
         // application/x-msdownload: exe
         Entry {
-            location: 11829,
+            location: 11924,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-msmediaview: mvb
         Entry {
-            location: 11844,
+            location: 11939,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/x-msmetafile: wmf
         Entry {
-            location: 11860,
+            location: 11955,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-msmoney: mny
         Entry {
-            location: 11875,
+            location: 11970,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/x-mspublisher: pub
         Entry {
-            location: 11887,
+            location: 11982,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/x-msschedule: scd
         Entry {
-            location: 11903,
+            location: 11998,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-msterminal: trm
         Entry {
-            location: 11918,
+            location: 12013,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/x-mswrite: wri
         Entry {
-            location: 11933,
+            location: 12028,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/x-netcdf: nc
         Entry {
-            location: 11945,
+            location: 12040,
             subtype_len: 8,
             extension_len: 2,
         },
         // application/x-ns-proxy-autoconfig: pac
         Entry {
-            location: 11955,
+            location: 12050,
             subtype_len: 21,
             extension_len: 3,
         },
         // application/x-nzb: nzb
         Entry {
-            location: 11979,
+            location: 12074,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-perl: pl
         Entry {
-            location: 11987,
+            location: 12082,
             subtype_len: 6,
             extension_len: 2,
         },
         // application/x-pilot: prc
         Entry {
-            location: 11995,
+            location: 12090,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/x-pkcs12: p12
         Entry {
-            location: 12005,
+            location: 12100,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/x-pkcs7-certificates: p7b
         Entry {
-            location: 12016,
+            location: 12111,
             subtype_len: 20,
             extension_len: 3,
         },
         // application/x-pkcs7-certreqresp: p7r
         Entry {
-            location: 12039,
+            location: 12134,
             subtype_len: 19,
             extension_len: 3,
         },
         // application/x-rar-compressed: rar
         Entry {
-            location: 12061,
+            location: 12156,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-redhat-package-manager: rpm
         Entry {
-            location: 12080,
+            location: 12175,
             subtype_len: 24,
             extension_len: 3,
         },
         // application/x-research-info-systems: ris
         Entry {
-            location: 12107,
+            location: 12202,
             subtype_len: 23,
             extension_len: 3,
         },
         // application/x-sea: sea
         Entry {
-            location: 12133,
+            location: 12228,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-sh: sh
         Entry {
-            location: 12141,
+            location: 12236,
             subtype_len: 4,
             extension_len: 2,
         },
         // application/x-shar: shar
         Entry {
-            location: 12147,
+            location: 12242,
             subtype_len: 6,
             extension_len: 4,
         },
         // application/x-shockwave-flash: swf
         Entry {
-            location: 12157,
+            location: 12252,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/x-silverlight-app: xap
         Entry {
-            location: 12177,
+            location: 12272,
             subtype_len: 17,
             extension_len: 3,
         },
         // application/x-sql: sql
         Entry {
-            location: 12197,
+            location: 12292,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-stuffit: sit
         Entry {
-            location: 12205,
+            location: 12300,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/x-stuffitx: sitx
         Entry {
-            location: 12217,
+            location: 12312,
             subtype_len: 10,
             extension_len: 4,
         },
         // application/x-subrip: srt
         Entry {
-            location: 12231,
+            location: 12326,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/x-sv4cpio: sv4cpio
         Entry {
-            location: 12242,
+            location: 12337,
             subtype_len: 9,
             extension_len: 7,
         },
         // application/x-sv4crc: sv4crc
         Entry {
-            location: 12258,
+            location: 12353,
             subtype_len: 8,
             extension_len: 6,
         },
         // application/x-t3vm-image: t3
         Entry {
-            location: 12272,
+            location: 12367,
             subtype_len: 12,
             extension_len: 2,
         },
         // application/x-tads: gam
         Entry {
-            location: 12286,
+            location: 12381,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/x-tar: tar
         Entry {
-            location: 12295,
+            location: 12390,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-tcl: tcl
         Entry {
-            location: 12303,
+            location: 12398,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-tex: tex
         Entry {
-            location: 12311,
+            location: 12406,
             subtype_len: 5,
             extension_len: 3,
         },
         // application/x-tex-tfm: tfm
         Entry {
-            location: 12319,
+            location: 12414,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/x-texinfo: texinfo
         Entry {
-            location: 12331,
+            location: 12426,
             subtype_len: 9,
             extension_len: 7,
         },
         // application/x-tgif: obj
         Entry {
-            location: 12347,
+            location: 12442,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/x-ustar: ustar
         Entry {
-            location: 12356,
+            location: 12451,
             subtype_len: 7,
             extension_len: 5,
         },
         // application/x-virtualbox-hdd: hdd
         Entry {
-            location: 12368,
+            location: 12463,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-virtualbox-ova: ova
         Entry {
-            location: 12387,
+            location: 12482,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-virtualbox-ovf: ovf
         Entry {
-            location: 12406,
+            location: 12501,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-virtualbox-vbox: vbox
         Entry {
-            location: 12425,
+            location: 12520,
             subtype_len: 17,
             extension_len: 4,
         },
         // application/x-virtualbox-vbox-extpack: vbox-extpack
         Entry {
-            location: 12446,
+            location: 12541,
             subtype_len: 25,
             extension_len: 12,
         },
         // application/x-virtualbox-vdi: vdi
         Entry {
-            location: 12483,
+            location: 12578,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-virtualbox-vhd: vhd
         Entry {
-            location: 12502,
+            location: 12597,
             subtype_len: 16,
             extension_len: 3,
         },
         // application/x-virtualbox-vmdk: vmdk
         Entry {
-            location: 12521,
+            location: 12616,
             subtype_len: 17,
             extension_len: 4,
         },
         // application/x-wais-source: src
         Entry {
-            location: 12542,
+            location: 12637,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/x-web-app-manifest+json: webapp
         Entry {
-            location: 12558,
+            location: 12653,
             subtype_len: 23,
             extension_len: 6,
         },
         // application/x-x509-ca-cert: der
         Entry {
-            location: 12587,
+            location: 12682,
             subtype_len: 14,
             extension_len: 3,
         },
         // application/x-xfig: fig
         Entry {
-            location: 12604,
+            location: 12699,
             subtype_len: 6,
             extension_len: 3,
         },
         // application/x-xliff+xml: xlf
         Entry {
-            location: 12613,
+            location: 12708,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/x-xpinstall: xpi
         Entry {
-            location: 12627,
+            location: 12722,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/x-xz: xz
         Entry {
-            location: 12641,
+            location: 12736,
             subtype_len: 4,
             extension_len: 2,
         },
         // application/x-zmachine: z1
         Entry {
-            location: 12647,
+            location: 12742,
             subtype_len: 10,
             extension_len: 2,
         },
         // application/xaml+xml: xaml
         Entry {
-            location: 12659,
+            location: 12754,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/xcap-att+xml: xav
         Entry {
-            location: 12671,
+            location: 12766,
             subtype_len: 12,
             extension_len: 3,
         },
         // application/xcap-caps+xml: xca
         Entry {
-            location: 12686,
+            location: 12781,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/xcap-diff+xml: xdf
         Entry {
-            location: 12702,
+            location: 12797,
             subtype_len: 13,
             extension_len: 3,
         },
         // application/xcap-el+xml: xel
         Entry {
-            location: 12718,
+            location: 12813,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/xcap-ns+xml: xns
         Entry {
-            location: 12732,
+            location: 12827,
             subtype_len: 11,
             extension_len: 3,
         },
         // application/xenc+xml: xenc
         Entry {
-            location: 12746,
+            location: 12841,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/xhtml+xml: xhtml
         Entry {
-            location: 12758,
+            location: 12853,
             subtype_len: 9,
             extension_len: 5,
         },
         // application/xliff+xml: xlf
         Entry {
-            location: 12772,
+            location: 12867,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/xml: xml
         Entry {
-            location: 12784,
+            location: 12879,
             subtype_len: 3,
             extension_len: 3,
         },
         // application/xml-dtd: dtd
         Entry {
-            location: 12790,
+            location: 12885,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/xop+xml: xop
         Entry {
-            location: 12800,
+            location: 12895,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/xproc+xml: xpl
         Entry {
-            location: 12810,
+            location: 12905,
             subtype_len: 9,
             extension_len: 3,
         },
         // application/xslt+xml: xsl
         Entry {
-            location: 12822,
+            location: 12917,
             subtype_len: 8,
             extension_len: 3,
         },
         // application/xspf+xml: xspf
         Entry {
-            location: 12833,
+            location: 12928,
             subtype_len: 8,
             extension_len: 4,
         },
         // application/xv+xml: mxml
         Entry {
-            location: 12845,
+            location: 12940,
             subtype_len: 6,
             extension_len: 4,
         },
         // application/yang: yang
         Entry {
-            location: 12855,
+            location: 12950,
             subtype_len: 4,
             extension_len: 4,
         },
         // application/yin+xml: yin
         Entry {
-            location: 12863,
+            location: 12958,
             subtype_len: 7,
             extension_len: 3,
         },
         // application/zip: zip
         Entry {
-            location: 12873,
+            location: 12968,
             subtype_len: 3,
             extension_len: 3,
         },
@@ -4051,241 +4075,241 @@
     ("audio", &[
         // audio/3gpp: 3gpp
         Entry {
-            location: 12879,
+            location: 12974,
             subtype_len: 4,
             extension_len: 4,
         },
         // audio/adpcm: adp
         Entry {
-            location: 12887,
+            location: 12982,
             subtype_len: 5,
             extension_len: 3,
         },
         // audio/amr: amr
         Entry {
-            location: 12895,
+            location: 12990,
             subtype_len: 3,
             extension_len: 3,
         },
         // audio/basic: au
         Entry {
-            location: 12901,
+            location: 12996,
             subtype_len: 5,
             extension_len: 2,
         },
         // audio/midi: mid
         Entry {
-            location: 12908,
+            location: 13003,
             subtype_len: 4,
             extension_len: 3,
         },
         // audio/mobile-xmf: mxmf
         Entry {
-            location: 12915,
+            location: 13010,
             subtype_len: 10,
             extension_len: 4,
         },
         // audio/mp3: mp3
         Entry {
-            location: 12929,
+            location: 13024,
             subtype_len: 3,
             extension_len: 3,
         },
         // audio/mp4: m4a
         Entry {
-            location: 12935,
+            location: 13030,
             subtype_len: 3,
             extension_len: 3,
         },
         // audio/mpeg: mpga
         Entry {
-            location: 12941,
+            location: 13036,
             subtype_len: 4,
             extension_len: 4,
         },
         // audio/ogg: oga
         Entry {
-            location: 12949,
+            location: 13044,
             subtype_len: 3,
             extension_len: 3,
         },
         // audio/s3m: s3m
         Entry {
-            location: 12955,
+            location: 13050,
             subtype_len: 3,
             extension_len: 3,
         },
         // audio/silk: sil
         Entry {
-            location: 12961,
+            location: 13056,
             subtype_len: 4,
             extension_len: 3,
         },
         // audio/vnd.dece.audio: uva
         Entry {
-            location: 12968,
+            location: 13063,
             subtype_len: 14,
             extension_len: 3,
         },
         // audio/vnd.digital-winds: eol
         Entry {
-            location: 12985,
+            location: 13080,
             subtype_len: 17,
             extension_len: 3,
         },
         // audio/vnd.dra: dra
         Entry {
-            location: 13005,
+            location: 13100,
             subtype_len: 7,
             extension_len: 3,
         },
         // audio/vnd.dts: dts
         Entry {
-            location: 13015,
+            location: 13110,
             subtype_len: 7,
             extension_len: 3,
         },
         // audio/vnd.dts.hd: dtshd
         Entry {
-            location: 13025,
+            location: 13120,
             subtype_len: 10,
             extension_len: 5,
         },
         // audio/vnd.lucent.voice: lvp
         Entry {
-            location: 13040,
+            location: 13135,
             subtype_len: 16,
             extension_len: 3,
         },
         // audio/vnd.ms-playready.media.pya: pya
         Entry {
-            location: 13059,
+            location: 13154,
             subtype_len: 26,
             extension_len: 3,
         },
         // audio/vnd.nuera.ecelp4800: ecelp4800
         Entry {
-            location: 13088,
+            location: 13183,
             subtype_len: 19,
             extension_len: 9,
         },
         // audio/vnd.nuera.ecelp7470: ecelp7470
         Entry {
-            location: 13116,
+            location: 13211,
             subtype_len: 19,
             extension_len: 9,
         },
         // audio/vnd.nuera.ecelp9600: ecelp9600
         Entry {
-            location: 13144,
+            location: 13239,
             subtype_len: 19,
             extension_len: 9,
         },
         // audio/vnd.rip: rip
         Entry {
-            location: 13172,
+            location: 13267,
             subtype_len: 7,
             extension_len: 3,
         },
         // audio/wav: wav
         Entry {
-            location: 13182,
+            location: 13277,
             subtype_len: 3,
             extension_len: 3,
         },
         // audio/wave: wav
         Entry {
-            location: 13188,
+            location: 13283,
             subtype_len: 4,
             extension_len: 3,
         },
         // audio/webm: weba
         Entry {
-            location: 13195,
+            location: 13290,
             subtype_len: 4,
             extension_len: 4,
         },
         // audio/x-aac: aac
         Entry {
-            location: 13203,
+            location: 13298,
             subtype_len: 5,
             extension_len: 3,
         },
         // audio/x-aiff: aif
         Entry {
-            location: 13211,
+            location: 13306,
             subtype_len: 6,
             extension_len: 3,
         },
         // audio/x-caf: caf
         Entry {
-            location: 13220,
+            location: 13315,
             subtype_len: 5,
             extension_len: 3,
         },
         // audio/x-flac: flac
         Entry {
-            location: 13228,
+            location: 13323,
             subtype_len: 6,
             extension_len: 4,
         },
         // audio/x-m4a: m4a
         Entry {
-            location: 13238,
+            location: 13333,
             subtype_len: 5,
             extension_len: 3,
         },
         // audio/x-matroska: mka
         Entry {
-            location: 13246,
+            location: 13341,
             subtype_len: 10,
             extension_len: 3,
         },
         // audio/x-mpegurl: m3u
         Entry {
-            location: 13259,
+            location: 13354,
             subtype_len: 9,
             extension_len: 3,
         },
         // audio/x-ms-wax: wax
         Entry {
-            location: 13271,
+            location: 13366,
             subtype_len: 8,
             extension_len: 3,
         },
         // audio/x-ms-wma: wma
         Entry {
-            location: 13282,
+            location: 13377,
             subtype_len: 8,
             extension_len: 3,
         },
         // audio/x-pn-realaudio: ram
         Entry {
-            location: 13293,
+            location: 13388,
             subtype_len: 14,
             extension_len: 3,
         },
         // audio/x-pn-realaudio-plugin: rmp
         Entry {
-            location: 13310,
+            location: 13405,
             subtype_len: 21,
             extension_len: 3,
         },
         // audio/x-realaudio: ra
         Entry {
-            location: 13334,
+            location: 13429,
             subtype_len: 11,
             extension_len: 2,
         },
         // audio/x-wav: wav
         Entry {
-            location: 13347,
+            location: 13442,
             subtype_len: 5,
             extension_len: 3,
         },
         // audio/xm: xm
         Entry {
-            location: 13355,
+            location: 13450,
             subtype_len: 2,
             extension_len: 2,
         },
@@ -4293,37 +4317,37 @@
     ("chemical", &[
         // chemical/x-cdx: cdx
         Entry {
-            location: 13359,
+            location: 13454,
             subtype_len: 5,
             extension_len: 3,
         },
         // chemical/x-cif: cif
         Entry {
-            location: 13367,
+            location: 13462,
             subtype_len: 5,
             extension_len: 3,
         },
         // chemical/x-cmdf: cmdf
         Entry {
-            location: 13375,
+            location: 13470,
             subtype_len: 6,
             extension_len: 4,
         },
         // chemical/x-cml: cml
         Entry {
-            location: 13385,
+            location: 13480,
             subtype_len: 5,
             extension_len: 3,
         },
         // chemical/x-csml: csml
         Entry {
-            location: 13393,
+            location: 13488,
             subtype_len: 6,
             extension_len: 4,
         },
         // chemical/x-xyz: xyz
         Entry {
-            location: 13403,
+            location: 13498,
             subtype_len: 5,
             extension_len: 3,
         },
@@ -4331,31 +4355,31 @@
     ("font", &[
         // font/collection: ttc
         Entry {
-            location: 13411,
+            location: 13506,
             subtype_len: 10,
             extension_len: 3,
         },
         // font/otf: otf
         Entry {
-            location: 13424,
+            location: 13519,
             subtype_len: 3,
             extension_len: 3,
         },
         // font/ttf: ttf
         Entry {
-            location: 13430,
+            location: 13525,
             subtype_len: 3,
             extension_len: 3,
         },
         // font/woff: woff
         Entry {
-            location: 13436,
+            location: 13531,
             subtype_len: 4,
             extension_len: 4,
         },
         // font/woff2: woff2
         Entry {
-            location: 13444,
+            location: 13539,
             subtype_len: 5,
             extension_len: 5,
         },
@@ -4363,511 +4387,511 @@
     ("image", &[
         // image/aces: exr
         Entry {
-            location: 13454,
+            location: 13549,
             subtype_len: 4,
             extension_len: 3,
         },
         // image/apng: apng
         Entry {
-            location: 13461,
+            location: 13556,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/avif: avif
         Entry {
-            location: 13469,
+            location: 13564,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/bmp: bmp
         Entry {
-            location: 13477,
+            location: 13572,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/cgm: cgm
         Entry {
-            location: 13483,
+            location: 13578,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/dicom-rle: drle
         Entry {
-            location: 13489,
+            location: 13584,
             subtype_len: 9,
             extension_len: 4,
         },
         // image/emf: emf
         Entry {
-            location: 13502,
+            location: 13597,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/fits: fits
         Entry {
-            location: 13508,
+            location: 13603,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/g3fax: g3
         Entry {
-            location: 13516,
+            location: 13611,
             subtype_len: 5,
             extension_len: 2,
         },
         // image/gif: gif
         Entry {
-            location: 13523,
+            location: 13618,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/heic: heic
         Entry {
-            location: 13529,
+            location: 13624,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/heic-sequence: heics
         Entry {
-            location: 13537,
+            location: 13632,
             subtype_len: 13,
             extension_len: 5,
         },
         // image/heif: heif
         Entry {
-            location: 13555,
+            location: 13650,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/heif-sequence: heifs
         Entry {
-            location: 13563,
+            location: 13658,
             subtype_len: 13,
             extension_len: 5,
         },
         // image/hej2k: hej2
         Entry {
-            location: 13581,
+            location: 13676,
             subtype_len: 5,
             extension_len: 4,
         },
         // image/hsj2: hsj2
         Entry {
-            location: 13590,
+            location: 13685,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/ief: ief
         Entry {
-            location: 13598,
+            location: 13693,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jls: jls
         Entry {
-            location: 13604,
+            location: 13699,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jp2: jp2
         Entry {
-            location: 13610,
+            location: 13705,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jpeg: jpeg
         Entry {
-            location: 13616,
+            location: 13711,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/jph: jph
         Entry {
-            location: 13624,
+            location: 13719,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jphc: jhc
         Entry {
-            location: 13630,
+            location: 13725,
             subtype_len: 4,
             extension_len: 3,
         },
         // image/jpm: jpm
         Entry {
-            location: 13637,
+            location: 13732,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jpx: jpx
         Entry {
-            location: 13643,
+            location: 13738,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jxr: jxr
         Entry {
-            location: 13649,
+            location: 13744,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jxra: jxra
         Entry {
-            location: 13655,
+            location: 13750,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/jxrs: jxrs
         Entry {
-            location: 13663,
+            location: 13758,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/jxs: jxs
         Entry {
-            location: 13671,
+            location: 13766,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/jxsc: jxsc
         Entry {
-            location: 13677,
+            location: 13772,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/jxsi: jxsi
         Entry {
-            location: 13685,
+            location: 13780,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/jxss: jxss
         Entry {
-            location: 13693,
+            location: 13788,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/ktx: ktx
         Entry {
-            location: 13701,
+            location: 13796,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/ktx2: ktx2
         Entry {
-            location: 13707,
+            location: 13802,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/png: png
         Entry {
-            location: 13715,
+            location: 13810,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/prs.btif: btif
         Entry {
-            location: 13721,
+            location: 13816,
             subtype_len: 8,
             extension_len: 4,
         },
         // image/prs.pti: pti
         Entry {
-            location: 13733,
+            location: 13828,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/sgi: sgi
         Entry {
-            location: 13743,
+            location: 13838,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/svg+xml: svg
         Entry {
-            location: 13749,
+            location: 13844,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/t38: t38
         Entry {
-            location: 13759,
+            location: 13854,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/tiff: tif
         Entry {
-            location: 13765,
+            location: 13860,
             subtype_len: 4,
             extension_len: 3,
         },
         // image/tiff-fx: tfx
         Entry {
-            location: 13772,
+            location: 13867,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/vnd.adobe.photoshop: psd
         Entry {
-            location: 13782,
+            location: 13877,
             subtype_len: 19,
             extension_len: 3,
         },
         // image/vnd.airzip.accelerator.azv: azv
         Entry {
-            location: 13804,
+            location: 13899,
             subtype_len: 26,
             extension_len: 3,
         },
         // image/vnd.dece.graphic: uvi
         Entry {
-            location: 13833,
+            location: 13928,
             subtype_len: 16,
             extension_len: 3,
         },
         // image/vnd.djvu: djvu
         Entry {
-            location: 13852,
+            location: 13947,
             subtype_len: 8,
             extension_len: 4,
         },
         // image/vnd.dvb.subtitle: sub
         Entry {
-            location: 13864,
+            location: 13959,
             subtype_len: 16,
             extension_len: 3,
         },
         // image/vnd.dwg: dwg
         Entry {
-            location: 13883,
+            location: 13978,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/vnd.dxf: dxf
         Entry {
-            location: 13893,
+            location: 13988,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/vnd.fastbidsheet: fbs
         Entry {
-            location: 13903,
+            location: 13998,
             subtype_len: 16,
             extension_len: 3,
         },
         // image/vnd.fpx: fpx
         Entry {
-            location: 13922,
+            location: 14017,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/vnd.fst: fst
         Entry {
-            location: 13932,
+            location: 14027,
             subtype_len: 7,
             extension_len: 3,
         },
         // image/vnd.fujixerox.edmics-mmr: mmr
         Entry {
-            location: 13942,
+            location: 14037,
             subtype_len: 24,
             extension_len: 3,
         },
         // image/vnd.fujixerox.edmics-rlc: rlc
         Entry {
-            location: 13969,
+            location: 14064,
             subtype_len: 24,
             extension_len: 3,
         },
         // image/vnd.microsoft.icon: ico
         Entry {
-            location: 13996,
+            location: 14091,
             subtype_len: 18,
             extension_len: 3,
         },
         // image/vnd.ms-dds: dds
         Entry {
-            location: 14017,
+            location: 14112,
             subtype_len: 10,
             extension_len: 3,
         },
         // image/vnd.ms-modi: mdi
         Entry {
-            location: 14030,
+            location: 14125,
             subtype_len: 11,
             extension_len: 3,
         },
         // image/vnd.ms-photo: wdp
         Entry {
-            location: 14044,
+            location: 14139,
             subtype_len: 12,
             extension_len: 3,
         },
         // image/vnd.net-fpx: npx
         Entry {
-            location: 14059,
+            location: 14154,
             subtype_len: 11,
             extension_len: 3,
         },
         // image/vnd.pco.b16: b16
         Entry {
-            location: 14073,
+            location: 14168,
             subtype_len: 11,
             extension_len: 3,
         },
         // image/vnd.tencent.tap: tap
         Entry {
-            location: 14087,
+            location: 14182,
             subtype_len: 15,
             extension_len: 3,
         },
         // image/vnd.valve.source.texture: vtf
         Entry {
-            location: 14105,
+            location: 14200,
             subtype_len: 24,
             extension_len: 3,
         },
         // image/vnd.wap.wbmp: wbmp
         Entry {
-            location: 14132,
+            location: 14227,
             subtype_len: 12,
             extension_len: 4,
         },
         // image/vnd.xiff: xif
         Entry {
-            location: 14148,
+            location: 14243,
             subtype_len: 8,
             extension_len: 3,
         },
         // image/vnd.zbrush.pcx: pcx
         Entry {
-            location: 14159,
+            location: 14254,
             subtype_len: 14,
             extension_len: 3,
         },
         // image/webp: webp
         Entry {
-            location: 14176,
+            location: 14271,
             subtype_len: 4,
             extension_len: 4,
         },
         // image/wmf: wmf
         Entry {
-            location: 14184,
+            location: 14279,
             subtype_len: 3,
             extension_len: 3,
         },
         // image/x-3ds: 3ds
         Entry {
-            location: 14190,
+            location: 14285,
             subtype_len: 5,
             extension_len: 3,
         },
         // image/x-cmu-raster: ras
         Entry {
-            location: 14198,
+            location: 14293,
             subtype_len: 12,
             extension_len: 3,
         },
         // image/x-cmx: cmx
         Entry {
-            location: 14213,
+            location: 14308,
             subtype_len: 5,
             extension_len: 3,
         },
         // image/x-freehand: fh
         Entry {
-            location: 14221,
+            location: 14316,
             subtype_len: 10,
             extension_len: 2,
         },
         // image/x-icon: ico
         Entry {
-            location: 14233,
+            location: 14328,
             subtype_len: 6,
             extension_len: 3,
         },
         // image/x-jng: jng
         Entry {
-            location: 14242,
+            location: 14337,
             subtype_len: 5,
             extension_len: 3,
         },
         // image/x-mrsid-image: sid
         Entry {
-            location: 14250,
+            location: 14345,
             subtype_len: 13,
             extension_len: 3,
         },
         // image/x-ms-bmp: bmp
         Entry {
-            location: 14266,
+            location: 14361,
             subtype_len: 8,
             extension_len: 3,
         },
         // image/x-pcx: pcx
         Entry {
-            location: 14277,
+            location: 14372,
             subtype_len: 5,
             extension_len: 3,
         },
         // image/x-pict: pic
         Entry {
-            location: 14285,
+            location: 14380,
             subtype_len: 6,
             extension_len: 3,
         },
         // image/x-portable-anymap: pnm
         Entry {
-            location: 14294,
+            location: 14389,
             subtype_len: 17,
             extension_len: 3,
         },
         // image/x-portable-bitmap: pbm
         Entry {
-            location: 14314,
+            location: 14409,
             subtype_len: 17,
             extension_len: 3,
         },
         // image/x-portable-graymap: pgm
         Entry {
-            location: 14334,
+            location: 14429,
             subtype_len: 18,
             extension_len: 3,
         },
         // image/x-portable-pixmap: ppm
         Entry {
-            location: 14355,
+            location: 14450,
             subtype_len: 17,
             extension_len: 3,
         },
         // image/x-rgb: rgb
         Entry {
-            location: 14375,
+            location: 14470,
             subtype_len: 5,
             extension_len: 3,
         },
         // image/x-tga: tga
         Entry {
-            location: 14383,
+            location: 14478,
             subtype_len: 5,
             extension_len: 3,
         },
         // image/x-xbitmap: xbm
         Entry {
-            location: 14391,
+            location: 14486,
             subtype_len: 9,
             extension_len: 3,
         },
         // image/x-xpixmap: xpm
         Entry {
-            location: 14403,
+            location: 14498,
             subtype_len: 9,
             extension_len: 3,
         },
         // image/x-xwindowdump: xwd
         Entry {
-            location: 14415,
+            location: 14510,
             subtype_len: 13,
             extension_len: 3,
         },
@@ -4875,43 +4899,43 @@
     ("message", &[
         // message/disposition-notification: disposition-notification
         Entry {
-            location: 14431,
+            location: 14526,
             subtype_len: 24,
             extension_len: 24,
         },
         // message/global: u8msg
         Entry {
-            location: 14479,
+            location: 14574,
             subtype_len: 6,
             extension_len: 5,
         },
         // message/global-delivery-status: u8dsn
         Entry {
-            location: 14490,
+            location: 14585,
             subtype_len: 22,
             extension_len: 5,
         },
         // message/global-disposition-notification: u8mdn
         Entry {
-            location: 14517,
+            location: 14612,
             subtype_len: 31,
             extension_len: 5,
         },
         // message/global-headers: u8hdr
         Entry {
-            location: 14553,
+            location: 14648,
             subtype_len: 14,
             extension_len: 5,
         },
         // message/rfc822: eml
         Entry {
-            location: 14572,
+            location: 14667,
             subtype_len: 6,
             extension_len: 3,
         },
         // message/vnd.wfa.wsc: wsc
         Entry {
-            location: 14581,
+            location: 14676,
             subtype_len: 11,
             extension_len: 3,
         },
@@ -4919,169 +4943,175 @@
     ("model", &[
         // model/3mf: 3mf
         Entry {
-            location: 14595,
+            location: 14690,
             subtype_len: 3,
             extension_len: 3,
         },
         // model/gltf+json: gltf
         Entry {
-            location: 14601,
+            location: 14696,
             subtype_len: 9,
             extension_len: 4,
         },
         // model/gltf-binary: glb
         Entry {
-            location: 14614,
+            location: 14709,
             subtype_len: 11,
             extension_len: 3,
         },
         // model/iges: igs
         Entry {
-            location: 14628,
+            location: 14723,
             subtype_len: 4,
             extension_len: 3,
         },
         // model/mesh: msh
         Entry {
-            location: 14635,
+            location: 14730,
             subtype_len: 4,
             extension_len: 3,
         },
         // model/mtl: mtl
         Entry {
-            location: 14642,
+            location: 14737,
             subtype_len: 3,
             extension_len: 3,
         },
         // model/obj: obj
         Entry {
-            location: 14648,
+            location: 14743,
             subtype_len: 3,
             extension_len: 3,
         },
+        // model/step+xml: stpx
+        Entry {
+            location: 14749,
+            subtype_len: 8,
+            extension_len: 4,
+        },
         // model/step+zip: stpz
         Entry {
-            location: 14654,
+            location: 14761,
             subtype_len: 8,
             extension_len: 4,
         },
         // model/step-xml+zip: stpxz
         Entry {
-            location: 14666,
+            location: 14773,
             subtype_len: 12,
             extension_len: 5,
         },
         // model/stl: stl
         Entry {
-            location: 14683,
+            location: 14790,
             subtype_len: 3,
             extension_len: 3,
         },
         // model/vnd.collada+xml: dae
         Entry {
-            location: 14689,
+            location: 14796,
             subtype_len: 15,
             extension_len: 3,
         },
         // model/vnd.dwf: dwf
         Entry {
-            location: 14707,
+            location: 14814,
             subtype_len: 7,
             extension_len: 3,
         },
         // model/vnd.gdl: gdl
         Entry {
-            location: 14717,
+            location: 14824,
             subtype_len: 7,
             extension_len: 3,
         },
         // model/vnd.gtw: gtw
         Entry {
-            location: 14727,
+            location: 14834,
             subtype_len: 7,
             extension_len: 3,
         },
         // model/vnd.mts: mts
         Entry {
-            location: 14737,
+            location: 14844,
             subtype_len: 7,
             extension_len: 3,
         },
         // model/vnd.opengex: ogex
         Entry {
-            location: 14747,
+            location: 14854,
             subtype_len: 11,
             extension_len: 4,
         },
         // model/vnd.parasolid.transmit.binary: x_b
         Entry {
-            location: 14762,
+            location: 14869,
             subtype_len: 29,
             extension_len: 3,
         },
         // model/vnd.parasolid.transmit.text: x_t
         Entry {
-            location: 14794,
+            location: 14901,
             subtype_len: 27,
             extension_len: 3,
         },
         // model/vnd.sap.vds: vds
         Entry {
-            location: 14824,
+            location: 14931,
             subtype_len: 11,
             extension_len: 3,
         },
         // model/vnd.usdz+zip: usdz
         Entry {
-            location: 14838,
+            location: 14945,
             subtype_len: 12,
             extension_len: 4,
         },
         // model/vnd.valve.source.compiled-map: bsp
         Entry {
-            location: 14854,
+            location: 14961,
             subtype_len: 29,
             extension_len: 3,
         },
         // model/vnd.vtu: vtu
         Entry {
-            location: 14886,
+            location: 14993,
             subtype_len: 7,
             extension_len: 3,
         },
         // model/vrml: wrl
         Entry {
-            location: 14896,
+            location: 15003,
             subtype_len: 4,
             extension_len: 3,
         },
         // model/x3d+binary: x3db
         Entry {
-            location: 14903,
+            location: 15010,
             subtype_len: 10,
             extension_len: 4,
         },
         // model/x3d+fastinfoset: x3db
         Entry {
-            location: 14917,
+            location: 15024,
             subtype_len: 15,
             extension_len: 4,
         },
         // model/x3d+vrml: x3dv
         Entry {
-            location: 14936,
+            location: 15043,
             subtype_len: 8,
             extension_len: 4,
         },
         // model/x3d+xml: x3d
         Entry {
-            location: 14948,
+            location: 15055,
             subtype_len: 7,
             extension_len: 3,
         },
         // model/x3d-vrml: x3dv
         Entry {
-            location: 14958,
+            location: 15065,
             subtype_len: 8,
             extension_len: 4,
         },
@@ -5089,385 +5119,385 @@
     ("text", &[
         // text/cache-manifest: appcache
         Entry {
-            location: 14970,
+            location: 15077,
             subtype_len: 14,
             extension_len: 8,
         },
         // text/calendar: ics
         Entry {
-            location: 14992,
+            location: 15099,
             subtype_len: 8,
             extension_len: 3,
         },
         // text/coffeescript: coffee
         Entry {
-            location: 15003,
+            location: 15110,
             subtype_len: 12,
             extension_len: 6,
         },
         // text/css: css
         Entry {
-            location: 15021,
+            location: 15128,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/csv: csv
         Entry {
-            location: 15027,
+            location: 15134,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/html: html
         Entry {
-            location: 15033,
+            location: 15140,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/jade: jade
         Entry {
-            location: 15041,
+            location: 15148,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/jsx: jsx
         Entry {
-            location: 15049,
+            location: 15156,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/less: less
         Entry {
-            location: 15055,
+            location: 15162,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/markdown: markdown
         Entry {
-            location: 15063,
+            location: 15170,
             subtype_len: 8,
             extension_len: 8,
         },
         // text/mathml: mml
         Entry {
-            location: 15079,
+            location: 15186,
             subtype_len: 6,
             extension_len: 3,
         },
         // text/mdx: mdx
         Entry {
-            location: 15088,
+            location: 15195,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/n3: n3
         Entry {
-            location: 15094,
+            location: 15201,
             subtype_len: 2,
             extension_len: 2,
         },
         // text/plain: txt
         Entry {
-            location: 15098,
+            location: 15205,
             subtype_len: 5,
             extension_len: 3,
         },
         // text/prs.lines.tag: dsc
         Entry {
-            location: 15106,
+            location: 15213,
             subtype_len: 13,
             extension_len: 3,
         },
         // text/richtext: rtx
         Entry {
-            location: 15122,
+            location: 15229,
             subtype_len: 8,
             extension_len: 3,
         },
         // text/rtf: rtf
         Entry {
-            location: 15133,
+            location: 15240,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/sgml: sgml
         Entry {
-            location: 15139,
+            location: 15246,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/shex: shex
         Entry {
-            location: 15147,
+            location: 15254,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/slim: slim
         Entry {
-            location: 15155,
+            location: 15262,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/spdx: spdx
         Entry {
-            location: 15163,
+            location: 15270,
             subtype_len: 4,
             extension_len: 4,
         },
         // text/stylus: stylus
         Entry {
-            location: 15171,
+            location: 15278,
             subtype_len: 6,
             extension_len: 6,
         },
         // text/tab-separated-values: tsv
         Entry {
-            location: 15183,
+            location: 15290,
             subtype_len: 20,
             extension_len: 3,
         },
         // text/troff: t
         Entry {
-            location: 15206,
+            location: 15313,
             subtype_len: 5,
             extension_len: 1,
         },
         // text/turtle: ttl
         Entry {
-            location: 15212,
+            location: 15319,
             subtype_len: 6,
             extension_len: 3,
         },
         // text/uri-list: uri
         Entry {
-            location: 15221,
+            location: 15328,
             subtype_len: 8,
             extension_len: 3,
         },
         // text/vcard: vcard
         Entry {
-            location: 15232,
+            location: 15339,
             subtype_len: 5,
             extension_len: 5,
         },
         // text/vnd.curl: curl
         Entry {
-            location: 15242,
+            location: 15349,
             subtype_len: 8,
             extension_len: 4,
         },
         // text/vnd.curl.dcurl: dcurl
         Entry {
-            location: 15254,
+            location: 15361,
             subtype_len: 14,
             extension_len: 5,
         },
         // text/vnd.curl.mcurl: mcurl
         Entry {
-            location: 15273,
+            location: 15380,
             subtype_len: 14,
             extension_len: 5,
         },
         // text/vnd.curl.scurl: scurl
         Entry {
-            location: 15292,
+            location: 15399,
             subtype_len: 14,
             extension_len: 5,
         },
         // text/vnd.dvb.subtitle: sub
         Entry {
-            location: 15311,
+            location: 15418,
             subtype_len: 16,
             extension_len: 3,
         },
         // text/vnd.fly: fly
         Entry {
-            location: 15330,
+            location: 15437,
             subtype_len: 7,
             extension_len: 3,
         },
         // text/vnd.fmi.flexstor: flx
         Entry {
-            location: 15340,
+            location: 15447,
             subtype_len: 16,
             extension_len: 3,
         },
         // text/vnd.graphviz: gv
         Entry {
-            location: 15359,
+            location: 15466,
             subtype_len: 12,
             extension_len: 2,
         },
         // text/vnd.in3d.3dml: 3dml
         Entry {
-            location: 15373,
+            location: 15480,
             subtype_len: 13,
             extension_len: 4,
         },
         // text/vnd.in3d.spot: spot
         Entry {
-            location: 15390,
+            location: 15497,
             subtype_len: 13,
             extension_len: 4,
         },
         // text/vnd.sun.j2me.app-descriptor: jad
         Entry {
-            location: 15407,
+            location: 15514,
             subtype_len: 27,
             extension_len: 3,
         },
         // text/vnd.wap.wml: wml
         Entry {
-            location: 15437,
+            location: 15544,
             subtype_len: 11,
             extension_len: 3,
         },
         // text/vnd.wap.wmlscript: wmls
         Entry {
-            location: 15451,
+            location: 15558,
             subtype_len: 17,
             extension_len: 4,
         },
         // text/vtt: vtt
         Entry {
-            location: 15472,
+            location: 15579,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/x-asm: s
         Entry {
-            location: 15478,
+            location: 15585,
             subtype_len: 5,
             extension_len: 1,
         },
         // text/x-c: c
         Entry {
-            location: 15484,
+            location: 15591,
             subtype_len: 3,
             extension_len: 1,
         },
         // text/x-component: htc
         Entry {
-            location: 15488,
+            location: 15595,
             subtype_len: 11,
             extension_len: 3,
         },
         // text/x-fortran: f
         Entry {
-            location: 15502,
+            location: 15609,
             subtype_len: 9,
             extension_len: 1,
         },
         // text/x-handlebars-template: hbs
         Entry {
-            location: 15512,
+            location: 15619,
             subtype_len: 21,
             extension_len: 3,
         },
         // text/x-java-source: java
         Entry {
-            location: 15536,
+            location: 15643,
             subtype_len: 13,
             extension_len: 4,
         },
         // text/x-lua: lua
         Entry {
-            location: 15553,
+            location: 15660,
             subtype_len: 5,
             extension_len: 3,
         },
         // text/x-markdown: mkd
         Entry {
-            location: 15561,
+            location: 15668,
             subtype_len: 10,
             extension_len: 3,
         },
         // text/x-nfo: nfo
         Entry {
-            location: 15574,
+            location: 15681,
             subtype_len: 5,
             extension_len: 3,
         },
         // text/x-opml: opml
         Entry {
-            location: 15582,
+            location: 15689,
             subtype_len: 6,
             extension_len: 4,
         },
         // text/x-org: org
         Entry {
-            location: 15592,
+            location: 15699,
             subtype_len: 5,
             extension_len: 3,
         },
         // text/x-pascal: p
         Entry {
-            location: 15600,
+            location: 15707,
             subtype_len: 8,
             extension_len: 1,
         },
         // text/x-processing: pde
         Entry {
-            location: 15609,
+            location: 15716,
             subtype_len: 12,
             extension_len: 3,
         },
         // text/x-sass: sass
         Entry {
-            location: 15624,
+            location: 15731,
             subtype_len: 6,
             extension_len: 4,
         },
         // text/x-scss: scss
         Entry {
-            location: 15634,
+            location: 15741,
             subtype_len: 6,
             extension_len: 4,
         },
         // text/x-setext: etx
         Entry {
-            location: 15644,
+            location: 15751,
             subtype_len: 8,
             extension_len: 3,
         },
         // text/x-sfv: sfv
         Entry {
-            location: 15655,
+            location: 15762,
             subtype_len: 5,
             extension_len: 3,
         },
         // text/x-suse-ymp: ymp
         Entry {
-            location: 15663,
+            location: 15770,
             subtype_len: 10,
             extension_len: 3,
         },
         // text/x-uuencode: uu
         Entry {
-            location: 15676,
+            location: 15783,
             subtype_len: 10,
             extension_len: 2,
         },
         // text/x-vcalendar: vcs
         Entry {
-            location: 15688,
+            location: 15795,
             subtype_len: 11,
             extension_len: 3,
         },
         // text/x-vcard: vcf
         Entry {
-            location: 15702,
+            location: 15809,
             subtype_len: 7,
             extension_len: 3,
         },
         // text/xml: xml
         Entry {
-            location: 15712,
+            location: 15819,
             subtype_len: 3,
             extension_len: 3,
         },
         // text/yaml: yaml
         Entry {
-            location: 15718,
+            location: 15825,
             subtype_len: 4,
             extension_len: 4,
         },
@@ -5475,247 +5505,247 @@
     ("video", &[
         // video/3gpp: 3gp
         Entry {
-            location: 15726,
+            location: 15833,
             subtype_len: 4,
             extension_len: 3,
         },
         // video/3gpp2: 3g2
         Entry {
-            location: 15733,
+            location: 15840,
             subtype_len: 5,
             extension_len: 3,
         },
         // video/h261: h261
         Entry {
-            location: 15741,
+            location: 15848,
             subtype_len: 4,
             extension_len: 4,
         },
         // video/h263: h263
         Entry {
-            location: 15749,
+            location: 15856,
             subtype_len: 4,
             extension_len: 4,
         },
         // video/h264: h264
         Entry {
-            location: 15757,
+            location: 15864,
             subtype_len: 4,
             extension_len: 4,
         },
         // video/iso.segment: m4s
         Entry {
-            location: 15765,
+            location: 15872,
             subtype_len: 11,
             extension_len: 3,
         },
         // video/jpeg: jpgv
         Entry {
-            location: 15779,
+            location: 15886,
             subtype_len: 4,
             extension_len: 4,
         },
         // video/jpm: jpm
         Entry {
-            location: 15787,
+            location: 15894,
             subtype_len: 3,
             extension_len: 3,
         },
         // video/mj2: mj2
         Entry {
-            location: 15793,
+            location: 15900,
             subtype_len: 3,
             extension_len: 3,
         },
         // video/mp2t: ts
         Entry {
-            location: 15799,
+            location: 15906,
             subtype_len: 4,
             extension_len: 2,
         },
         // video/mp4: mp4
         Entry {
-            location: 15805,
+            location: 15912,
             subtype_len: 3,
             extension_len: 3,
         },
         // video/mpeg: mpeg
         Entry {
-            location: 15811,
+            location: 15918,
             subtype_len: 4,
             extension_len: 4,
         },
         // video/ogg: ogv
         Entry {
-            location: 15819,
+            location: 15926,
             subtype_len: 3,
             extension_len: 3,
         },
         // video/quicktime: qt
         Entry {
-            location: 15825,
+            location: 15932,
             subtype_len: 9,
             extension_len: 2,
         },
         // video/vnd.dece.hd: uvh
         Entry {
-            location: 15836,
+            location: 15943,
             subtype_len: 11,
             extension_len: 3,
         },
         // video/vnd.dece.mobile: uvm
         Entry {
-            location: 15850,
+            location: 15957,
             subtype_len: 15,
             extension_len: 3,
         },
         // video/vnd.dece.pd: uvp
         Entry {
-            location: 15868,
+            location: 15975,
             subtype_len: 11,
             extension_len: 3,
         },
         // video/vnd.dece.sd: uvs
         Entry {
-            location: 15882,
+            location: 15989,
             subtype_len: 11,
             extension_len: 3,
         },
         // video/vnd.dece.video: uvv
         Entry {
-            location: 15896,
+            location: 16003,
             subtype_len: 14,
             extension_len: 3,
         },
         // video/vnd.dvb.file: dvb
         Entry {
-            location: 15913,
+            location: 16020,
             subtype_len: 12,
             extension_len: 3,
         },
         // video/vnd.fvt: fvt
         Entry {
-            location: 15928,
+            location: 16035,
             subtype_len: 7,
             extension_len: 3,
         },
         // video/vnd.mpegurl: mxu
         Entry {
-            location: 15938,
+            location: 16045,
             subtype_len: 11,
             extension_len: 3,
         },
         // video/vnd.ms-playready.media.pyv: pyv
         Entry {
-            location: 15952,
+            location: 16059,
             subtype_len: 26,
             extension_len: 3,
         },
         // video/vnd.uvvu.mp4: uvu
         Entry {
-            location: 15981,
+            location: 16088,
             subtype_len: 12,
             extension_len: 3,
         },
         // video/vnd.vivo: viv
         Entry {
-            location: 15996,
+            location: 16103,
             subtype_len: 8,
             extension_len: 3,
         },
         // video/webm: webm
         Entry {
-            location: 16007,
+            location: 16114,
             subtype_len: 4,
             extension_len: 4,
         },
         // video/x-f4v: f4v
         Entry {
-            location: 16015,
+            location: 16122,
             subtype_len: 5,
             extension_len: 3,
         },
         // video/x-fli: fli
         Entry {
-            location: 16023,
+            location: 16130,
             subtype_len: 5,
             extension_len: 3,
         },
         // video/x-flv: flv
         Entry {
-            location: 16031,
+            location: 16138,
             subtype_len: 5,
             extension_len: 3,
         },
         // video/x-m4v: m4v
         Entry {
-            location: 16039,
+            location: 16146,
             subtype_len: 5,
             extension_len: 3,
         },
         // video/x-matroska: mkv
         Entry {
-            location: 16047,
+            location: 16154,
             subtype_len: 10,
             extension_len: 3,
         },
         // video/x-mng: mng
         Entry {
-            location: 16060,
+            location: 16167,
             subtype_len: 5,
             extension_len: 3,
         },
         // video/x-ms-asf: asf
         Entry {
-            location: 16068,
+            location: 16175,
             subtype_len: 8,
             extension_len: 3,
         },
         // video/x-ms-vob: vob
         Entry {
-            location: 16079,
+            location: 16186,
             subtype_len: 8,
             extension_len: 3,
         },
         // video/x-ms-wm: wm
         Entry {
-            location: 16090,
+            location: 16197,
             subtype_len: 7,
             extension_len: 2,
         },
         // video/x-ms-wmv: wmv
         Entry {
-            location: 16099,
+            location: 16206,
             subtype_len: 8,
             extension_len: 3,
         },
         // video/x-ms-wmx: wmx
         Entry {
-            location: 16110,
+            location: 16217,
             subtype_len: 8,
             extension_len: 3,
         },
         // video/x-ms-wvx: wvx
         Entry {
-            location: 16121,
+            location: 16228,
             subtype_len: 8,
             extension_len: 3,
         },
         // video/x-msvideo: avi
         Entry {
-            location: 16132,
+            location: 16239,
             subtype_len: 9,
             extension_len: 3,
         },
         // video/x-sgi-movie: movie
         Entry {
-            location: 16144,
+            location: 16251,
             subtype_len: 11,
             extension_len: 5,
         },
         // video/x-smv: smv
         Entry {
-            location: 16160,
+            location: 16267,
             subtype_len: 5,
             extension_len: 3,
         },
@@ -5723,7 +5753,7 @@
     ("x-conference", &[
         // x-conference/x-cooltalk: ice
         Entry {
-            location: 16168,
+            location: 16275,
             subtype_len: 10,
             extension_len: 3,
         },
