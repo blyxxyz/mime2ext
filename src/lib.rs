@@ -159,6 +159,7 @@ mod tests {
         ("application/vnd.mapbox-vector-tile", "mvt"), // Added v1.48.0
         ("model/step-xml+zip", "stpxz"),               // Added v1.49.0
         ("application/express", "exp"),                // Added v1.50.0
+        ("text/vnd.familysearch.gedcom", "ged"),       // Added v1.51.0
     ];
 
     #[test]

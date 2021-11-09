@@ -1,4 +1,11 @@
 <!-- git diff | rg '^[^\s]\s*//' | sort -->
+## 0.1.51 (2021-11-09)
+- mime-db 1.51.0
+
+### New extensions
+- `application/vnd.age` → `age`
+- `text/vnd.familysearch.gedcom` → `ged`
+
 ## 0.1.50 (2021-09-16)
 - mime-db 1.50.0
 
