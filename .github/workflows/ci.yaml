@@ -26,4 +26,4 @@ jobs:
         run: cargo fmt -- --check
 
       - name: clippy
-        run: cargo clippy -- -D warnings -A clippy::redundant_static_lifetimes
+        run: cargo clippy -- -D warnings
