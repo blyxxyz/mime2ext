@@ -45,22 +45,19 @@ lookup_text.write(
 
 for type_, extensions in by_type.items():
     assert_boring_ascii(type_)
-    lookup_text.write(f"""    ("{type_}", &[\n""")
+    lookup_text.write(f"""("{type_}", &[\n""")
     for subtype, extension in extensions.items():
         assert_boring_ascii(subtype)
         assert_boring_ascii(extension)
         assert "." not in extension
         lookup_text.write(
-            f"""        // {type_}/{subtype}: {extension}
-        Entry {{
-            location: {raw_data.tell()},
-            subtype_len: {len(subtype)},
-            extension_len: {len(extension)},
-        }},\n"""
+            f"""// {type_}/{subtype}: {extension}
+Entry({raw_data.tell()}, {len(subtype)}, {len(extension)}),
+"""
         )
         raw_data.write(subtype)
         raw_data.write(extension)
-    lookup_text.write("    ]),\n")
+    lookup_text.write("]),\n")
 lookup_text.write("]\n")
 
 with open("src/raw_data", "w") as f:

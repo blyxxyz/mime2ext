@@ -24,22 +24,19 @@
 static RAW_DATA: &'static str = include_str!("raw_data");
 
 #[derive(Copy, Clone, PartialEq, Debug)]
-struct Entry {
-    location: u16,
-    subtype_len: u8,
-    extension_len: u8,
-}
+// (location, subtype_len, extension_len)
+struct Entry(u16, u8, u8);
 
 impl Entry {
     fn subtype(self) -> &'static str {
-        let loc = self.location as usize;
-        let len = self.subtype_len as usize;
+        let loc = self.0 as usize;
+        let len = self.1 as usize;
         &RAW_DATA[loc..loc + len]
     }
 
     fn extension(self) -> &'static str {
-        let loc = self.location as usize + self.subtype_len as usize;
-        let len = self.extension_len as usize;
+        let loc = self.0 as usize + self.1 as usize;
+        let len = self.2 as usize;
         &RAW_DATA[loc..loc + len]
     }
 }
