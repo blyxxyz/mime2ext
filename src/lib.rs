@@ -157,6 +157,7 @@ mod tests {
         ("model/step-xml+zip", "stpxz"),               // Added v1.49.0
         ("application/express", "exp"),                // Added v1.50.0
         ("text/vnd.familysearch.gedcom", "ged"),       // Added v1.51.0
+        ("image/avci", "avci"),                        // Added v1.52.0
     ];
 
     #[test]

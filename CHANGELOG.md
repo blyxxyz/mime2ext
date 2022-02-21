@@ -1,4 +1,17 @@
 <!-- git diff | rg '^[^\s]\s*//' | sort -->
+## 0.1.52 (2022-02-21)
+- Make generated code more compact
+- mime-db 1.52.0
+
+### New extensions
+- `application/cpl+xml` → `cpl`
+- `application/dash-patch+xml` → `mpp`
+- `application/media-policy-dataset+xml` → `mpf`
+- `application/pgp-keys` → `asc`
+- `application/watcherinfo+xml` → `wif`
+- `image/avci` → `avci`
+- `image/avcs` → `avcs`
+
 ## 0.1.51 (2021-11-09)
 - mime-db 1.51.0
 
