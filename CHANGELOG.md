@@ -1,4 +1,7 @@
 <!-- git diff | rg '^[^\s]\s*//' | sort -->
+## 1.0.53 (unreleased)
+- **Breaking:** `mime2ext()` now takes `&str` instead of `AsRef<str>`.
+
 ## 0.1.52 (2022-02-21)
 - Make generated code more compact
 - mime-db 1.52.0

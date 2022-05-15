@@ -88,8 +88,8 @@ fn parse_mimetype(mimetype: &str) -> Option<(&str, &str)> {
 /// assert_eq!(mime2ext("notareal/mimetype"), None);
 /// assert_eq!(mime2ext("invalid-mimetype"), None);
 /// ```
-pub fn mime2ext<S: AsRef<str>>(mimetype: S) -> Option<&'static str> {
-    match parse_mimetype(mimetype.as_ref()) {
+pub fn mime2ext(mimetype: &str) -> Option<&'static str> {
+    match parse_mimetype(mimetype) {
         Some((type_, subtype)) => match find_table(type_) {
             Some(table) => find_entry(table, subtype).map(Entry::extension),
             None => None,
