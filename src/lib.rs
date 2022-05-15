@@ -28,10 +28,10 @@ static RAW_DATA: &'static str = include_str!("raw_data");
 struct Entry(u16, u8, u8);
 
 impl Entry {
-    fn subtype(self) -> &'static str {
+    fn subtype(self) -> &'static [u8] {
         let loc = self.0 as usize;
         let len = self.1 as usize;
-        &RAW_DATA[loc..loc + len]
+        &RAW_DATA.as_bytes()[loc..loc + len]
     }
 
     fn extension(self) -> &'static str {
@@ -48,6 +48,7 @@ type Tables = &'static [(&'static str, Table)];
 static LOOKUP: Tables = include!("lookup");
 
 fn find_entry(table: Table, subtype: &str) -> Option<Entry> {
+    let subtype = subtype.as_bytes();
     match table.binary_search_by(|entry| entry.subtype().cmp(subtype)) {
         Ok(idx) => Some(table[idx]),
         Err(_) => None,
@@ -182,7 +183,7 @@ mod tests {
             assert_eq!(entries, sorted);
 
             for entry in entries {
-                let subtype = entry.subtype();
+                let subtype = core::str::from_utf8(entry.subtype()).unwrap();
                 let ext = entry.extension();
                 assert!(!subtype.is_empty());
                 assert!(!subtype.contains('/'));
