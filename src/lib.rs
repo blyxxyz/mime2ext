@@ -102,6 +102,7 @@ pub fn mime2ext(mimetype: &str) -> Option<&'static str> {
 mod tests {
     use super::*;
 
+    extern crate core;
     extern crate std;
 
     static NOT_FOUND: &'static [&'static str] = &[
