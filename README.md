@@ -29,16 +29,16 @@ assert_eq!(mime2ext("invalid-mimetype"), None);
 use mime::{Mime, TEXT_PLAIN};
 use mime2ext::mime2ext;
 
-assert_eq!(mime2ext(TEXT_PLAIN.as_ref()), Some("txt"));
+assert_eq!(mime2ext(TEXT_PLAIN), Some("txt"));
 let mime: Mime = "text/xml; charset=latin1".parse()?;
-assert_eq!(mime2ext(mime.as_ref()), Some("xml"));
+assert_eq!(mime2ext(&mime), Some("xml"));
 ```
 
 ## Versioning
 
 `mime2ext` includes a static version of `mime-db`. A new version of `mime2ext` has to be released for each new version of `mime-db`.
 
-`mime2ext`'s version number tracks that of `mime-db` (but obeys semantic versioning). `mime2ext` version 1.0.53 corresponds to `mime-db` version 1.53.0.
+`mime2ext`'s version number tracks that of `mime-db`. `mime2ext` version 0.1.49 corresponds to `mime-db` version 1.49.0.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for differences between versions, including relevant changes to `mime-db`.
 
