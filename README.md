@@ -48,4 +48,4 @@ Both `mime2ext` and `mime-db` are licensed under the MIT license. See `LICENSE` 
 
 ## See also
 
-- [`mime_guess`](https://crates.io/crates/mime_guess), which mainly converts in the opposite direction. It can also convert mime types to extensions but often suggests rarely-used extensions.
+- [`mime_guess`](https://crates.io/crates/mime_guess), which mainly converts in the opposite direction. It can also convert mime types to extensions but often suggests rarely-used extensions, like `jpe` for `image/jpeg`.
