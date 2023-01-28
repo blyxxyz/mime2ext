@@ -3,7 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/mime2ext.svg)](https://crates.io/crates/mime2ext)
 [![API reference](https://docs.rs/mime2ext/badge.svg)](https://docs.rs/mime2ext/)
 [![MSRV](https://img.shields.io/badge/MSRV-1.6-blue)](https://blog.rust-lang.org/2016/01/21/Rust-1.6.html)
-[![CI](https://img.shields.io/github/workflow/status/blyxxyz/mime2ext/CI/master)](https://github.com/blyxxyz/mime2ext/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/blyxxyz/mime2ext/ci.yaml?branch=master)](https://github.com/blyxxyz/mime2ext/actions)
 
 A simple crate to look up a file extension for a mime type.
 
