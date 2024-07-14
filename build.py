@@ -14,7 +14,7 @@ def assert_boring_ascii(text):
     # If there's unicode we'll get incorrect offsets
     # If mime-db ever starts containing unicode (unlikely!), process strings
     # with .encode("utf8") first
-    text.encode("ascii")
+    assert text.isascii()
     assert text.lower() == text
     assert text.isprintable()
     assert '"' not in text

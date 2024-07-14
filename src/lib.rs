@@ -28,6 +28,7 @@ static RAW_DATA: &'static str = include_str!("raw_data");
 struct Entry(u16, u8, u8);
 
 impl Entry {
+    // Returns bytes to skip expensive UTF-8 slicing.
     fn subtype(self) -> &'static [u8] {
         let loc = self.0 as usize;
         let len = self.1 as usize;
