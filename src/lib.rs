@@ -155,12 +155,14 @@ mod tests {
         ("text/xml;", "xml"),
         ("audio/amr", "amr"),                          // Added v1.46.0
         ("model/vnd.sap.vds", "vds"),                  // Added v1.47.0
-        ("application/ecmascript", "es"),              // Changed v1.47.0
+        ("application/ecmascript", "ecma"),            // Changed v1.47.0, changed again v1.53.0
         ("application/vnd.mapbox-vector-tile", "mvt"), // Added v1.48.0
         ("model/step-xml+zip", "stpxz"),               // Added v1.49.0
         ("application/express", "exp"),                // Added v1.50.0
         ("text/vnd.familysearch.gedcom", "ged"),       // Added v1.51.0
         ("image/avci", "avci"),                        // Added v1.52.0
+        ("image/jxl", "jxl"),                          // Added v1.53.0
+        ("text/markdown", "md"),                       // Changed v1.53.0
     ];
 
     #[test]

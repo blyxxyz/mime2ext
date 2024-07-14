@@ -1,4 +1,43 @@
 <!-- git diff | rg '^[^\s]\s*//' | sort -->
+## 0.1.53 (unreleased)
+- Improve lookup speed
+
+### New extensions
+- `application/appinstaller` → `appinstaller`
+- `application/appx` → `appx`
+- `application/appxbundle` → `appxbundle`
+- `application/automationml-aml+xml` → `aml`
+- `application/automationml-amlx+zip` → `amlx`
+- `application/cwl` → `cwl`
+- `application/fdf` → `fdf`
+- `application/msixbundle` → `msixbundle`
+- `application/msix` → `msix`
+- `application/prs.xsf+xml` → `xsf`
+- `application/sql` → `sql`
+- `application/vnd.geogebra.slides` → `ggs`
+- `application/vnd.gov.sk.xmldatacontainer+xml` → `xdcf`
+- `application/vnd.nato.bindingdataobject+xml` → `bdo`
+- `application/vnd.pwg-xhtml-print+xml` → `xhtm`
+- `application/xfdf` → `xfdf`
+- `audio/aac` → `adts`
+- `image/dpx` → `dpx`
+- `image/jxl` → `jxl`
+- `model/jt` → `jt`
+- `model/prc` → `prc`
+- `model/u3d` → `u3d`
+- `model/vnd.bary` → `bary`
+- `model/vnd.cld` → `cld`
+- `model/vnd.pytha.pyox` → `pyo`
+- `model/vnd.usda` → `usda`
+- `text/javascript` → `js`
+- `text/wgsl` → `wgsl`
+
+### Changed extensions
+- `application/ecmascript`: `es` → `ecma`
+- `application/mp4`: `mp4s` → `mp4`
+- `application/pgp-signature`: `asc` → `sig`
+- `text/markdown`: `markdown` → `md`
+
 ## 0.1.52 (2022-02-21)
 - Make generated code more compact
 - mime-db 1.52.0
