@@ -1,6 +1,7 @@
 <!-- git diff | rg '^[^\s]\s*//' | sort -->
-## 0.1.53 (unreleased)
+## 0.1.53 (2024-08-16)
 - Improve lookup speed
+- mime-db 1.53.0
 
 ### New extensions
 - `application/appinstaller` → `appinstaller`
