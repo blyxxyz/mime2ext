@@ -5,7 +5,7 @@
 [![MSRV](https://img.shields.io/badge/MSRV-1.6-blue)](https://blog.rust-lang.org/2016/01/21/Rust-1.6.html)
 [![CI](https://img.shields.io/github/actions/workflow/status/blyxxyz/mime2ext/ci.yaml?branch=master)](https://github.com/blyxxyz/mime2ext/actions)
 
-A simple crate to look up a file extension for a mime type.
+A simple compact crate to look up a file extension for a mime type.
 
 It embeds part of the [`mime-db`](https://github.com/jshttp/mime-db) database, packed efficiently into around 20 KiB. There are no dependencies, and it's `no_std`-compatible.
 

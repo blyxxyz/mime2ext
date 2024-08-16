@@ -1,4 +1,10 @@
 #![no_std]
+//! A simple compact crate to look up a file extension for a mime type.
+//!
+//! This crate embeds part of the [`mime-db`](https://github.com/jshttp/mime-db)
+//! database.
+//! Its version number tracks that of `mime-db`.
+//! `mime2ext` version 0.1.49 corresponds to `mime-db` version 1.49.0.
 
 // This database contains around a thousand entries. At 16 bytes per string
 // slice and two strings per entry (mimetype and extension) a naive approach
