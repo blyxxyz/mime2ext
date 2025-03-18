@@ -1,4 +1,38 @@
 <!-- git diff | rg '^[^\s]\s*//' | sort -->
+## 0.1.54 (2025-03-18)
+- mime-db 1.54.0
+
+### New extensions
+- `application/dicom` → `dcm`
+- `application/vnd.autodesk.fbx` → `fbx`
+- `application/vnd.dcmp+xml` → `dcmp`
+- `application/vnd.google-apps.drawing` → `gdraw`
+- `application/vnd.google-apps.form` → `gform`
+- `application/vnd.google-apps.jam` → `gjam`
+- `application/vnd.google-apps.map` → `gmap`
+- `application/vnd.google-apps.script` → `gscript`
+- `application/vnd.google-apps.site` → `gsite`
+- `application/vnd.ms-visio.viewer` → `vdx`
+- `application/vnd.procrate.brushset` → `brushset`
+- `application/vnd.procreate.brush` → `brush`
+- `application/vnd.procreate.dream` → `drm`
+- `application/x-blender` → `blend`
+- `application/x-compressed` → `rar`
+- `application/x-ipynb+json` → `ipynb`
+- `application/x-zip-compressed` → `zip`
+- `application/zip+dotlottie` → `lottie`
+- `image/jaii` → `jaii`
+- `image/jais` → `jais`
+- `image/pjpeg` → `jfif`
+- `image/x-adobe-dng` → `dng`
+- `model/step` → `step`
+
+### Changed extensions
+- `image/jpeg`: `jpeg` → `jpg`
+
+### Removed extensions
+- `image/hsj2` (`hsj2`)
+
 ## 0.1.53 (2024-08-16)
 - Improve lookup speed
 - mime-db 1.53.0

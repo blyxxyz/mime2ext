@@ -142,6 +142,7 @@ mod tests {
         "x-conference/nonexistent",
         "text/html ;",                // Bad semicolon position
         "application/xcap-error+xml", // Removed v1.47.0
+        "image/hsj2",                 // Removed v1.54.0
     ];
 
     #[test]
@@ -169,6 +170,8 @@ mod tests {
         ("image/avci", "avci"),                        // Added v1.52.0
         ("image/jxl", "jxl"),                          // Added v1.53.0
         ("text/markdown", "md"),                       // Changed v1.53.0
+        ("application/x-blender", "blend"),            // Added v1.54.0
+        ("image/jpeg", "jpg"),                         // Changed v1.54.0
     ];
 
     #[test]
